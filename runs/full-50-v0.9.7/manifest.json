@@ -1,0 +1,269 @@
+{
+  "batch_id": "full-50-v0.9.7",
+  "dataset_hash": "c18cf25dc9aac8c4a8d422824d402bc8f4faa63846e9951e5f44edfcc5fefa17",
+  "dataset_version": "test-v0.1",
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.0,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "dataset_path": "/Users/rj125/Desktop/Artefact/Luxury-Client-Advisor-Conversation-Tool/data/generation-cases.json",
+  "cases": [
+    {
+      "case_id": "S1-01",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S1-02",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S1-03",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S1-04",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S1-05",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S1-06",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S1-07",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S1-08",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-01",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-02",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-03",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-04",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-05",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-06",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-07",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-08",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-09",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S3-01",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S3-02",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S3-03",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S3-04",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S3-05",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S3-06",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S3-07",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S3-08",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S4-01",
+      "scenario": "reactivation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S4-02",
+      "scenario": "reactivation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S4-03",
+      "scenario": "reactivation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S4-04",
+      "scenario": "reactivation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S4-05",
+      "scenario": "reactivation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S4-06",
+      "scenario": "reactivation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S4-07",
+      "scenario": "reactivation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S4-08",
+      "scenario": "reactivation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-01",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-02",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-03",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-04",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-05",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-06",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-07",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-08",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-01",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-02",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-03",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-04",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-05",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-06",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-07",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-08",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-09",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    }
+  ]
+}

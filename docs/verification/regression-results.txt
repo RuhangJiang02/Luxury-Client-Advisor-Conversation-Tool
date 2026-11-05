@@ -1,0 +1,24 @@
+test_auth_error_is_terminal_and_transient_error_is_bounded (test_service.ServiceTests) ... ok
+test_bad_output_is_retried_once_and_original_preserved (test_service.ServiceTests) ... ok
+test_calendar_anniversary_and_unknown_eligibility (test_service.ServiceTests) ... ok
+test_duplicate_and_internal_output_are_rejected (test_service.ServiceTests) ... ok
+test_evaluation_excludes_fake_outputs_and_keeps_unreviewed_live_pending (test_service.ServiceTests) ... ok
+test_exhausted_output_never_falls_back_to_templates (test_service.ServiceTests) ... ok
+test_fifty_generation_inputs_are_preflight_eligible (test_service.ServiceTests) ... ok
+test_generated_run_is_durable_and_idempotent (test_service.ServiceTests) ... ok
+test_http_adapter_uses_json_mode_and_sanitizes_auth_body (test_service.ServiceTests) ... ok
+test_missing_key_returns_explicit_failure_without_attempt (test_service.ServiceTests) ... ok
+test_model_clarification_remains_non_sendable (test_service.ServiceTests) ... ok
+test_pending_request_does_not_trigger_another_call (test_service.ServiceTests) ... ok
+test_recorded_key_is_not_in_artifact (test_service.ServiceTests) ... ok
+test_request_id_cannot_be_reused_for_other_content (test_service.ServiceTests) ... ok
+test_saved_fake_batch_is_excluded_and_cannot_be_exported_as_real (test_service.ServiceTests) ... ok
+test_successful_http_adapter_preserves_only_needed_response_fields (test_service.ServiceTests) ... ok
+test_twenty_guardrails_do_not_call_provider (test_service.ServiceTests) ... ok
+test_unknown_fields_wrong_types_and_scenario_mismatch_are_invalid (test_service.ServiceTests) ... ok
+test_preview_scenarios_and_explicit_live_submit (test_ui.UITests) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 1.458s
+
+OK

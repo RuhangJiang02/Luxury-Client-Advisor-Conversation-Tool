@@ -1,0 +1,107 @@
+{
+  "request": {
+    "contract_version": "io-v0.1",
+    "request_id": "guardrails-v0.8.2:guard-v0.1-G-20",
+    "case_id": "G-20",
+    "scenario": "price_objection",
+    "reference_time": "2026-11-04T20:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "interaction": {
+      "mode": "reply",
+      "channel": "wechat",
+      "reply_to_message_id": "missing"
+    },
+    "client": {
+      "client_id": "fictional-client-001",
+      "preferred_address": "林女士",
+      "relationship_stage": "established",
+      "preferences": [
+        "偏爱岩灰色"
+      ],
+      "budget": null,
+      "owned_product_ids": [],
+      "contact_preferences": {
+        "proactive_status": "allowed",
+        "restricted_scenarios": [],
+        "restrictions_note": null,
+        "source_message_ids": []
+      }
+    },
+    "conversation_history": [
+      {
+        "message_id": "msg-001",
+        "role": "client",
+        "text": "循线肩包有点超预算，可以打折吗？",
+        "sent_at": "2026-11-04T20:00:00+08:00"
+      }
+    ],
+    "product_ids": [
+      "CX-B01"
+    ],
+    "scenario_context": {
+      "objection_type": "discount_request",
+      "objection_message_id": "msg-001",
+      "comparison": null
+    },
+    "trusted_context": {
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "source_refs": [
+        {
+          "source_id": "catalogue-001",
+          "kind": "catalogue",
+          "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+        }
+      ],
+      "inventory": []
+    }
+  },
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.7,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "tool": "tool-v0.8.2",
+  "prompt": "prompt-v0.8.2",
+  "rules_hash": "ea4b10c0cd50929c0047a43f4dffd94134d315527762f75c5d69322b4f05895a",
+  "catalogue_hash": "28f6d6452b2ac144ad0920115be9401da89e39e131981ef45acebd1a708ff705",
+  "execution_kind": "live",
+  "identity": "7dc1e61a7fb9f401f7dac3c5f7f50c91a95fe2ab42382d9a3f17f0bb95a24a5b",
+  "request_id": "guardrails-v0.8.2:guard-v0.1-G-20",
+  "resolved_products": [],
+  "attempts": [],
+  "response": {
+    "contract_version": "io-v0.1",
+    "request_id": "guardrails-v0.8.2:guard-v0.1-G-20",
+    "case_id": "G-20",
+    "scenario": "price_objection",
+    "status": "invalid_input",
+    "candidates": [],
+    "notices": [
+      {
+        "code": "INPUT_INVALID",
+        "field": "interaction.reply_to_message_id",
+        "message": "Reply must reference a client message."
+      }
+    ],
+    "clarifications": [],
+    "metadata": {
+      "run_id": "0194ec2d-ec9c-4195-8fe2-9e66f030d78d",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.2",
+      "prompt_version": "prompt-v0.8.2",
+      "model_id": null,
+      "started_at": "2026-11-05T11:21:34.271309+08:00",
+      "finished_at": "2026-11-05T11:21:34.272336+08:00",
+      "generation_attempts": 0,
+      "resolved_product_ids": []
+    }
+  }
+}

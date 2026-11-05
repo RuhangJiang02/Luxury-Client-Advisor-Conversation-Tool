@@ -1,0 +1,193 @@
+{
+  "scope": "Latest six-case local smoke, not complete 50-case evaluation. Outputs copied verbatim; human ratings pending.",
+  "tool_version": "tool-v0.3.3",
+  "prompt_version": "prompt-v0.3",
+  "cases": [
+    {
+      "case_id": "S1-01",
+      "scenario": "greeting",
+      "run_id": "2898588d-5205-43d5-9d77-9bc735e02b30",
+      "candidates": [
+        {
+          "candidate_id": 1,
+          "text": "顾客甲，生日快乐！愿您每一天都充满喜悦与温暖，澄序与您一同珍视每一个特别的时刻。"
+        },
+        {
+          "candidate_id": 2,
+          "text": "在您生日这一天，澄序为您送上最诚挚的祝福，愿您笑容如初，生活如愿。"
+        },
+        {
+          "candidate_id": 3,
+          "text": "生日快乐，顾客甲！感谢您与澄序的时光，愿未来的每一个日子，都如今天般美好而珍贵。"
+        }
+      ],
+      "config": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "base_url": "http://127.0.0.1:11434",
+        "timeout": 180.0,
+        "max_attempts": 2,
+        "temperature": 0.7,
+        "num_ctx": 16384,
+        "num_predict": 1800,
+        "think": false
+      },
+      "elapsed_seconds": 4.25
+    },
+    {
+      "case_id": "S2-01",
+      "scenario": "product_recommendation",
+      "run_id": "e30d1ad3-cf78-4b05-8051-56a7fda572e6",
+      "candidates": [
+        {
+          "candidate_id": 1,
+          "text": "轻步斜挎包符合周末出行的需求，采用岩灰颜色，拉链开合设计便于携带。"
+        },
+        {
+          "candidate_id": 2,
+          "text": "这款皮具的可调节斜挎肩带设计，能适应不同场合的佩戴需求，岩灰色是您偏爱的选项。"
+        },
+        {
+          "candidate_id": 3,
+          "text": "轻步斜挎包的粒面牛皮材质与岩灰色调，体现了品牌对细节的严谨把控，适合日常使用。"
+        }
+      ],
+      "config": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "base_url": "http://127.0.0.1:11434",
+        "timeout": 180.0,
+        "max_attempts": 2,
+        "temperature": 0.7,
+        "num_ctx": 16384,
+        "num_predict": 1800,
+        "think": false
+      },
+      "elapsed_seconds": 4.7136
+    },
+    {
+      "case_id": "S3-01",
+      "scenario": "post_purchase_care",
+      "run_id": "4b3a135f-2838-4f21-bc37-c68eea8726cd",
+      "candidates": [
+        {
+          "candidate_id": 1,
+          "text": "顾客甲，您好。您的循线肩包已到手，如需日常养护，建议用干净柔软的干布轻拭表面，避免长时间日晒及接触水油香水。随附防尘袋请保持干燥存放。"
+        },
+        {
+          "candidate_id": 2,
+          "text": "循线肩包已收到，感谢您的选择。日常使用中请注意避免接触水油香水，保持干燥并放入防尘袋中。若有需要，可预约店内目视评估。"
+        },
+        {
+          "candidate_id": 3,
+          "text": "您好，您的循线肩包已到手。为保持皮具质感，建议用干布轻拭，避免日晒和化学物品。随附防尘袋请妥善存放，如有需要可预约评估。"
+        }
+      ],
+      "config": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "base_url": "http://127.0.0.1:11434",
+        "timeout": 180.0,
+        "max_attempts": 2,
+        "temperature": 0.7,
+        "num_ctx": 16384,
+        "num_predict": 1800,
+        "think": false
+      },
+      "elapsed_seconds": 6.8891
+    },
+    {
+      "case_id": "S4-01",
+      "scenario": "reactivation",
+      "run_id": "a04ebbff-d0d0-4cc5-9a79-653668797eea",
+      "candidates": [
+        {
+          "candidate_id": 1,
+          "text": "顾客甲，您好。最近是否对皮具的偏好有新的想法？"
+        },
+        {
+          "candidate_id": 2,
+          "text": "顾客甲，您好。近期是否有特别关注的皮具颜色或款式？"
+        },
+        {
+          "candidate_id": 3,
+          "text": "顾客甲，您好。若您方便时，可随时联系，我们期待为您服务。"
+        }
+      ],
+      "config": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "base_url": "http://127.0.0.1:11434",
+        "timeout": 180.0,
+        "max_attempts": 2,
+        "temperature": 0.7,
+        "num_ctx": 16384,
+        "num_predict": 1800,
+        "think": false
+      },
+      "elapsed_seconds": 3.313
+    },
+    {
+      "case_id": "S5-01",
+      "scenario": "event_invitation",
+      "run_id": "a9326dd4-5144-49ad-bf48-1c7031009a88",
+      "candidates": [
+        {
+          "candidate_id": 1,
+          "text": "您好，诚邀您参加澄序皮具私享预览活动。活动将于2026年11月8日14:00在澄序虚构示范精品店·二层会客区举行，期待与您共赏月弧手提包的工艺细节。"
+        },
+        {
+          "candidate_id": 2,
+          "text": "诚邀您参与澄序皮具私享预览，活动时间定于2026年11月8日14:00，地点为澄序虚构示范精品店·二层会客区，期待与您共同体验月弧手提包的设计魅力。"
+        },
+        {
+          "candidate_id": 3,
+          "text": "我们诚挚邀请您参加澄序皮具私享预览活动，时间安排在2026年11月8日14:00，地点为澄序虚构示范精品店·二层会客区，敬请莅临体验月弧手提包的品质与设计。"
+        }
+      ],
+      "config": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "base_url": "http://127.0.0.1:11434",
+        "timeout": 180.0,
+        "max_attempts": 2,
+        "temperature": 0.7,
+        "num_ctx": 16384,
+        "num_predict": 1800,
+        "think": false
+      },
+      "elapsed_seconds": 8.4453
+    },
+    {
+      "case_id": "S6-01",
+      "scenario": "price_objection",
+      "run_id": "2a27c887-187d-4d96-b45c-f30d23485981",
+      "candidates": [
+        {
+          "candidate_id": 1,
+          "text": "顾客甲您好，我们理解您对价格的顾虑。循线肩包的目录价为18800元，这是基于其材质和设计的官方定价，目前暂无折扣或优惠活动。如果您有其他需求，我们可以进一步沟通。"
+        },
+        {
+          "candidate_id": 2,
+          "text": "循线肩包的定价已考虑了其粒面牛皮材质和工艺，18800元是官方规定的标准价格。我们尊重您的选择，也欢迎您理性考虑。"
+        },
+        {
+          "candidate_id": 3,
+          "text": "感谢您的理解，循线肩包的定价是基于其品质和设计的，18800元是目前的目录价。我们不提供议价折扣，也不存在其他尺寸或价格替代方案。"
+        }
+      ],
+      "config": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "base_url": "http://127.0.0.1:11434",
+        "timeout": 180.0,
+        "max_attempts": 2,
+        "temperature": 0.7,
+        "num_ctx": 16384,
+        "num_predict": 1800,
+        "think": false
+      },
+      "elapsed_seconds": 6.9181
+    }
+  ]
+}

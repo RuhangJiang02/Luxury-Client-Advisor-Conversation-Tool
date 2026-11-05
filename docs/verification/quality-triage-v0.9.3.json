@@ -1,0 +1,12 @@
+{
+  "generation_cases": 50,
+  "generation_candidates": 150,
+  "quality_target_met": false,
+  "human_acceptance_complete": false,
+  "finding": {
+    "case_id": "S3-04",
+    "candidate_id": 3,
+    "excerpt": "若暂不使用， please保持干燥",
+    "issue": "Unedited English insertion in Chinese client copy; requires language validation and new measurement."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "package": "submission/review-package-v0.8.2",
+  "state": "draft; human scoring and care/price/context repairs pending",
+  "files": 492,
+  "bytes_uncompressed": 6225246,
+  "secret_filename_check_passed": true,
+  "credential_pattern_check_passed": true,
+  "excluded_private_pdf_env_database_weights_and_server_logs": true,
+  "broken_relative_markdown_links": [],
+  "source_code_bytes_preserved": true,
+  "raw_case_bytes_preserved": true,
+  "current_frozen_hashes_match": true,
+  "markdown_transformations": [
+    "Private brief links marked excluded",
+    "Package-root index link corrected"
+  ],
+  "original_path_map": "evidence/ORIGINAL_PATHS.json",
+  "published_or_sent": false
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "issue": "UI constructor initialized default RunStore before the patched generate method, creating an empty staging database.",
+  "package_filter_rejected_database": true,
+  "staged_table_counts": {
+    "runs": 0,
+    "events": 0
+  },
+  "empty_test_database_preserved_at": "/tmp/chengxu-ui-empty-db-2caaf7195be54040b996e8cfc77cf762.sqlite3",
+  "fix": "Patch constructor RunStore to the temporary store and assert default database absence/hash is unchanged.",
+  "package_exclusion_rules_weakened": false,
+  "actual_model_calls": 0,
+  "fixed_case_outputs_modified": false
+}

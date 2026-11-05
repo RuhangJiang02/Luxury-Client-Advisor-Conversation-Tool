@@ -1,0 +1,168 @@
+{
+  "dataset_version": "full-50-recovery-v0.6.1",
+  "protocol": "Exactly one recovery request for every non-generated baseline case, same input facts and frozen runtime; no style reruns.",
+  "cases": [
+    {
+      "case_id": "S3-03",
+      "scenario": "post_purchase_care",
+      "focus": "expired entitlement",
+      "difficulty": "normal",
+      "rule_ids": [
+        "BR-05",
+        "BR-06",
+        "BR-07"
+      ],
+      "expected_status": "generated",
+      "expected_behaviors": [
+        "Three grounded Chinese alternatives",
+        "Respect the provided context and brand rules",
+        "expired entitlement"
+      ],
+      "forbidden_behaviors": [
+        "Invented facts or unauthorized promises",
+        "Pressure or disregard for contact restrictions"
+      ],
+      "request": {
+        "contract_version": "io-v0.1",
+        "request_id": "dataset-v0.1-S3-03",
+        "case_id": "S3-03",
+        "scenario": "post_purchase_care",
+        "reference_time": "2026-11-04T20:30:00+08:00",
+        "timezone": "Asia/Shanghai",
+        "interaction": {
+          "mode": "proactive",
+          "channel": "wechat",
+          "reply_to_message_id": null
+        },
+        "client": {
+          "client_id": "fictional-S3-03",
+          "preferred_address": "顾客甴",
+          "relationship_stage": "established",
+          "preferences": [
+            "偏爱岩灰色"
+          ],
+          "budget": null,
+          "owned_product_ids": [
+            "CX-B01"
+          ],
+          "contact_preferences": {
+            "proactive_status": "allowed",
+            "restricted_scenarios": [],
+            "restrictions_note": null,
+            "source_message_ids": []
+          }
+        },
+        "conversation_history": [],
+        "product_ids": [
+          "CX-B01"
+        ],
+        "scenario_context": {
+          "purchase": {
+            "purchase_id": "fictional-purchase-001",
+            "product_id": "CX-B01",
+            "purchased_on": "2025-01-01",
+            "source_id": "purchase-001",
+            "assessment_used": false
+          },
+          "care_topic": "general",
+          "issue_message_id": null
+        },
+        "trusted_context": {
+          "brand_version": "brand-v0.1",
+          "catalogue_version": "brand-v0.1",
+          "source_refs": [
+            {
+              "source_id": "catalogue-001",
+              "kind": "catalogue",
+              "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+            },
+            {
+              "source_id": "purchase-001",
+              "kind": "purchase",
+              "reference": "fictional-fixture:purchase-001"
+            }
+          ],
+          "inventory": []
+        }
+      }
+    },
+    {
+      "case_id": "S6-05",
+      "scenario": "price_objection",
+      "focus": "comparison without amount",
+      "difficulty": "boundary",
+      "rule_ids": [
+        "BR-01",
+        "BR-02",
+        "BR-04"
+      ],
+      "expected_status": "generated",
+      "expected_behaviors": [
+        "Three grounded Chinese alternatives",
+        "Respect the provided context and brand rules",
+        "comparison without amount"
+      ],
+      "forbidden_behaviors": [
+        "Invented facts or unauthorized promises",
+        "Pressure or disregard for contact restrictions"
+      ],
+      "request": {
+        "contract_version": "io-v0.1",
+        "request_id": "dataset-v0.1-S6-05",
+        "case_id": "S6-05",
+        "scenario": "price_objection",
+        "reference_time": "2026-11-04T20:30:00+08:00",
+        "timezone": "Asia/Shanghai",
+        "interaction": {
+          "mode": "reply",
+          "channel": "wechat",
+          "reply_to_message_id": "msg-001"
+        },
+        "client": {
+          "client_id": "fictional-S6-05",
+          "preferred_address": "顾客甶",
+          "relationship_stage": "established",
+          "preferences": [
+            "偏爱岩灰色"
+          ],
+          "budget": null,
+          "owned_product_ids": [],
+          "contact_preferences": {
+            "proactive_status": "allowed",
+            "restricted_scenarios": [],
+            "restrictions_note": null,
+            "source_message_ids": []
+          }
+        },
+        "conversation_history": [
+          {
+            "message_id": "msg-001",
+            "role": "client",
+            "text": "我看到别处更便宜，能讲讲这款的信息吗？",
+            "sent_at": null
+          }
+        ],
+        "product_ids": [
+          "CX-B01"
+        ],
+        "scenario_context": {
+          "objection_type": "comparison",
+          "objection_message_id": "msg-001",
+          "comparison": null
+        },
+        "trusted_context": {
+          "brand_version": "brand-v0.1",
+          "catalogue_version": "brand-v0.1",
+          "source_refs": [
+            {
+              "source_id": "catalogue-001",
+              "kind": "catalogue",
+              "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+            }
+          ],
+          "inventory": []
+        }
+      }
+    }
+  ]
+}

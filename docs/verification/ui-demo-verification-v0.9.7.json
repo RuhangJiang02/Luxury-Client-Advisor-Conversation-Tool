@@ -1,0 +1,280 @@
+{
+  "verification_version": "ui-demo-verification-v0.1",
+  "tool_version": "tool-v0.9.7",
+  "prompt_version": "prompt-v0.9.7",
+  "verified_at": "2026-11-05T21:21:19.695444+08:00",
+  "timezone": "Asia/Shanghai",
+  "app_sha256": "1453d54f9bc9fae97e308b5c5f540b3a82f76713237fc73b5dcd8523c0c7f37a",
+  "verification_script_sha256": "97dcc59c9a9c21ce6a977b74c5e9038ee403f01d3d3d247d3b6d9ce17a440aa4",
+  "scope": "AppTest UI/service wiring only; no real LLM calls or quality scores",
+  "checks": [
+    {
+      "check": "initial render",
+      "passed": true
+    },
+    {
+      "check": "greeting: preview shows three labelled template candidates",
+      "passed": true
+    },
+    {
+      "check": "product_recommendation: preview shows three labelled template candidates",
+      "passed": true
+    },
+    {
+      "check": "post_purchase_care: preview shows three labelled template candidates",
+      "passed": true
+    },
+    {
+      "check": "reactivation: preview shows three labelled template candidates",
+      "passed": true
+    },
+    {
+      "check": "event_invitation: preview shows three labelled template candidates",
+      "passed": true
+    },
+    {
+      "check": "price_objection: preview shows three labelled template candidates",
+      "passed": true
+    },
+    {
+      "check": "preview and scenario switching make no service/provider calls",
+      "passed": true
+    },
+    {
+      "check": "local mode label",
+      "passed": true
+    },
+    {
+      "check": "switch to live does not generate",
+      "passed": true
+    },
+    {
+      "check": "greeting: live waits for explicit submit",
+      "passed": true
+    },
+    {
+      "check": "greeting: explicit submit succeeds with test double",
+      "passed": true
+    },
+    {
+      "check": "greeting: selection does not regenerate",
+      "passed": true
+    },
+    {
+      "check": "greeting: JSON download control present",
+      "passed": true
+    },
+    {
+      "check": "product_recommendation: live waits for explicit submit",
+      "passed": true
+    },
+    {
+      "check": "product_recommendation: explicit submit succeeds with test double",
+      "passed": true
+    },
+    {
+      "check": "product_recommendation: selection does not regenerate",
+      "passed": true
+    },
+    {
+      "check": "product_recommendation: JSON download control present",
+      "passed": true
+    },
+    {
+      "check": "post_purchase_care: live waits for explicit submit",
+      "passed": true
+    },
+    {
+      "check": "post_purchase_care: explicit submit succeeds with test double",
+      "passed": true
+    },
+    {
+      "check": "post_purchase_care: selection does not regenerate",
+      "passed": true
+    },
+    {
+      "check": "post_purchase_care: JSON download control present",
+      "passed": true
+    },
+    {
+      "check": "reactivation: live waits for explicit submit",
+      "passed": true
+    },
+    {
+      "check": "reactivation: explicit submit succeeds with test double",
+      "passed": true
+    },
+    {
+      "check": "reactivation: selection does not regenerate",
+      "passed": true
+    },
+    {
+      "check": "reactivation: JSON download control present",
+      "passed": true
+    },
+    {
+      "check": "event_invitation: live waits for explicit submit",
+      "passed": true
+    },
+    {
+      "check": "event_invitation: explicit submit succeeds with test double",
+      "passed": true
+    },
+    {
+      "check": "event_invitation: selection does not regenerate",
+      "passed": true
+    },
+    {
+      "check": "event_invitation: JSON download control present",
+      "passed": true
+    },
+    {
+      "check": "price_objection: live waits for explicit submit",
+      "passed": true
+    },
+    {
+      "check": "price_objection: explicit submit succeeds with test double",
+      "passed": true
+    },
+    {
+      "check": "price_objection: selection does not regenerate",
+      "passed": true
+    },
+    {
+      "check": "price_objection: JSON download control present",
+      "passed": true
+    },
+    {
+      "check": "unsubmitted field edits preserve prior submitted result and do not generate",
+      "passed": true
+    },
+    {
+      "check": "blocked-contact: blocked, zero provider calls",
+      "passed": true
+    },
+    {
+      "check": "unknown-permission: needs_clarification, zero provider calls",
+      "passed": true
+    },
+    {
+      "check": "missing-venue: needs_clarification, zero provider calls",
+      "passed": true
+    },
+    {
+      "check": "over-budget: needs_clarification, zero provider calls",
+      "passed": true
+    },
+    {
+      "check": "invalid-unknown-field: invalid_input, zero provider calls",
+      "passed": true
+    },
+    {
+      "check": "malformed editor JSON returns invalid_input without provider call",
+      "passed": true
+    },
+    {
+      "check": "simulated unavailable model returns explicit failure with no fallback",
+      "passed": true
+    },
+    {
+      "check": "all saved demo service artifacts are labelled test_double",
+      "passed": true
+    },
+    {
+      "check": "default app database remains absent or byte-identical",
+      "passed": true
+    }
+  ],
+  "passed": 44,
+  "fake_provider_calls": 7,
+  "actual_model_calls": 0,
+  "fixed_50_cases_rerun": false,
+  "human_scores_added": false,
+  "service_invocations": [
+    {
+      "scenario": "greeting",
+      "status": "generated",
+      "execution_kind": "test_double",
+      "attempts": 1
+    },
+    {
+      "scenario": "product_recommendation",
+      "status": "generated",
+      "execution_kind": "test_double",
+      "attempts": 1
+    },
+    {
+      "scenario": "post_purchase_care",
+      "status": "generated",
+      "execution_kind": "test_double",
+      "attempts": 1
+    },
+    {
+      "scenario": "reactivation",
+      "status": "generated",
+      "execution_kind": "test_double",
+      "attempts": 1
+    },
+    {
+      "scenario": "event_invitation",
+      "status": "generated",
+      "execution_kind": "test_double",
+      "attempts": 1
+    },
+    {
+      "scenario": "price_objection",
+      "status": "generated",
+      "execution_kind": "test_double",
+      "attempts": 1
+    },
+    {
+      "scenario": "greeting",
+      "status": "blocked",
+      "execution_kind": "test_double",
+      "attempts": 0
+    },
+    {
+      "scenario": "greeting",
+      "status": "needs_clarification",
+      "execution_kind": "test_double",
+      "attempts": 0
+    },
+    {
+      "scenario": "event_invitation",
+      "status": "needs_clarification",
+      "execution_kind": "test_double",
+      "attempts": 0
+    },
+    {
+      "scenario": "product_recommendation",
+      "status": "needs_clarification",
+      "execution_kind": "test_double",
+      "attempts": 0
+    },
+    {
+      "scenario": "greeting",
+      "status": "invalid_input",
+      "execution_kind": "test_double",
+      "attempts": 0
+    },
+    {
+      "scenario": "greeting",
+      "status": "invalid_input",
+      "execution_kind": "test_double",
+      "attempts": 0
+    },
+    {
+      "scenario": "greeting",
+      "status": "generation_failed",
+      "execution_kind": "test_double",
+      "attempts": 1
+    }
+  ],
+  "storage": "temporary test database removed after verification",
+  "default_run_database_unchanged": true,
+  "not_verified": [
+    "native browser file download",
+    "browser visual appearance",
+    "actual model quality"
+  ]
+}

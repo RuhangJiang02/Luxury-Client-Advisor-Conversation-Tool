@@ -1,0 +1,274 @@
+[
+  {
+    "case_id": "S6-06",
+    "priority": "P0",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4; AI_suggested_hard_failure_pending_adjudication",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S1-08",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S2-04",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S2-05",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S2-09",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S3-01",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S3-02",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S3-03",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S3-05",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S3-06",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S3-07",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S3-08",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S4-01",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S4-02",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S4-03",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S4-04",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S4-05",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S4-06",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S4-07",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S4-08",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S5-01",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S5-02",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S5-03",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S5-04",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S5-05",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S5-06",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S5-07",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S5-08",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S6-02",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S6-03",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S6-04",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S6-05",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S6-07",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  },
+  {
+    "case_id": "S6-09",
+    "priority": "P1",
+    "ai_findings": "dimension_or_diversity_below_3; weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "defect_id": "L-07",
+    "case_id": "S1-01",
+    "run_id": "d7359ac0-f738-4ecf-ae88-9cb2c015f904",
+    "candidate_id": 2,
+    "excerpt": "顾客甲，节日快乐！愿你有时间做喜欢的事，不被琐事打扰。",
+    "severity_suggested": "major",
+    "assistant_observation": "Birthday input receives a festival wish and inconsistent pronoun.",
+    "source_to_review": "scenario_context.occasion_type=birthday; BR-09",
+    "assessment_kind": "assistant qualitative source review, not human adjudication or numerical scoring"
+  },
+  {
+    "defect_id": "L-08",
+    "case_id": "S2-02",
+    "run_id": "8fade21a-e134-4cc6-b53d-eabbb8acc09e",
+    "candidate_id": 2,
+    "excerpt": "循线肩包采用粒面牛皮制作，触感细腻且耐磨，是日常使用中非常实用的细节。",
+    "severity_suggested": "major",
+    "assistant_observation": "Wear-resistance property is not established in the catalogue.",
+    "source_to_review": "catalogue CX-B01 material/design_facts; BR-01",
+    "assessment_kind": "assistant qualitative source review, not human adjudication or numerical scoring"
+  },
+  {
+    "defect_id": "L-09",
+    "case_id": "S6-08",
+    "run_id": "68460a95-b0c0-4328-b309-d5ade2beb5ca",
+    "candidate_id": 3,
+    "excerpt": "这边先不继续推介了，您方便时再联系我就好。",
+    "severity_suggested": "minor",
+    "assistant_observation": "Mentions internal sales process rather than simply respecting the client request for time.",
+    "source_to_review": "client history; BR-10 and voice guidance",
+    "assessment_kind": "assistant qualitative source review, not human adjudication or numerical scoring"
+  },
+  {
+    "defect_id": "L-10",
+    "case_id": "S5-01",
+    "run_id": "de7cba49-7bf3-4e2f-8869-82ea4717cb3e",
+    "candidate_id": 1,
+    "excerpt": "顾客甲，11月8日14:00想邀请您参加澄序皮具私享预览，地点是澄序虚构示范精品店·二层会客区。您对月弧手提包的设计感兴趣，可以看看相关细节。",
+    "severity_suggested": "major",
+    "assistant_observation": "Check whether interest is asserted rather than conditional; verified logistics do not justify assumed interest.",
+    "source_to_review": "client preferences/history; BR-08/BR-10",
+    "assessment_kind": "assistant qualitative source review, not human adjudication or numerical scoring"
+  },
+  {
+    "defect_id": "L-12",
+    "case_id": "S6-06",
+    "run_id": "b3ed900d-4a88-467e-8798-caa260b63077",
+    "candidate_id": 1,
+    "excerpt": "我们上次提到的八折优惠，目前政策是不提供议价折扣。关于循线肩包，目录价是18800元，不涉及任何折扣或价格调整。",
+    "severity_suggested": "major",
+    "assistant_observation": "Attributes a past discount discussion to the advisor instead of treating the client claim as unverified.",
+    "source_to_review": "client message versus advisor history; BR-02 and source conflict handling",
+    "assessment_kind": "assistant qualitative source review, not human adjudication or numerical scoring"
+  },
+  {
+    "defect_id": "L-13",
+    "case_id": "S3-06",
+    "run_id": "0869f6ed-4974-4227-96c6-b7463c7c7381",
+    "candidate_id": 3,
+    "excerpt": "收到后建议用干布轻拭，保持干燥并放入防尘袋。若后续有存放需求，可提前告知。",
+    "severity_suggested": "major",
+    "assistant_observation": "Future receipt/storage phrasing mismatches a reported water-contact issue and does not directly address the concern.",
+    "source_to_review": "scenario_context.care_topic=reported_issue; issue_message_id and client history",
+    "assessment_kind": "assistant qualitative source review, not human adjudication or numerical scoring"
+  },
+  {
+    "defect_id": "L-14",
+    "case_id": "S4-05",
+    "run_id": "37d62eb9-185b-4eee-889d-6d6c3374275f",
+    "candidate_id": 3,
+    "excerpt": "方便的时候再聊，有需要随时找我。",
+    "severity_suggested": "minor",
+    "assistant_observation": "First and third approaches both repeat generic availability; compare meaning, not only lexical overlap.",
+    "source_to_review": "candidate set and reconnect_purpose",
+    "assessment_kind": "assistant qualitative source review, not human adjudication or numerical scoring"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "generated_cases": 48,
+  "generation_failed_cases": [
+    "S4-07",
+    "S6-06"
+  ],
+  "quality_target_met": false,
+  "human_acceptance_complete": false,
+  "findings": [
+    "S4-07 informal pronouns persisted across two rejected attempts",
+    "S6-06 third candidate omitted required discount refusal across two rejected attempts",
+    "Several full-copy scenarios omitted the provided full address; source framing is needed"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batch_id": "quality-targets-v0.9.0",
+  "dataset_hash": "43065759e89afd8881ec847c20eef7483d88840789b6ea1198d089a2ea90ddca",
+  "dataset_version": "quality-repair-targets-v0.9.0",
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.3,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "dataset_path": "/Users/rj125/Desktop/Artefact/Luxury-Client-Advisor-Conversation-Tool/data/quality-repair-targets-v0.9.0.json",
+  "cases": [
+    {
+      "case_id": "S2-09",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S3-06",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S4-06",
+      "scenario": "reactivation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-05",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-07",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-03",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-05",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-06",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    }
+  ]
+}

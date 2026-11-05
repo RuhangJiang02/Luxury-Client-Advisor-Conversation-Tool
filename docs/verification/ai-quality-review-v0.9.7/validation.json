@@ -1,0 +1,23 @@
+{
+  "schema_and_threshold_checks": [
+    "reject_human_attribution",
+    "reject_missing_case",
+    "reject_bad_hash",
+    "reject_boolean_score",
+    "exact_4_boundary_never_human_acceptance",
+    "49_of_50_rejected_by_strict_target",
+    "all_50_original_v0.8.2_source_hashes_unchanged"
+  ],
+  "regression_tests": 87,
+  "ui_checks": 44,
+  "guardrails": 20,
+  "guardrail_model_attempts": 0,
+  "historical_archives_unchanged": [
+    "CHENGXU-review-draft-v0.6.1.zip",
+    "CHENGXU-review-draft-v0.8.2-docs-20261105.zip",
+    "CHENGXU-review-draft-v0.8.2-delivery-20261105.zip",
+    "CHENGXU-review-draft-v0.8.2.zip"
+  ],
+  "human_acceptance_complete": false,
+  "release_accepted": false
+}

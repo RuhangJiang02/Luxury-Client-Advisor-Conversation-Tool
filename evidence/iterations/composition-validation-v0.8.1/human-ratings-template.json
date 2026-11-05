@@ -1,0 +1,922 @@
+[
+  {
+    "run_id": "638cad55-3fc8-46fb-99eb-3d4417c0e800",
+    "case_id": "S1-01",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "06da78f3-39ca-42c0-bcf2-bf4ecf154b13",
+    "case_id": "S2-01",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "359ce2c0-2d39-4945-9ee0-1b99e6f1220e",
+    "case_id": "S3-01",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "4351e7a5-e3c0-45a9-bdc4-34aeaa8247b4",
+    "case_id": "S4-01",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "63380a98-8046-4de9-ab1c-24ab9df9f432",
+    "case_id": "S5-01",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "3a0d904f-420a-474f-b161-5dd26702037c",
+    "case_id": "S6-01",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "d18d580e-e3ad-45b2-a5a1-0bd5e023831f",
+    "case_id": "QF-C01",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "6fde9bff-331c-48ea-a864-8494635f13b7",
+    "case_id": "QF-C02",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "94e4a8bf-fd57-4c48-9a74-d6f36db1b709",
+    "case_id": "QF-P01",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "ece18bf3-69d6-4e5e-8525-23fb31fa5bf9",
+    "case_id": "QF-P02",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "27eb9121-012e-4f5f-af6f-5fe2c802e3c1",
+    "case_id": "QF-E01",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "36a7ca4e-f348-4467-88a6-7ee1327f865e",
+    "case_id": "S1-02",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "0d9fd148-3aa6-4c58-9eb5-b2e3cee7aac8",
+    "case_id": "S1-03",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "66349397-9d1e-49ec-8830-98aeeab27d14",
+    "case_id": "S1-08",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "1f02844c-b859-4adc-9c43-f3129f038807",
+    "case_id": "S2-02",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "1bc1b089-48e0-4f7b-9a74-0dde1a294aa8",
+    "case_id": "S2-05",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "2ccdb064-4d26-4f8f-9d98-1611a0f83d46",
+    "case_id": "S6-06",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "d1017b8e-27dc-4219-ba72-4c6ad1c78408",
+    "case_id": "S2-03",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "e4312d64-72e0-48e7-a7b0-e1e4f8eb8867",
+    "case_id": "S2-04",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "e29b4c79-c1f7-488e-be4a-149334d9b02c",
+    "case_id": "S2-06",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "4b4ed74c-0ece-40f9-b46c-563e11812f60",
+    "case_id": "S2-07",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "a5cec500-5845-43f3-b733-130b5e525a94",
+    "case_id": "S2-08",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  },
+  {
+    "run_id": "68d73cb9-2cb1-4033-b1bf-50d11cc5b399",
+    "case_id": "S2-09",
+    "rubric_version": "eval-v0.1",
+    "assessor": null,
+    "assessed_at": null,
+    "candidate_scores": [
+      {
+        "candidate_id": 1,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 2,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      },
+      {
+        "candidate_id": 3,
+        "personalization": null,
+        "brand": null,
+        "naturalness": null,
+        "scenario_fit": null,
+        "grounding": null,
+        "respect": null
+      }
+    ],
+    "diversity": null,
+    "hard_failures": [],
+    "review_complete": false,
+    "notes": "Provide source-grounded evidence for findings; do not auto-fill ratings."
+  }
+]

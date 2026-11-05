@@ -1,0 +1,47 @@
+{
+  "assessment_kind": "AI-authored source-based quality review; not human acceptance",
+  "ai_review_complete": true,
+  "human_acceptance_complete": false,
+  "release_accepted": false,
+  "cases": 50,
+  "candidates": 150,
+  "ai_threshold_met_cases": 49,
+  "mean_raw_score": 4.304666666666666,
+  "mean_conservative_effective_score": 4.304666666666666,
+  "suggested_hard_failure_cases": 0,
+  "scenario_results": {
+    "greeting": {
+      "total": 8,
+      "ai_threshold_met": 8,
+      "required": 8
+    },
+    "product_recommendation": {
+      "total": 9,
+      "ai_threshold_met": 9,
+      "required": 9
+    },
+    "post_purchase_care": {
+      "total": 8,
+      "ai_threshold_met": 8,
+      "required": 8
+    },
+    "reactivation": {
+      "total": 8,
+      "ai_threshold_met": 8,
+      "required": 8
+    },
+    "event_invitation": {
+      "total": 8,
+      "ai_threshold_met": 8,
+      "required": 8
+    },
+    "price_objection": {
+      "total": 9,
+      "ai_threshold_met": 8,
+      "required": 9
+    }
+  },
+  "required_pass_cases": 50,
+  "source_batch": "runs/full-50-v0.9.4",
+  "ai_overall_threshold_met": false
+}

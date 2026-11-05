@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-11-05T18:56:05.653266+08:00",
+  "timezone": "Asia/Shanghai",
+  "streamlit_health": "ok",
+  "streamlit_url": "http://127.0.0.1:8501",
+  "ollama_url": "http://127.0.0.1:11434",
+  "configured_model": "qwen3:4b",
+  "installed_model_digest": "8a643ce28e8120bdf7c557d5da895218d0a8f3ca1c6484eb021033ab72a846b1",
+  "matches_recorded_model_digest": true,
+  "public_config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.7,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "startup_observation": "Both services were initially unavailable; started loopback services, then GET health/tags succeeded.",
+  "streamlit_session_id": 88778,
+  "ollama_session_id": 75602,
+  "actual_model_calls": 0,
+  "fixed_50_cases_rerun": false,
+  "original_frozen_files_unchanged": true,
+  "new_files_scope": "additive demo fixtures and isolated UI verification script"
+}

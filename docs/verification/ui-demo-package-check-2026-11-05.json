@@ -1,0 +1,16 @@
+{
+  "builder": "chengxu-review-package-v1",
+  "package_name": "CHENGXU-review-draft-v0.8.2-docs-20261105",
+  "verified_at": "2026-11-05T19:07:15.037250+08:00",
+  "runtime_version": "tool-v0.8.2 / prompt-v0.8.2",
+  "scope": "documentation and isolated UI verification synchronization; fixed-case work deferred",
+  "state": "draft; human quality acceptance incomplete",
+  "broken_relative_links": [],
+  "source_code_bytes_preserved": true,
+  "saved_evidence_bytes_preserved": true,
+  "original_frozen_files_unchanged": true,
+  "sensitive_filename_and_credential_pattern_checks_passed": true,
+  "new_model_calls": 0,
+  "case_evaluation_runs": 0,
+  "published_or_sent": false
+}

@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-11-05T19:22:13.468549+08:00",
+  "timezone": "Asia/Shanghai",
+  "scope": "material consistency and private local delivery preparation; case work deferred",
+  "runtime": "tool-v0.8.2 / prompt-v0.8.2",
+  "document_sha256": {
+    "START_HERE.md": "2a1201bef8b71794c721fad816e887ef4a7866647f126f22660c306992aeb4e1",
+    "README.md": "53b0dd638931dc738989e09035e68ccbccbfb93954fc5df801a7cf304eb214c0",
+    "docs/methodology.md": "fc8fc4322d178d38ef350444b1ac9a03898f7e1df3069c9762e15612c35d1808",
+    "docs/architecture.md": "fafa60f43076d9cc43052ec8b5b43f1aed33c27082f039af2307019c9a13c0c5",
+    "docs/evaluation-report.md": "ff5d09480ed4e7398cfa84ff07c8ad4f48ff1680556540fb7fb514080a579396",
+    "docs/defects-and-next-steps.md": "6a727cbecefca87f913cc2166cc453b8f6d8ac35737efad4ab314e8e60818f7f",
+    "docs/ui-demo-walkthrough.md": "322d92866a63ea32103e9b6086d93f29b8362d373194900bff07263473c81d3b",
+    "docs/running-and-evaluation.md": "4b82eb72a000af8dcd28cabce9043254593c990a602a96fe31e3287e867d71ce",
+    "docs/local-model.md": "9935bf7ca45048af327504ffdee5405dc11dcf35dc43ac7800a38119ea7e02fc",
+    "docs/delivery-plan.md": "4951e7071d0100d520d4a8f732ed7869a0c0348541b9a1fa2743ac2f8cc5e38c",
+    "docs/submission-email-draft.md": "fdb57b06f58c21607f2adb6465d3f906c6c1b76039ddb3aec21338ffc3fb637c",
+    "submission/INDEX.md": "b8848d105b8680d67c1d30cf4bc79992184cda4a027cff5fbad6c0d1c2e47616"
+  },
+  "relative_links_pass": true,
+  "authoritative_saved_facts": {
+    "cases": 50,
+    "drafts": 150,
+    "recorded_implementation_tests": 76,
+    "guardrails": 20,
+    "isolated_ui_checks": 44,
+    "human_ratings_pending": 50
+  },
+  "corrected_stale_descriptions": [
+    "methodology 43 to 44 UI checks",
+    "defect register current versus historical scope",
+    "historical v0.6.1 local-model section label",
+    "current delivery versus deferred quality work"
+  ],
+  "original_runtime_input_hashes_unchanged": true,
+  "old_archive_hashes": {
+    "submission/CHENGXU-review-draft-v0.8.2.zip": "8e99904edc2c3f9ca01cceae7da536498eae8401cf6dd98ebf0f5a53dcaf76e7",
+    "submission/CHENGXU-review-draft-v0.8.2-docs-20261105.zip": "8b02bcb333d7050760c63234157f5fd200d211cc0bd68c1a5077970193a600b4"
+  },
+  "prepared_route": "private ZIP attachment, not sent",
+  "hosted_link_access": "not applicable to the prepared attachment route; no hosted URL offered",
+  "email_identity_fields": "unfilled placeholders",
+  "inbox_or_transport_tested": false,
+  "new_model_calls": 0,
+  "case_evaluation_runs": 0,
+  "quality_acceptance_complete": false
+}

@@ -1,0 +1,429 @@
+[
+  {
+    "case_id": "S1-01",
+    "status": "generated",
+    "metadata": {
+      "run_id": "e5fee184-e6a7-4349-95b4-54eb2becff09",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:53:45.976017+08:00",
+      "finished_at": "2026-11-04T23:53:47.012616+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": []
+    },
+    "identity": "7bd92a21662ab2aa76bc138db1d291d13d1b54e30cf19b19ad7a5bb5963f5179"
+  },
+  {
+    "case_id": "S2-01",
+    "status": "generated",
+    "metadata": {
+      "run_id": "d5c23129-ef84-4194-a8e5-e6dd7d5a52f2",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:53:47.015273+08:00",
+      "finished_at": "2026-11-04T23:53:49.325830+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B04"
+      ]
+    },
+    "identity": "72e51464087fdcb47231a1f59e0f009980cea5de8a909962bf478e4b1cd43aaa"
+  },
+  {
+    "case_id": "S3-01",
+    "status": "generated",
+    "metadata": {
+      "run_id": "5e341798-c217-41d9-9305-1b04d96a09ce",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:53:49.327721+08:00",
+      "finished_at": "2026-11-04T23:53:53.539838+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B01"
+      ]
+    },
+    "identity": "2f8dba381a34b24bb8b2d7ab3d703c639cb2eb9774390d3481b514b9ff2ea401"
+  },
+  {
+    "case_id": "S4-01",
+    "status": "generated",
+    "metadata": {
+      "run_id": "99579701-150c-44ed-b969-4073f1258954",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:53:53.541850+08:00",
+      "finished_at": "2026-11-04T23:53:55.628655+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": []
+    },
+    "identity": "2f198c83d3f0f087e42aa56da3e9d8ae67d3484460a7805bfa29330f3703cc54"
+  },
+  {
+    "case_id": "S5-01",
+    "status": "generated",
+    "metadata": {
+      "run_id": "73f0c569-a669-4800-aa47-9959fa49fcdf",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:53:55.631044+08:00",
+      "finished_at": "2026-11-04T23:53:57.847509+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B03"
+      ]
+    },
+    "identity": "e4cdfdf57b4e0e10e7df78ac259adf8b257b750ff25f9b4af6f7d2f8bdf7cdc0"
+  },
+  {
+    "case_id": "S6-01",
+    "status": "generated",
+    "metadata": {
+      "run_id": "2874d4ec-a29f-40e9-a020-ff4c56061c45",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:53:57.849543+08:00",
+      "finished_at": "2026-11-04T23:54:03.001611+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B01"
+      ]
+    },
+    "identity": "24dfa30a64fddcffb1e7bf9abf247c6d05aef9344eea1494080d5201831c491c"
+  },
+  {
+    "case_id": "QF-C01",
+    "status": "generated",
+    "metadata": {
+      "run_id": "61fa860b-ccc7-4965-9e93-17c8c41d6a3e",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:03.004002+08:00",
+      "finished_at": "2026-11-04T23:54:07.306110+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B01"
+      ]
+    },
+    "identity": "b5cf770cb1232b70dd120ecf3d92cc7b44da3d441513af7de1529e6f8f1595e3"
+  },
+  {
+    "case_id": "QF-C02",
+    "status": "generated",
+    "metadata": {
+      "run_id": "ab25c20f-6156-419e-b1a1-3f8309f4e319",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:07.308674+08:00",
+      "finished_at": "2026-11-04T23:54:11.127984+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B01"
+      ]
+    },
+    "identity": "f6b7a63c7a774c4e8bd1fb3b7197b60c891e7232c3314f18a7ec1230e33bb71e"
+  },
+  {
+    "case_id": "QF-P01",
+    "status": "generated",
+    "metadata": {
+      "run_id": "6cc112f9-0895-4bb3-8eb1-5b312ec55d67",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:11.129909+08:00",
+      "finished_at": "2026-11-04T23:54:16.705867+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B01"
+      ]
+    },
+    "identity": "88e69c0b3ebf455a44b7b53c606c779b98aaedaea95c0fa814df5450721fbb89"
+  },
+  {
+    "case_id": "QF-P02",
+    "status": "generated",
+    "metadata": {
+      "run_id": "19f16445-1472-4c69-ba88-6e2063bed903",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:16.708334+08:00",
+      "finished_at": "2026-11-04T23:54:19.865749+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B01"
+      ]
+    },
+    "identity": "64145c0db7a4445ac37e350b9aa714fbf8998c48c43c0a41f6001261c0826226"
+  },
+  {
+    "case_id": "QF-E01",
+    "status": "generated",
+    "metadata": {
+      "run_id": "31983e49-d43b-4eeb-a60e-471fc91ddb70",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:19.868292+08:00",
+      "finished_at": "2026-11-04T23:54:22.933386+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B03"
+      ]
+    },
+    "identity": "1e49295903b8fbb8ee9e297f5d82f1e371a698b1da5af4ca7e5977eba276434e"
+  },
+  {
+    "case_id": "S1-02",
+    "status": "generated",
+    "metadata": {
+      "run_id": "ea8ff7ae-7189-4f40-86bb-198139f1b7d6",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:22.935375+08:00",
+      "finished_at": "2026-11-04T23:54:23.647419+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": []
+    },
+    "identity": "89db6ae55493902e6bb178e6b9f5e3b52deaceaaea7823c43b58c43905443155"
+  },
+  {
+    "case_id": "S1-03",
+    "status": "generated",
+    "metadata": {
+      "run_id": "d497200e-9d03-4963-8f39-d304aa8ab9e1",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:23.649223+08:00",
+      "finished_at": "2026-11-04T23:54:24.514946+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": []
+    },
+    "identity": "fdede66daeb8d3632875b6e87cc07557d9ac9315f2c70b833928e610a35972e4"
+  },
+  {
+    "case_id": "S1-08",
+    "status": "generated",
+    "metadata": {
+      "run_id": "7b53e75f-cdd4-4167-b5ce-4df833d9f772",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:24.516613+08:00",
+      "finished_at": "2026-11-04T23:54:25.566242+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": []
+    },
+    "identity": "15c2617d5a7eabb478198afc760ea4abb5048cec91a8b674e038bca1202020da"
+  },
+  {
+    "case_id": "S2-02",
+    "status": "generation_failed",
+    "metadata": {
+      "run_id": "75cf448c-82e1-4c6f-97f4-ea43cda90831",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:25.568207+08:00",
+      "finished_at": "2026-11-04T23:54:30.448428+08:00",
+      "generation_attempts": 2,
+      "resolved_product_ids": [
+        "CX-B01"
+      ]
+    },
+    "identity": "dd5639378a9786d19cfb1e1a21724a3453d11afb52e11140b91c712acae3017c"
+  },
+  {
+    "case_id": "S2-05",
+    "status": "generated",
+    "metadata": {
+      "run_id": "35891a4d-55ba-45c9-ad6b-f27f2bc39d5c",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:30.453059+08:00",
+      "finished_at": "2026-11-04T23:54:32.393446+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B04"
+      ]
+    },
+    "identity": "652b68ec798226947cfce1ac03872065b1e2785778b7544800ab03a2cec4adfb"
+  },
+  {
+    "case_id": "S6-06",
+    "status": "generated",
+    "metadata": {
+      "run_id": "a1d771d3-5204-4f80-8371-094a05ea3f60",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:32.395142+08:00",
+      "finished_at": "2026-11-04T23:54:38.648851+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B01"
+      ]
+    },
+    "identity": "44893cb23682177a56798fe1da596394857baec98549d6640f73f83d9ab04dcf"
+  },
+  {
+    "case_id": "S2-03",
+    "status": "generation_failed",
+    "metadata": {
+      "run_id": "e6d5da96-1eb1-4a6c-b617-3d7816615815",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:38.650546+08:00",
+      "finished_at": "2026-11-04T23:54:43.465824+08:00",
+      "generation_attempts": 2,
+      "resolved_product_ids": [
+        "CX-B02"
+      ]
+    },
+    "identity": "90c0c9dec0eb2534503e5ef9d8ec4a910051a372d0d9213ada77813d31a77985"
+  },
+  {
+    "case_id": "S2-04",
+    "status": "generated",
+    "metadata": {
+      "run_id": "4234eada-3321-4bd9-90c1-6ccf83210255",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:43.469898+08:00",
+      "finished_at": "2026-11-04T23:54:45.427474+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B03"
+      ]
+    },
+    "identity": "70632be5e9a9729b61b3df0b23f461a1bd24fd8d2ee97262375b91abd2bf8abf"
+  },
+  {
+    "case_id": "S2-06",
+    "status": "generated",
+    "metadata": {
+      "run_id": "4118df43-b848-485f-a220-24fd6c4c8ce5",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:45.429180+08:00",
+      "finished_at": "2026-11-04T23:54:47.461495+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-S01"
+      ]
+    },
+    "identity": "f5653e31e59e22447fa946e7d534065b80a10026eae14ed719da83fb6cd25e7e"
+  },
+  {
+    "case_id": "S2-07",
+    "status": "generated",
+    "metadata": {
+      "run_id": "3067a0d9-80b5-4302-a020-0ff5e8dc2859",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:47.463622+08:00",
+      "finished_at": "2026-11-04T23:54:49.517003+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-S02"
+      ]
+    },
+    "identity": "57e61574e68ab0562a840264f5b66ed35d1ecea75c22a633c9c23936f7e23193"
+  },
+  {
+    "case_id": "S2-08",
+    "status": "generated",
+    "metadata": {
+      "run_id": "2fd2faa8-422c-4da4-93a0-e6024c89c9d5",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:49.518413+08:00",
+      "finished_at": "2026-11-04T23:54:51.516324+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B04"
+      ]
+    },
+    "identity": "7a7c2c1a670579bdc4921b6a722e298e6dd05926c9074a1d650f1d80e02b3d1c"
+  },
+  {
+    "case_id": "S2-09",
+    "status": "generated",
+    "metadata": {
+      "run_id": "fffb3247-1eaa-4ee9-93a7-56c549c06de0",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.0",
+      "prompt_version": "prompt-v0.8.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:54:51.518227+08:00",
+      "finished_at": "2026-11-04T23:54:53.398841+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B02"
+      ]
+    },
+    "identity": "5dc4c4f4d1fbec0a7f3931146d8a5a26f0c6b4eb77261b0408d83d8e97cf4d43"
+  }
+]

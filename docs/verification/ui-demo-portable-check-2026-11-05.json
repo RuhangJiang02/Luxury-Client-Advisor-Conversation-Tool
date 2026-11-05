@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "scope": "portable UI wiring and storage/overwrite boundaries only",
+  "package": "submission/CHENGXU-review-draft-v0.8.2-docs-20261105",
+  "portable_ui_checks_passed": 44,
+  "actual_model_calls": 0,
+  "case_evaluation_runs": 0,
+  "fixed_50_cases_rerun": false,
+  "default_run_database_unchanged": true,
+  "no_database_or_bytecode_created_in_portable_tree": true,
+  "prior_archive_overwrite_rejected": true,
+  "prior_archive_sha256_unchanged": true,
+  "browser_visual_review": false,
+  "native_download_executed": false
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "case_id": "S6-07",
+    "priority": "P1",
+    "ai_findings": "weighted_score_below_4",
+    "human_assessor": null,
+    "human_decision": null,
+    "human_evidence": null
+  }
+]

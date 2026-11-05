@@ -1,0 +1,134 @@
+{
+  "batch_id": "composition-validation-v0.8.2",
+  "dataset_hash": "cf857cc095f9111ba01861aecdfb47f0129b082be3ed76cc2f5a4814dc46004e",
+  "dataset_version": "composition-validation-v0.8.0",
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.7,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "dataset_path": "/Users/rj125/Desktop/Artefact/Luxury-Client-Advisor-Conversation-Tool/data/composition-validation-v0.8.0.json",
+  "cases": [
+    {
+      "case_id": "S1-01",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-01",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S3-01",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S4-01",
+      "scenario": "reactivation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S5-01",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-01",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "QF-C01",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "QF-C02",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "QF-P01",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "QF-P02",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "QF-E01",
+      "scenario": "event_invitation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S1-02",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S1-03",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S1-08",
+      "scenario": "greeting",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-02",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-05",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-06",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-03",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-04",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-06",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-07",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-08",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S2-09",
+      "scenario": "product_recommendation",
+      "expected_status": "generated"
+    }
+  ]
+}

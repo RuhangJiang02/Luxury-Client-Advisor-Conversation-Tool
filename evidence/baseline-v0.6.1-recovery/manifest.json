@@ -1,0 +1,29 @@
+{
+  "batch_id": "full-50-recovery-v0.6.1",
+  "dataset_hash": "faa9ff169ba5e6a035e6889cc31665d57a558f236c18a9e9ca9e22c4426d8d3e",
+  "dataset_version": "full-50-recovery-v0.6.1",
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.7,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "dataset_path": "/Users/rj125/Desktop/Artefact/Luxury-Client-Advisor-Conversation-Tool/data/full-50-recovery-cases-v0.6.1.json",
+  "cases": [
+    {
+      "case_id": "S3-03",
+      "scenario": "post_purchase_care",
+      "expected_status": "generated"
+    },
+    {
+      "case_id": "S6-05",
+      "scenario": "price_objection",
+      "expected_status": "generated"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "scope": "Selected same-input tool-output comparisons; not an independent experiment or human adjudication. Failed responses have no candidate text.",
+  "comparisons": [
+    {
+      "case_id": "S2-09",
+      "same_input_except_request_id": true,
+      "before": {
+        "source_artifact": "runs/full-50-v0.8.2/S2-09.json",
+        "source_sha256": "a4f3a882e0bf16fd208074677b9051b027347abc141c1fda2cf3ced2edfd4502",
+        "run_id": "4ace991a-13be-41bc-a312-ea96039cf9f5",
+        "version": "v0.8.2",
+        "status": "generated",
+        "candidate_id": 1,
+        "text": "顾客町，远行托特有墨黑配色，价格是24800元。您平时通勤时主要带哪些随身物品？"
+      },
+      "after": {
+        "source_artifact": "runs/full-50-v0.9.7/S2-09.json",
+        "source_sha256": "5023261afad499007f283ea6917e4e7bd745192f9c36cb4e2a080681023460df",
+        "run_id": "b89116ec-31d3-49f2-8e1b-763248a5bb6c",
+        "version": "v0.9.7",
+        "status": "generated",
+        "candidate_id": 1,
+        "text": "顾客町，远行托特的外部尺寸是36 × 28 × 13厘米，电脑能否放下还需核对，不能保证防水。您方便测量一下电脑的长宽高吗？"
+      }
+    },
+    {
+      "case_id": "S3-06",
+      "same_input_except_request_id": true,
+      "before": {
+        "source_artifact": "runs/full-50-v0.8.2/S3-06.json",
+        "source_sha256": "a5cb244194fe0158cbd7c4ba84947201b2f9861952c2d2923346ba6c59f91f7f",
+        "run_id": "6a2e65e5-14f8-4a30-a036-8b618bcb022a",
+        "version": "v0.8.2",
+        "status": "generated",
+        "candidate_id": 2,
+        "text": "收到后/以后，记得避免长时间日晒和水、油、香水的接触，保持干燥并放入随附防尘袋。"
+      },
+      "after": {
+        "source_artifact": "runs/full-50-v0.9.7/S3-06.json",
+        "source_sha256": "19401de4da6274c2c2bcec2306cfd7599d9593521305f8908205384c46f10443",
+        "run_id": "92b7d6ab-7760-45f9-a8af-a5cb85f8a84b",
+        "version": "v0.9.7",
+        "status": "generated",
+        "candidate_id": 2,
+        "text": "顾客男，仅凭描述还不能保证没有影响。如想进一步确认，您这次购买尚有一次免费在店目视评估可用，需预约；不包含清洗或维修。"
+      }
+    },
+    {
+      "case_id": "S6-06",
+      "same_input_except_request_id": true,
+      "before": {
+        "source_artifact": "runs/full-50-v0.8.2/S6-06.json",
+        "source_sha256": "50b1bb688108181ec0053ad5cd08e5c47846ed4e8fa53c623f5f3ed6e52c9d97",
+        "run_id": "a1b99979-1274-4cfb-a517-a9a8cd604545",
+        "version": "v0.8.2",
+        "status": "generated",
+        "candidate_id": 2,
+        "text": "循线肩包采用粒面牛皮制作，这是目前我们唯一可提供的材质。关于价格和折扣政策，我们再次说明不提供议价折扣。"
+      },
+      "after": {
+        "source_artifact": "runs/full-50-v0.9.7/S6-06.json",
+        "source_sha256": "8236f2bd9e67d5de70d0cbc069527a5ac1cf490296574ba46293779163678dc5",
+        "run_id": "14c2de80-b911-4b57-a796-f86ca00af831",
+        "version": "v0.9.7",
+        "status": "generated",
+        "candidate_id": 2,
+        "text": "顾客男，您提到的旧优惠需要先核对记录，目前不提供议价折扣。供您了解，循线肩包采用粒面牛皮。"
+      }
+    },
+    {
+      "case_id": "S6-07",
+      "same_input_except_request_id": true,
+      "before": {
+        "source_artifact": "runs/full-50-v0.9.2/S6-07.json",
+        "source_sha256": "ab73aa7ca0b3270cdd18c073e77a6839344d4ef1d17d448cf68ddd03724a5c35",
+        "run_id": "3c2f812c-92d6-4e65-8a09-d2bc2a84ee95",
+        "version": "v0.9.2",
+        "status": "generated",
+        "candidate_id": 1,
+        "text": "顾客甸，您提到的之前优惠还需要核实，目前不能确认。循线肩包目录价18800元，不提供议价折扣。"
+      },
+      "after": {
+        "source_artifact": "runs/full-50-v0.9.7/S6-07.json",
+        "source_sha256": "189ebe33d011f822388f43a1e2f58b4644ebf6faeb5706f5543e36325bebe2b4",
+        "run_id": "902916d8-f851-4b48-b351-57725520afb9",
+        "version": "v0.9.7",
+        "status": "generated",
+        "candidate_id": 1,
+        "text": "顾客甸，循线肩包目录价18800元，不提供议价折扣。具体定价依据尚未有可核实的信息，无法进一步说明。"
+      }
+    },
+    {
+      "case_id": "S6-04",
+      "same_input_except_request_id": true,
+      "before": {
+        "source_artifact": "runs/full-50-v0.9.5/S6-04.json",
+        "source_sha256": "b99fca10a9a36741b92d96723c22b068b0bb4c405bc63fbcb441aac3d8dc31d8",
+        "run_id": "e5cf70de-c995-4372-b0c5-530a126bde42",
+        "version": "v0.9.5",
+        "status": "generated",
+        "candidate_id": 1,
+        "text": "消息一：示例渠道甲报价16000元，目录价是18800元。对方条件还没确认，暂时无法解释差价。"
+      },
+      "after": {
+        "source_artifact": "runs/full-50-v0.9.7/S6-04.json",
+        "source_sha256": "b0e31967aef054b448ac4cafab702d555fd29219e465de5762ad0b0f4cc95acb",
+        "run_id": "51dc5311-cfff-4430-8333-5b4bbc2d00ae",
+        "version": "v0.9.7",
+        "status": "generated",
+        "candidate_id": 1,
+        "text": "顾客电，您提到示例渠道甲报价16000元，这里循线肩包的目录价是18800元。对方报价条件尚未核实，目前无法判断差价原因。"
+      }
+    },
+    {
+      "case_id": "S4-07",
+      "same_input_except_request_id": true,
+      "before": {
+        "source_artifact": "runs/full-50-v0.9.6/S4-07.json",
+        "source_sha256": "0a6f35f10942ccca0a34d616d3a35b4555d186bf06e680d9fb050b18fcb80317",
+        "run_id": "f7faeef9-2454-45ce-9ac9-6e5f5df38de1",
+        "version": "v0.9.6",
+        "status": "generation_failed",
+        "candidate_id": 1,
+        "text": null
+      },
+      "after": {
+        "source_artifact": "runs/full-50-v0.9.7/S4-07.json",
+        "source_sha256": "6b3225d0ce22d3491a75f2115f6acffa76dfbc01760471f5e864b92d3467f8a8",
+        "run_id": "6b4cd61a-157a-4a60-bfb8-1d2ee894e3ea",
+        "version": "v0.9.7",
+        "status": "generated",
+        "candidate_id": 1,
+        "text": "顾客甸，来向您问个好，愿您近来一切顺心。"
+      }
+    }
+  ]
+}

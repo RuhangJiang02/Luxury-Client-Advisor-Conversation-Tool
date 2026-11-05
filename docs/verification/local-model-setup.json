@@ -1,0 +1,317 @@
+{
+  "tool_version": "tool-v0.3.3",
+  "provider": "ollama",
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.7,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "hardware": {
+    "architecture": "arm64",
+    "memory_bytes": 25769803776
+  },
+  "ollama_version": "0.40.14",
+  "regression": {
+    "tests_run": 26,
+    "passed": 26,
+    "record": "docs/verification/local-regression-results.txt"
+  },
+  "guardrails": {
+    "count": 20,
+    "passed": 20,
+    "provider_attempts": 0
+  },
+  "model_source": {
+    "repository": "Qwen/Qwen3-4B-GGUF",
+    "revision": "bc640142c66e1fdd12af0bd68f40445458f3869b",
+    "filename": "Qwen3-4B-Q4_K_M.gguf",
+    "expected_sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+    "expected_bytes": 2497280256,
+    "checksum_verified": true,
+    "actual_sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5"
+  },
+  "smoke_status": "six_scenarios_generated_quality_review_pending",
+  "successful_model_outputs": 18,
+  "paid_api_calls": 0,
+  "model_imported": true,
+  "installed_models": [
+    {
+      "name": "qwen3:4b",
+      "digest": "8a643ce28e8120bdf7c557d5da895218d0a8f3ca1c6484eb021033ab72a846b1",
+      "size": 2497280614
+    }
+  ],
+  "prompt_version": "prompt-v0.3",
+  "successful_unique_cases": 6,
+  "model_template_sha256": "0cafa2b189b88c7479b5bee3d2ebeecc2731bb051215b60ba099fad8692fcc62",
+  "smoke_iterations": [
+    {
+      "batch": "local-smoke-v0.3",
+      "cases": [
+        {
+          "case_id": "S1-01",
+          "run_id": "bbdf7233-d28a-4095-b8a3-d7ccb65702a6",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3",
+          "prompt_version": "prompt-v0.1",
+          "attempts": 1,
+          "elapsed_seconds": 19.1818
+        },
+        {
+          "case_id": "S2-01",
+          "run_id": "fcfcd113-6f45-473f-8de9-ae42aa642845",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3",
+          "prompt_version": "prompt-v0.1",
+          "attempts": 1,
+          "elapsed_seconds": 7.524
+        },
+        {
+          "case_id": "S3-01",
+          "run_id": "d66310ca-0baf-4545-afae-cf2f8c822db6",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3",
+          "prompt_version": "prompt-v0.1",
+          "attempts": 1,
+          "elapsed_seconds": 7.0578
+        },
+        {
+          "case_id": "S4-01",
+          "run_id": "48886acb-6eb2-4fd0-bc7f-1c18a528f08b",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3",
+          "prompt_version": "prompt-v0.1",
+          "attempts": 1,
+          "elapsed_seconds": 5.4014
+        },
+        {
+          "case_id": "S5-01",
+          "run_id": "106788c3-5545-4bfe-905c-c1d8ee9a8185",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3",
+          "prompt_version": "prompt-v0.1",
+          "attempts": 1,
+          "elapsed_seconds": 11.3127
+        },
+        {
+          "case_id": "S6-01",
+          "run_id": "e7f8816e-ee2a-4533-9cf0-364559a4a352",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3",
+          "prompt_version": "prompt-v0.1",
+          "attempts": 1,
+          "elapsed_seconds": 7.6223
+        }
+      ]
+    },
+    {
+      "batch": "local-smoke-v0.3.1",
+      "cases": [
+        {
+          "case_id": "S1-01",
+          "run_id": "5d8b8396-709b-48e1-bbf1-d29cafa7be8b",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.1",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 7.3957
+        },
+        {
+          "case_id": "S2-01",
+          "run_id": "46e46c20-d949-4b0b-8dbf-6d740f47f2de",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.1",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 5.4606
+        },
+        {
+          "case_id": "S3-01",
+          "run_id": "63164294-0df1-4af3-b33a-f5b2afa6f194",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.1",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 6.1848
+        },
+        {
+          "case_id": "S4-01",
+          "run_id": "6f3febc9-b110-4801-9db4-927db84c74ca",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.1",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 3.0292
+        },
+        {
+          "case_id": "S5-01",
+          "run_id": "d4f372ba-b4c1-49eb-a08e-251ade3a8226",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.1",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 4.8561
+        },
+        {
+          "case_id": "S6-01",
+          "run_id": "f398973d-a4a4-4ca2-9d41-2a7d5359373e",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.1",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 5.0936
+        }
+      ]
+    },
+    {
+      "batch": "local-smoke-v0.3.2",
+      "cases": [
+        {
+          "case_id": "S1-01",
+          "run_id": "afdae634-8526-4ae6-865b-3d8eda145c70",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.2",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 2.9096
+        },
+        {
+          "case_id": "S2-01",
+          "run_id": "84f551c0-f4f9-40c4-97e4-42edb40dfc8e",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.2",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 9.355
+        },
+        {
+          "case_id": "S3-01",
+          "run_id": "11681ec5-4010-4804-b3cd-bce6b39cdc00",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.2",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 5.4765
+        },
+        {
+          "case_id": "S4-01",
+          "run_id": "35cb27bf-b365-4622-a704-2f248a9dd7d5",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.2",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 3.0681
+        },
+        {
+          "case_id": "S5-01",
+          "run_id": "bdc9a8aa-c0f9-4e74-b934-7e6f0f28bbdd",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.2",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 6.6552
+        },
+        {
+          "case_id": "S6-01",
+          "run_id": "f2e718e2-e46e-43fb-a1b1-d50f902913c0",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.2",
+          "prompt_version": "prompt-v0.2",
+          "attempts": 1,
+          "elapsed_seconds": 4.4872
+        }
+      ]
+    },
+    {
+      "batch": "local-smoke-v0.3.3",
+      "cases": [
+        {
+          "case_id": "S1-01",
+          "run_id": "2898588d-5205-43d5-9d77-9bc735e02b30",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.3",
+          "prompt_version": "prompt-v0.3",
+          "attempts": 1,
+          "elapsed_seconds": 4.25
+        },
+        {
+          "case_id": "S2-01",
+          "run_id": "e30d1ad3-cf78-4b05-8051-56a7fda572e6",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.3",
+          "prompt_version": "prompt-v0.3",
+          "attempts": 1,
+          "elapsed_seconds": 4.7136
+        },
+        {
+          "case_id": "S3-01",
+          "run_id": "4b3a135f-2838-4f21-bc37-c68eea8726cd",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.3",
+          "prompt_version": "prompt-v0.3",
+          "attempts": 1,
+          "elapsed_seconds": 6.8891
+        },
+        {
+          "case_id": "S4-01",
+          "run_id": "a04ebbff-d0d0-4cc5-9a79-653668797eea",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.3",
+          "prompt_version": "prompt-v0.3",
+          "attempts": 1,
+          "elapsed_seconds": 3.313
+        },
+        {
+          "case_id": "S5-01",
+          "run_id": "a9326dd4-5144-49ad-bf48-1c7031009a88",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.3",
+          "prompt_version": "prompt-v0.3",
+          "attempts": 1,
+          "elapsed_seconds": 8.4453
+        },
+        {
+          "case_id": "S6-01",
+          "run_id": "2a27c887-187d-4d96-b45c-f30d23485981",
+          "status": "generated",
+          "candidate_count": 3,
+          "tool_version": "tool-v0.3.3",
+          "prompt_version": "prompt-v0.3",
+          "attempts": 1,
+          "elapsed_seconds": 6.9181
+        }
+      ]
+    }
+  ],
+  "quality_status": "All six latest cases remain pending human scoring; preliminary assistant review found residual grounding/diversity defects.",
+  "streamlit_health": "ok"
+}

@@ -1,0 +1,17 @@
+# Official Qwen GGUF; see docs/local-model.md for source and pinned checksum.
+FROM ../.models/Qwen3-4B-Q4_K_M.gguf
+# ChatML role boundaries derived from the official Qwen3/Ollama template.
+# This application disables thinking and does not use tools.
+TEMPLATE """{{- if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{- end }}
+{{- range .Messages }}<|im_start|>{{ .Role }}
+{{ .Content }}<|im_end|>
+{{- end }}<|im_start|>assistant
+<think>
+
+</think>
+
+"""
+PARAMETER num_ctx 16384
+PARAMETER stop <|im_end|>

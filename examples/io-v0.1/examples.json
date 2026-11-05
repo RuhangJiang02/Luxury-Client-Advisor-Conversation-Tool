@@ -1,0 +1,664 @@
+{
+  "fixture_notice": "All examples are fictional, hand-written design illustrations. Metadata timestamps, attempts, model labels and run IDs are illustrative, not actual execution evidence. These are not generated outputs or the required 50 test cases.",
+  "contract_version": "io-v0.1",
+  "scenario_requests": [
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-S1-001",
+      "case_id": null,
+      "scenario": "greeting",
+      "reference_time": "2026-11-04T20:30:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "interaction": {
+        "mode": "proactive",
+        "channel": "wechat",
+        "reply_to_message_id": null
+      },
+      "client": {
+        "client_id": "fictional-client-001",
+        "preferred_address": "林女士",
+        "relationship_stage": "established",
+        "preferences": [
+          "偏爱岩灰色"
+        ],
+        "budget": null,
+        "owned_product_ids": [],
+        "contact_preferences": {
+          "proactive_status": "allowed",
+          "restricted_scenarios": [],
+          "restrictions_note": null,
+          "source_message_ids": []
+        }
+      },
+      "conversation_history": [],
+      "product_ids": [],
+      "scenario_context": {
+        "occasion_type": "birthday",
+        "occasion_name": null,
+        "occasion_date": "2026-11-04"
+      },
+      "trusted_context": {
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "source_refs": [
+          {
+            "source_id": "catalogue-001",
+            "kind": "catalogue",
+            "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+          }
+        ],
+        "inventory": []
+      }
+    },
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-S2-001",
+      "case_id": null,
+      "scenario": "product_recommendation",
+      "reference_time": "2026-11-04T20:30:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "interaction": {
+        "mode": "proactive",
+        "channel": "wechat",
+        "reply_to_message_id": null
+      },
+      "client": {
+        "client_id": "fictional-client-001",
+        "preferred_address": "林女士",
+        "relationship_stage": "established",
+        "preferences": [
+          "偏爱岩灰色"
+        ],
+        "budget": {
+          "max_amount": 15000,
+          "currency": "CNY"
+        },
+        "owned_product_ids": [],
+        "contact_preferences": {
+          "proactive_status": "allowed",
+          "restricted_scenarios": [],
+          "restrictions_note": null,
+          "source_message_ids": []
+        }
+      },
+      "conversation_history": [],
+      "product_ids": [
+        "CX-B04"
+      ],
+      "scenario_context": {
+        "use_case": "周末出行",
+        "must_have": [
+          "可斜挎"
+        ],
+        "preferred_color": "岩灰"
+      },
+      "trusted_context": {
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "source_refs": [
+          {
+            "source_id": "catalogue-001",
+            "kind": "catalogue",
+            "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+          }
+        ],
+        "inventory": []
+      }
+    },
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-S3-001",
+      "case_id": null,
+      "scenario": "post_purchase_care",
+      "reference_time": "2026-11-04T20:30:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "interaction": {
+        "mode": "proactive",
+        "channel": "wechat",
+        "reply_to_message_id": null
+      },
+      "client": {
+        "client_id": "fictional-client-001",
+        "preferred_address": "林女士",
+        "relationship_stage": "established",
+        "preferences": [
+          "偏爱岩灰色"
+        ],
+        "budget": null,
+        "owned_product_ids": [
+          "CX-B01"
+        ],
+        "contact_preferences": {
+          "proactive_status": "allowed",
+          "restricted_scenarios": [],
+          "restrictions_note": null,
+          "source_message_ids": []
+        }
+      },
+      "conversation_history": [],
+      "product_ids": [
+        "CX-B01"
+      ],
+      "scenario_context": {
+        "purchase": {
+          "purchase_id": "fictional-purchase-001",
+          "product_id": "CX-B01",
+          "purchased_on": "2026-10-20",
+          "source_id": "purchase-001",
+          "assessment_used": false
+        },
+        "care_topic": "general",
+        "issue_message_id": null
+      },
+      "trusted_context": {
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "source_refs": [
+          {
+            "source_id": "catalogue-001",
+            "kind": "catalogue",
+            "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+          },
+          {
+            "source_id": "purchase-001",
+            "kind": "purchase",
+            "reference": "fictional-fixture:purchase-001"
+          }
+        ],
+        "inventory": []
+      }
+    },
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-S4-001",
+      "case_id": null,
+      "scenario": "reactivation",
+      "reference_time": "2026-11-04T20:30:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "interaction": {
+        "mode": "proactive",
+        "channel": "wechat",
+        "reply_to_message_id": null
+      },
+      "client": {
+        "client_id": "fictional-client-001",
+        "preferred_address": "林女士",
+        "relationship_stage": "established",
+        "preferences": [
+          "偏爱岩灰色"
+        ],
+        "budget": null,
+        "owned_product_ids": [],
+        "contact_preferences": {
+          "proactive_status": "allowed",
+          "restricted_scenarios": [],
+          "restrictions_note": null,
+          "source_message_ids": []
+        }
+      },
+      "conversation_history": [],
+      "product_ids": [],
+      "scenario_context": {
+        "last_contact_on": "2026-03-10",
+        "last_purchase_on": null,
+        "reconnect_purpose": "preference_update"
+      },
+      "trusted_context": {
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "source_refs": [
+          {
+            "source_id": "catalogue-001",
+            "kind": "catalogue",
+            "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+          }
+        ],
+        "inventory": []
+      }
+    },
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-S5-001",
+      "case_id": null,
+      "scenario": "event_invitation",
+      "reference_time": "2026-11-04T20:30:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "interaction": {
+        "mode": "proactive",
+        "channel": "wechat",
+        "reply_to_message_id": null
+      },
+      "client": {
+        "client_id": "fictional-client-001",
+        "preferred_address": "林女士",
+        "relationship_stage": "established",
+        "preferences": [
+          "偏爱岩灰色"
+        ],
+        "budget": null,
+        "owned_product_ids": [],
+        "contact_preferences": {
+          "proactive_status": "allowed",
+          "restricted_scenarios": [],
+          "restrictions_note": null,
+          "source_message_ids": []
+        }
+      },
+      "conversation_history": [],
+      "product_ids": [
+        "CX-B03"
+      ],
+      "scenario_context": {
+        "event_id": "fictional-event-001",
+        "title": "澄序皮具私享预览",
+        "format": "private_preview",
+        "starts_at": "2026-11-08T14:00:00+08:00",
+        "ends_at": "2026-11-08T17:00:00+08:00",
+        "venue": "澄序虚构示范精品店·二层会客区",
+        "eligibility": "eligible",
+        "rsvp_method": "reply_to_advisor",
+        "rsvp_deadline": "2026-11-07T18:00:00+08:00",
+        "source_id": "event-001"
+      },
+      "trusted_context": {
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "source_refs": [
+          {
+            "source_id": "catalogue-001",
+            "kind": "catalogue",
+            "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+          },
+          {
+            "source_id": "event-001",
+            "kind": "event",
+            "reference": "fictional-fixture:event-001"
+          }
+        ],
+        "inventory": []
+      }
+    },
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-S6-001",
+      "case_id": null,
+      "scenario": "price_objection",
+      "reference_time": "2026-11-04T20:30:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "interaction": {
+        "mode": "reply",
+        "channel": "wechat",
+        "reply_to_message_id": "msg-001"
+      },
+      "client": {
+        "client_id": "fictional-client-001",
+        "preferred_address": "林女士",
+        "relationship_stage": "established",
+        "preferences": [
+          "偏爱岩灰色"
+        ],
+        "budget": null,
+        "owned_product_ids": [],
+        "contact_preferences": {
+          "proactive_status": "allowed",
+          "restricted_scenarios": [],
+          "restrictions_note": null,
+          "source_message_ids": []
+        }
+      },
+      "conversation_history": [
+        {
+          "message_id": "msg-001",
+          "role": "client",
+          "text": "循线肩包有点超预算，可以打折吗？",
+          "sent_at": "2026-11-04T20:00:00+08:00"
+        }
+      ],
+      "product_ids": [
+        "CX-B01"
+      ],
+      "scenario_context": {
+        "objection_type": "discount_request",
+        "objection_message_id": "msg-001",
+        "comparison": null
+      },
+      "trusted_context": {
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "source_refs": [
+          {
+            "source_id": "catalogue-001",
+            "kind": "catalogue",
+            "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+          }
+        ],
+        "inventory": []
+      }
+    }
+  ],
+  "non_success_request_variants": [
+    {
+      "expected_status": "blocked",
+      "request": {
+        "contract_version": "io-v0.1",
+        "request_id": "EX-BLOCKED-001",
+        "case_id": null,
+        "scenario": "reactivation",
+        "reference_time": "2026-11-04T20:30:00+08:00",
+        "timezone": "Asia/Shanghai",
+        "interaction": {
+          "mode": "proactive",
+          "channel": "wechat",
+          "reply_to_message_id": null
+        },
+        "client": {
+          "client_id": "fictional-client-001",
+          "preferred_address": "林女士",
+          "relationship_stage": "established",
+          "preferences": [
+            "偏爱岩灰色"
+          ],
+          "budget": null,
+          "owned_product_ids": [],
+          "contact_preferences": {
+            "proactive_status": "opted_out",
+            "restricted_scenarios": [],
+            "restrictions_note": null,
+            "source_message_ids": []
+          }
+        },
+        "conversation_history": [],
+        "product_ids": [],
+        "scenario_context": {
+          "last_contact_on": "2026-03-10",
+          "last_purchase_on": null,
+          "reconnect_purpose": "preference_update"
+        },
+        "trusted_context": {
+          "brand_version": "brand-v0.1",
+          "catalogue_version": "brand-v0.1",
+          "source_refs": [
+            {
+              "source_id": "catalogue-001",
+              "kind": "catalogue",
+              "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+            }
+          ],
+          "inventory": []
+        }
+      }
+    },
+    {
+      "expected_status": "needs_clarification",
+      "request": {
+        "contract_version": "io-v0.1",
+        "request_id": "EX-CLARIFY-001",
+        "case_id": null,
+        "scenario": "event_invitation",
+        "reference_time": "2026-11-04T20:30:00+08:00",
+        "timezone": "Asia/Shanghai",
+        "interaction": {
+          "mode": "proactive",
+          "channel": "wechat",
+          "reply_to_message_id": null
+        },
+        "client": {
+          "client_id": "fictional-client-001",
+          "preferred_address": "林女士",
+          "relationship_stage": "established",
+          "preferences": [
+            "偏爱岩灰色"
+          ],
+          "budget": null,
+          "owned_product_ids": [],
+          "contact_preferences": {
+            "proactive_status": "allowed",
+            "restricted_scenarios": [],
+            "restrictions_note": null,
+            "source_message_ids": []
+          }
+        },
+        "conversation_history": [],
+        "product_ids": [
+          "CX-B03"
+        ],
+        "scenario_context": {
+          "event_id": "fictional-event-001",
+          "title": "澄序皮具私享预览",
+          "format": "private_preview",
+          "starts_at": "2026-11-08T14:00:00+08:00",
+          "ends_at": "2026-11-08T17:00:00+08:00",
+          "venue": null,
+          "eligibility": "eligible",
+          "rsvp_method": "reply_to_advisor",
+          "rsvp_deadline": "2026-11-07T18:00:00+08:00",
+          "source_id": "event-001"
+        },
+        "trusted_context": {
+          "brand_version": "brand-v0.1",
+          "catalogue_version": "brand-v0.1",
+          "source_refs": [
+            {
+              "source_id": "catalogue-001",
+              "kind": "catalogue",
+              "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+            },
+            {
+              "source_id": "event-001",
+              "kind": "event",
+              "reference": "fictional-fixture:event-001"
+            }
+          ],
+          "inventory": []
+        }
+      }
+    },
+    {
+      "expected_status": "invalid_input",
+      "request": {
+        "contract_version": "io-v0.1",
+        "request_id": "EX-INVALID-001",
+        "case_id": null,
+        "scenario": "unsupported_scenario",
+        "reference_time": "2026-11-04T20:30:00+08:00",
+        "timezone": "Asia/Shanghai",
+        "interaction": {
+          "mode": "proactive",
+          "channel": "wechat",
+          "reply_to_message_id": null
+        },
+        "client": {
+          "client_id": "fictional-client-001",
+          "preferred_address": "林女士",
+          "relationship_stage": "established",
+          "preferences": [
+            "偏爱岩灰色"
+          ],
+          "budget": null,
+          "owned_product_ids": [],
+          "contact_preferences": {
+            "proactive_status": "allowed",
+            "restricted_scenarios": [],
+            "restrictions_note": null,
+            "source_message_ids": []
+          }
+        },
+        "conversation_history": [],
+        "product_ids": [],
+        "scenario_context": {
+          "occasion_type": "birthday",
+          "occasion_name": null,
+          "occasion_date": "2026-11-04"
+        },
+        "trusted_context": {
+          "brand_version": "brand-v0.1",
+          "catalogue_version": "brand-v0.1",
+          "source_refs": [
+            {
+              "source_id": "catalogue-001",
+              "kind": "catalogue",
+              "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+            }
+          ],
+          "inventory": []
+        }
+      }
+    }
+  ],
+  "illustrative_responses": [
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-S1-001",
+      "case_id": null,
+      "scenario": "greeting",
+      "status": "generated",
+      "candidates": [
+        {
+          "candidate_id": 1,
+          "text": "林女士，生日快乐。愿您新的一岁自在从容，日常里常有值得期待的小欢喜。"
+        },
+        {
+          "candidate_id": 2,
+          "text": "林女士，今天想送上一份生日祝福。愿您忙碌之余也有属于自己的轻松时光，一切顺心。"
+        },
+        {
+          "candidate_id": 3,
+          "text": "生日快乐，林女士。愿新的一岁有喜欢的风景，也有从容享受生活的好心情。"
+        }
+      ],
+      "notices": [],
+      "clarifications": [],
+      "metadata": {
+        "run_id": "illustrative-run-not-executed",
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "tool_version": "illustrative-not-implemented",
+        "prompt_version": "illustrative-not-implemented",
+        "model_id": "illustrative-not-invoked",
+        "started_at": "2026-11-04T20:30:00+08:00",
+        "finished_at": "2026-11-04T20:30:00+08:00",
+        "generation_attempts": 1,
+        "resolved_product_ids": []
+      }
+    },
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-BLOCKED-001",
+      "case_id": null,
+      "scenario": "reactivation",
+      "status": "blocked",
+      "candidates": [],
+      "notices": [
+        {
+          "code": "CONTACT_RESTRICTED",
+          "field": "client.contact_preferences.proactive_status",
+          "message": "客户已明确拒绝主动联系，不生成外发消息。"
+        }
+      ],
+      "clarifications": [],
+      "metadata": {
+        "run_id": "illustrative-run-not-executed",
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "tool_version": null,
+        "prompt_version": null,
+        "model_id": null,
+        "started_at": "2026-11-04T20:30:00+08:00",
+        "finished_at": "2026-11-04T20:30:00+08:00",
+        "generation_attempts": 0,
+        "resolved_product_ids": []
+      }
+    },
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-CLARIFY-001",
+      "case_id": null,
+      "scenario": "event_invitation",
+      "status": "needs_clarification",
+      "candidates": [],
+      "notices": [
+        {
+          "code": "ESSENTIAL_FACT_MISSING",
+          "field": "scenario_context.venue",
+          "message": "活动地点尚未确认。"
+        }
+      ],
+      "clarifications": [
+        {
+          "field": "scenario_context.venue",
+          "question": "请补充已确认的活动地点。"
+        }
+      ],
+      "metadata": {
+        "run_id": "illustrative-run-not-executed",
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "tool_version": null,
+        "prompt_version": null,
+        "model_id": null,
+        "started_at": "2026-11-04T20:30:00+08:00",
+        "finished_at": "2026-11-04T20:30:00+08:00",
+        "generation_attempts": 0,
+        "resolved_product_ids": []
+      }
+    },
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-INVALID-001",
+      "case_id": null,
+      "scenario": null,
+      "status": "invalid_input",
+      "candidates": [],
+      "notices": [
+        {
+          "code": "INPUT_INVALID",
+          "field": "scenario",
+          "message": "Unsupported scenario identifier."
+        }
+      ],
+      "clarifications": [],
+      "metadata": {
+        "run_id": "illustrative-run-not-executed",
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "tool_version": null,
+        "prompt_version": null,
+        "model_id": null,
+        "started_at": "2026-11-04T20:30:00+08:00",
+        "finished_at": "2026-11-04T20:30:00+08:00",
+        "generation_attempts": 0,
+        "resolved_product_ids": []
+      }
+    },
+    {
+      "contract_version": "io-v0.1",
+      "request_id": "EX-S2-001",
+      "case_id": null,
+      "scenario": "product_recommendation",
+      "status": "generation_failed",
+      "candidates": [],
+      "notices": [
+        {
+          "code": "MODEL_ERROR",
+          "field": null,
+          "message": "Illustrative provider failure; no candidate copy returned."
+        }
+      ],
+      "clarifications": [],
+      "metadata": {
+        "run_id": "illustrative-run-not-executed",
+        "brand_version": "brand-v0.1",
+        "catalogue_version": "brand-v0.1",
+        "tool_version": null,
+        "prompt_version": null,
+        "model_id": "illustrative-not-invoked",
+        "started_at": "2026-11-04T20:30:00+08:00",
+        "finished_at": "2026-11-04T20:30:00+08:00",
+        "generation_attempts": 1,
+        "resolved_product_ids": [
+          "CX-B04"
+        ]
+      }
+    }
+  ]
+}

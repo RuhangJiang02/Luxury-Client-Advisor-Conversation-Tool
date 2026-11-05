@@ -1,0 +1,33 @@
+{
+  "audited_at": "2026-11-05T19:11:55.690087+08:00",
+  "timezone": "Asia/Shanghai",
+  "runtime": "tool-v0.8.2 / prompt-v0.8.2",
+  "saved_measurement": {
+    "cases": 50,
+    "messages": 150,
+    "provider_attempts": 51,
+    "human_ratings_pending": 50
+  },
+  "recorded_regression_tests": 76,
+  "recorded_guardrails": {
+    "matched": 20,
+    "total": 20,
+    "model_calls": 0
+  },
+  "recorded_ui_checks": 44,
+  "ui_checks_use_test_doubles": true,
+  "required_report_files_present": true,
+  "archive_present_and_matches_sidecar": true,
+  "archive": "submission/CHENGXU-review-draft-v0.8.2-docs-20261105.zip",
+  "readme_relative_links_pass": true,
+  "readme_stale_items_corrected": [
+    "completed generation/output/provenance checklist",
+    "existing report/package descriptions",
+    "rubric already defined rather than future work"
+  ],
+  "case_work_deferred_by_user": true,
+  "model_calls_or_test_reruns": 0,
+  "case_evaluation_runs": 0,
+  "archive_refreshed": false,
+  "next_active_work": "Final document/consistency review and delivery/access plan; quality acceptance remains pending"
+}

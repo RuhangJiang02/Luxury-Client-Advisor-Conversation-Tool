@@ -1,0 +1,155 @@
+{
+  "guardrail_results": [
+    {
+      "case_id": "G-01",
+      "actual": "blocked",
+      "expected": "blocked",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-02",
+      "actual": "blocked",
+      "expected": "blocked",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-03",
+      "actual": "blocked",
+      "expected": "blocked",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-04",
+      "actual": "needs_clarification",
+      "expected": "needs_clarification",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-05",
+      "actual": "needs_clarification",
+      "expected": "needs_clarification",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-06",
+      "actual": "blocked",
+      "expected": "blocked",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-07",
+      "actual": "needs_clarification",
+      "expected": "needs_clarification",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-08",
+      "actual": "needs_clarification",
+      "expected": "needs_clarification",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-09",
+      "actual": "needs_clarification",
+      "expected": "needs_clarification",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-10",
+      "actual": "needs_clarification",
+      "expected": "needs_clarification",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-11",
+      "actual": "invalid_input",
+      "expected": "invalid_input",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-12",
+      "actual": "invalid_input",
+      "expected": "invalid_input",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-13",
+      "actual": "invalid_input",
+      "expected": "invalid_input",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-14",
+      "actual": "invalid_input",
+      "expected": "invalid_input",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-15",
+      "actual": "needs_clarification",
+      "expected": "needs_clarification",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-16",
+      "actual": "invalid_input",
+      "expected": "invalid_input",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-17",
+      "actual": "needs_clarification",
+      "expected": "needs_clarification",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-18",
+      "actual": "invalid_input",
+      "expected": "invalid_input",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-19",
+      "actual": "needs_clarification",
+      "expected": "needs_clarification",
+      "passed": true,
+      "attempts": 0
+    },
+    {
+      "case_id": "G-20",
+      "actual": "invalid_input",
+      "expected": "invalid_input",
+      "passed": true,
+      "attempts": 0
+    }
+  ],
+  "evaluation_implementation": {
+    "tool_version": "tool-v0.8.2",
+    "prompt_version": "prompt-v0.8.2",
+    "source_hashes": {
+      "scripts/evaluate_cases.py": "317e4325dbae5aa4c6e9214d24ec408ff0268a9f9af7d1eee907eabcb0c6a9ff",
+      "client_advisor/evaluation.py": "9f0c83f65833aca16cc01ebf5b627cf78d5892d87f30d503a0584e6748c3853f",
+      "client_advisor/grounding.py": "262342a16c90454f5f24906f124865ae50ac6c06b2ba663338b6e0f7e6ac2447",
+      "client_advisor/source_checks.py": "cd0025aa18332a81b27bfd76b073c935e6502b0aff991ee8b815a86ad214ace0",
+      "client_advisor/output_checks.py": "e1a80efafa29224998c62448137b775ed3a8bc3ce4079df41b2cc3055f3bbc8d"
+    }
+  }
+}

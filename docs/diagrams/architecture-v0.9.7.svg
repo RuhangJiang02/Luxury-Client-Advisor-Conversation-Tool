@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860" role="img" aria-labelledby="title desc">
+<title id="title">CHENGXU local tool architecture — v0.9.7</title>
+<desc id="desc">UI and batch requests share the generation service: identity and input validation, preflight, program reference drafts, actual local inference, parsing, conditional source frames, client-copy framing, output checks, contract response and persistence. Saved artifacts feed offline verification, separate AI and human review, CSV export and a private review package. Rejected output has bounded repair with no provider-failure fallback.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53647a"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172a43}.title{font-size:25px;font-weight:700}.sub{font-size:14px;fill:#53647a}.label{font-size:16px;font-weight:700}.body{font-size:14px}.lane{font-size:13px;font-weight:700;letter-spacing:1px;fill:#53647a}.edge{fill:none;stroke:#53647a;stroke-width:2;marker-end:url(#arrow)}.failure{fill:none;stroke:#b7791f;stroke-width:1.7;stroke-dasharray:6 5;marker-end:url(#arrow)}</style>
+<rect width="1600" height="860" fill="#fff"/>
+<text x="40" y="36" class="title">CHENGXU — current local runtime and evaluation architecture</text>
+<text x="40" y="61" class="sub">tool-v0.9.7 / prompt-v0.9.7 · documentation arch-v0.5 · source-bound reference editing with actual local inference</text>
+<rect x="20" y="85" width="1560" height="435" rx="15" fill="#f5f8fc" stroke="#dbe4ee"/>
+<text x="40" y="108" class="lane">SHARED GENERATIONSERVICE — LOCAL OLLAMA PATH</text>
+<rect x="20" y="555" width="1560" height="170" rx="15" fill="#f4faf7" stroke="#d8e9df"/>
+<text x="40" y="578" class="lane">PERSISTED EVIDENCE AND OFFLINE OPERATIONS</text>
+
+<rect x="40" y="130" width="260" height="92" rx="9" fill="#e9f1ff" stroke="#c4d2e2"/>
+<text x="54" y="156" class="label">Advisor UI / batch CLI</text>
+<text x="54" y="179" class="body">Explicit submitted request</text>
+<text x="54" y="197" class="body">Preview is separate</text>
+<rect x="350" y="130" width="260" height="92" rx="9" fill="#fff" stroke="#c4d2e2"/>
+<text x="364" y="156" class="label">Reserve and validate</text>
+<text x="364" y="179" class="body">SQLite request identity</text>
+<text x="364" y="197" class="body">Schema, references and dates</text>
+<rect x="660" y="130" width="260" height="92" rx="9" fill="#fff" stroke="#c4d2e2"/>
+<text x="674" y="156" class="label">Business preflight</text>
+<text x="674" y="179" class="body">Contact and essential facts</text>
+<text x="674" y="197" class="body">Product / care eligibility</text>
+<rect x="970" y="130" width="260" height="92" rx="9" fill="#fff" stroke="#c4d2e2"/>
+<text x="984" y="156" class="label">Reference construction</text>
+<text x="984" y="179" class="body">Three program-authored drafts</text>
+<text x="984" y="197" class="body">Derived from supplied fields</text>
+<rect x="1280" y="130" width="260" height="92" rx="9" fill="#e9f1ff" stroke="#c4d2e2"/>
+<text x="1294" y="156" class="label">Actual local inference</text>
+<text x="1294" y="179" class="body">Ollama / qwen3:4b</text>
+<text x="1294" y="197" class="body">Recorded temperature: 0</text>
+<path d="M300 176H350" class="edge"/>
+<path d="M610 176H660" class="edge"/>
+<path d="M920 176H970" class="edge"/>
+<path d="M1230 176H1280" class="edge"/>
+<rect x="1280" y="300" width="260" height="92" rx="9" fill="#fff" stroke="#c4d2e2"/>
+<text x="1294" y="326" class="label">Parse provider JSON</text>
+<text x="1294" y="349" class="body">Structure and internal labels</text>
+<text x="1294" y="367" class="body">Original response retained</text>
+<rect x="970" y="300" width="260" height="92" rx="9" fill="#fff" stroke="#c4d2e2"/>
+<text x="984" y="326" class="label">Conditional source frames</text>
+<text x="984" y="349" class="body">Greeting / product / event</text>
+<text x="984" y="367" class="body">Other scenarios pass through</text>
+<rect x="660" y="300" width="260" height="92" rx="9" fill="#fff" stroke="#c4d2e2"/>
+<text x="674" y="326" class="label">Client-copy framing</text>
+<text x="674" y="349" class="body">Known address / required policy</text>
+<text x="674" y="367" class="body">Audited narrow normalization</text>
+<rect x="350" y="300" width="260" height="92" rx="9" fill="#fff" stroke="#c4d2e2"/>
+<text x="364" y="326" class="label">Final output checks</text>
+<text x="364" y="349" class="body">Source, policy, scope, diversity</text>
+<text x="364" y="367" class="body">Checks are not semantic proof</text>
+<rect x="40" y="300" width="260" height="92" rx="9" fill="#e9f1ff" stroke="#c4d2e2"/>
+<text x="54" y="326" class="label">Contract response</text>
+<text x="54" y="349" class="body">3 candidates or explicit failure</text>
+<text x="54" y="367" class="body">No automatic sending</text>
+<path d="M1410 222V300" class="edge"/>
+<path d="M350 346H300" class="edge"/>
+<path d="M660 346H610" class="edge"/>
+<path d="M970 346H920" class="edge"/>
+<path d="M1280 346H1230" class="edge"/>
+<path d="M790 222V260H170V300" class="edge"/>
+<text x="360" y="251" class="sub">Invalid / blocked / clarification outcomes bypass inference</text>
+<rect x="350" y="438" width="1190" height="59" rx="8" fill="#fff7e8" stroke="#e5c58e"/>
+<text x="370" y="462" class="label">Rejected output → bounded repair if budget remains; otherwise explicit non-success</text>
+<text x="370" y="483" class="body">No provider switch or reference/preview fallback. All attempts remain available; never silently substitute an older candidate.</text>
+<path d="M1410 392V438" class="failure"/>
+<path d="M480 392V438" class="failure"/>
+<rect x="40" y="600" width="260" height="92" rx="9" fill="#e8f5ed" stroke="#c4d2e2"/>
+<text x="54" y="626" class="label">Persist result</text>
+<text x="54" y="649" class="body">SQLite identity and artifacts</text>
+<text x="54" y="667" class="body">Raw attempts + final response</text>
+<rect x="350" y="600" width="260" height="92" rx="9" fill="#e8f5ed" stroke="#c4d2e2"/>
+<text x="364" y="626" class="label">Saved batch evidence</text>
+<text x="364" y="649" class="body">Manifest / per-case JSON</text>
+<text x="364" y="667" class="body">References and transformations</text>
+<rect x="660" y="600" width="260" height="92" rx="9" fill="#e8f5ed" stroke="#c4d2e2"/>
+<text x="674" y="626" class="label">Offline operations</text>
+<text x="674" y="649" class="body">Verify source-to-export chain</text>
+<text x="674" y="667" class="body">Export exact eight-column CSV</text>
+<rect x="970" y="600" width="260" height="92" rx="9" fill="#e8f5ed" stroke="#c4d2e2"/>
+<text x="984" y="626" class="label">Separate review records</text>
+<text x="984" y="649" class="body">AI source scores / comments</text>
+<text x="984" y="667" class="body">Human-rating template: pending</text>
+<rect x="1280" y="600" width="260" height="92" rx="9" fill="#e8f5ed" stroke="#c4d2e2"/>
+<text x="1294" y="626" class="label">Private review package</text>
+<text x="1294" y="649" class="body">B / C / D / E, source, evidence</text>
+<text x="1294" y="667" class="body">No publishing or sending</text>
+<path d="M170 392V600" class="edge"/>
+<path d="M300 646H350" class="edge"/>
+<path d="M610 646H660" class="edge"/>
+<path d="M920 646H970" class="edge"/>
+<path d="M1230 646H1280" class="edge"/>
+<text x="40" y="760" class="label">Authorship boundary</text>
+<text x="40" y="785" class="body">Program references + actual model editing + trusted composition. Preserve the original provider response and every final transformation.</text>
+<text x="40" y="810" class="body">The offline lane groups evidence operations, not a mandatory scoring-before-export order. AI self-review is not genuine human acceptance.</text>
+<text x="40" y="835" class="sub">Optional remote adapter is not shown or validated by the local result. No CRM, live inventory, production hosting or automatic outreach is implemented.</text>
+</svg>

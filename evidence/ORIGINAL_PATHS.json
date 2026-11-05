@@ -1,0 +1,26 @@
+{
+  "note": "Original artifact paths are preserved; prefixes map them to portable copies. Evidence is copied, not evaluated/regenerated.",
+  "prefixes": {
+    "runs/full-50-v0.8.2": "evidence/full-50",
+    "runs/guardrails-v0.8.2": "evidence/guardrails",
+    "runs/full-50-v0.7.1": "evidence/baseline-v0.7.1",
+    "runs/full-50-v0.6.1": "evidence/baseline-v0.6.1-initial",
+    "runs/full-50-recovery-v0.6.1": "evidence/baseline-v0.6.1-recovery",
+    "runs/full-50-reconciled-v0.6.1": "evidence/baseline-v0.6.1",
+    "runs/pre-freeze-regression-v0.6.1": "evidence/pre-freeze-regression-v0.6.1",
+    "runs/source-repair-v0.7.0": "evidence/iterations/source-repair-v0.7.0",
+    "runs/source-repair-v0.7.1": "evidence/iterations/source-repair-v0.7.1",
+    "runs/composition-validation-v0.8.0": "evidence/iterations/composition-validation-v0.8.0",
+    "runs/composition-validation-v0.8.1": "evidence/iterations/composition-validation-v0.8.1",
+    "runs/composition-validation-v0.8.2": "evidence/iterations/composition-validation-v0.8.2",
+    "runs/full-50-v0.9.2": "runs/full-50-v0.9.2",
+    "runs/full-50-v0.9.3": "runs/full-50-v0.9.3",
+    "runs/full-50-v0.9.4": "runs/full-50-v0.9.4",
+    "runs/full-50-v0.9.5": "runs/full-50-v0.9.5",
+    "runs/full-50-v0.9.6": "runs/full-50-v0.9.6",
+    "runs/full-50-v0.9.7": "runs/full-50-v0.9.7",
+    "runs/guardrails-v0.9.7": "runs/guardrails-v0.9.7",
+    "runs/quality-targets-v0.9.0": "runs/quality-targets-v0.9.0",
+    "runs/quality-targets-v0.9.1": "runs/quality-targets-v0.9.1"
+  }
+}

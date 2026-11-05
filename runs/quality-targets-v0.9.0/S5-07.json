@@ -1,0 +1,241 @@
+{
+  "request": {
+    "contract_version": "io-v0.1",
+    "request_id": "quality-targets-v0.9.0:dataset-v0.1-S5-07",
+    "case_id": "S5-07",
+    "scenario": "event_invitation",
+    "reference_time": "2026-11-04T20:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "interaction": {
+      "mode": "proactive",
+      "channel": "wechat",
+      "reply_to_message_id": null
+    },
+    "client": {
+      "client_id": "fictional-S5-07",
+      "preferred_address": "顾客甸",
+      "relationship_stage": "established",
+      "preferences": [
+        "想了解手提包的结构细节"
+      ],
+      "budget": null,
+      "owned_product_ids": [],
+      "contact_preferences": {
+        "proactive_status": "allowed",
+        "restricted_scenarios": [],
+        "restrictions_note": null,
+        "source_message_ids": []
+      }
+    },
+    "conversation_history": [],
+    "product_ids": [
+      "CX-B03"
+    ],
+    "scenario_context": {
+      "event_id": "fictional-event-S5-07",
+      "title": "澄序皮具私享预览",
+      "format": "private_preview",
+      "starts_at": "2026-11-08T14:00:00+08:00",
+      "ends_at": "2026-11-08T17:00:00+08:00",
+      "venue": "澄序虚构示范精品店·二层会客区",
+      "eligibility": "eligible",
+      "rsvp_method": "reply_to_advisor",
+      "rsvp_deadline": null,
+      "source_id": "event-001"
+    },
+    "trusted_context": {
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "source_refs": [
+        {
+          "source_id": "catalogue-001",
+          "kind": "catalogue",
+          "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+        },
+        {
+          "source_id": "event-001",
+          "kind": "event",
+          "reference": "fictional-fixture:event-001"
+        }
+      ],
+      "inventory": []
+    }
+  },
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.3,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "tool": "tool-v0.9.0",
+  "prompt": "prompt-v0.9.0",
+  "rules_hash": "ea4b10c0cd50929c0047a43f4dffd94134d315527762f75c5d69322b4f05895a",
+  "catalogue_hash": "28f6d6452b2ac144ad0920115be9401da89e39e131981ef45acebd1a708ff705",
+  "execution_kind": "live",
+  "identity": "67c3107d828c6184aa4594c1b20ebc15a3f01d1c7a520ece026c5a44f0bbe430",
+  "request_id": "quality-targets-v0.9.0:dataset-v0.1-S5-07",
+  "resolved_products": [
+    {
+      "product_id": "CX-B03",
+      "name": "月弧手提包",
+      "english_name": "Yuehu Top-handle Bag",
+      "price": 22800,
+      "currency": "CNY",
+      "material": "Smooth cowhide exterior; textile lining",
+      "dimensions_cm": [
+        24.0,
+        19.0,
+        10.0
+      ],
+      "colors": [
+        "墨黑",
+        "砂白"
+      ],
+      "design_facts": "Flap with turn-lock closure; top handle; detachable adjustable strap, 90–110 cm; one internal slip pocket.",
+      "detail": "光面牛皮、旋锁开合，配可拆卸肩带",
+      "carrying_methods": [
+        "shoulder",
+        "crossbody",
+        "handheld"
+      ],
+      "category": "bag",
+      "dust_bag_included": true
+    }
+  ],
+  "attempts": [
+    {
+      "number": 1,
+      "started_at": "2026-11-05T19:51:45.487489+08:00",
+      "messages": [
+        {
+          "role": "system",
+          "content": "写三条自然中文微信邀请正文。程序添加已核实的称呼、活动安排和报名截止，你只写邀请角度；不写活动名称、日期、数字、时刻或地点。每条能独立接在活动安排后面，不写“如上/资料/这里的信息”。第一条邀请参加，有兴趣直接回复我；第二条如果想看看一个已知设计，可来参加，不假定已经感兴趣；第三条说明按自己的安排决定，不必为此调整时间。每条一两句，不夸大品质，不编造商品、赠礼、优惠或服务，不说已确认出席。没有商品资料时第二条只问这次活动是否方便参加，不提“这个设计”。只返回JSON：{\"status\":\"generated\",\"messages\":[\"正文一\",\"正文二\",\"正文三\"]}"
+        },
+        {
+          "role": "user",
+          "content": "已知虚构信息：\n{\"客户称呼\": \"顾客甸\", \"客户原话与历史\": [], \"已知偏好\": [\"想了解手提包的结构细节\"], \"已知设计\": [{\"名称\": \"月弧手提包\", \"设计\": \"光面牛皮、旋锁开合，配可拆卸肩带\"}], \"三个不同侧重\": [\"邀请参加，有兴趣直接回复我\", \"如果想看看已知设计，可参加；无商品则问是否方便参加\", \"按自己安排决定，不必调整时间\"], \"提示\": \"已知偏好中想了解结构时，第二条明确使用给定结构细节，不笼统问有无疑问。\"}\n按三个重点返回JSON，不显示重点标签。"
+        }
+      ],
+      "content": "{\"status\":\"generated\",\"messages\":[\"顾客甸，邀请参加，有兴趣直接回复我。\",\"顾客甸，如果想看看已知设计，可参加；无商品则问是否方便参加。\",\"顾客甸，按自己的安排决定，不必为此调整时间。\"]}",
+      "finish_reason": "stop",
+      "reported_model": "qwen3:4b",
+      "provider_response_id": null,
+      "usage": {
+        "prompt_tokens": 344,
+        "completion_tokens": 56,
+        "total_tokens": 400
+      },
+      "structured_composition": {
+        "method": "verified-event-frame-v0.2",
+        "model_authored_bodies": [
+          "顾客甸，邀请参加，有兴趣直接回复我。",
+          "顾客甸，如果想看看已知设计，可参加；无商品则问是否方便参加。",
+          "顾客甸，按自己的安排决定，不必为此调整时间。"
+        ],
+        "verified_frame": "顾客甸，11月8日14:00想邀请您参加澄序皮具私享预览，地点是澄序虚构示范精品店·二层会客区。",
+        "source_id": "event-001",
+        "source_fields": [
+          "client.preferred_address",
+          "scenario_context.title",
+          "scenario_context.starts_at",
+          "timezone",
+          "scenario_context.venue",
+          "scenario_context.rsvp_deadline"
+        ],
+        "final_messages": [
+          "顾客甸，11月8日14:00想邀请您参加澄序皮具私享预览，地点是澄序虚构示范精品店·二层会客区。顾客甸，邀请参加，有兴趣直接回复我。",
+          "顾客甸，11月8日14:00想邀请您参加澄序皮具私享预览，地点是澄序虚构示范精品店·二层会客区。顾客甸，如果想看看已知设计，可参加；无商品则问是否方便参加。",
+          "顾客甸，11月8日14:00想邀请您参加澄序皮具私享预览，地点是澄序虚构示范精品店·二层会客区。顾客甸，按自己的安排决定，不必为此调整时间。"
+        ]
+      },
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.4151
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.3913
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.3158
+        }
+      ],
+      "validation_errors": [],
+      "finished_at": "2026-11-05T19:51:47.458036+08:00",
+      "elapsed_seconds": 1.9705
+    }
+  ],
+  "response": {
+    "contract_version": "io-v0.1",
+    "request_id": "quality-targets-v0.9.0:dataset-v0.1-S5-07",
+    "case_id": "S5-07",
+    "scenario": "event_invitation",
+    "status": "generated",
+    "candidates": [
+      {
+        "candidate_id": 1,
+        "text": "顾客甸，11月8日14:00想邀请您参加澄序皮具私享预览，地点是澄序虚构示范精品店·二层会客区。顾客甸，邀请参加，有兴趣直接回复我。"
+      },
+      {
+        "candidate_id": 2,
+        "text": "顾客甸，11月8日14:00想邀请您参加澄序皮具私享预览，地点是澄序虚构示范精品店·二层会客区。顾客甸，如果想看看已知设计，可参加；无商品则问是否方便参加。"
+      },
+      {
+        "candidate_id": 3,
+        "text": "顾客甸，11月8日14:00想邀请您参加澄序皮具私享预览，地点是澄序虚构示范精品店·二层会客区。顾客甸，按自己的安排决定，不必为此调整时间。"
+      }
+    ],
+    "notices": [],
+    "clarifications": [],
+    "metadata": {
+      "run_id": "25a6067e-0ad2-4046-bb22-9de284d6d18b",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.9.0",
+      "prompt_version": "prompt-v0.9.0",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-05T19:51:45.486028+08:00",
+      "finished_at": "2026-11-05T19:51:47.458050+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": [
+        "CX-B03"
+      ]
+    }
+  },
+  "derived_context": {
+    "assessment_eligible": null,
+    "eligible_product_ids": [
+      "CX-B03"
+    ],
+    "current_inventory": [],
+    "writing_constraints": {
+      "receipt": {
+        "confirmed": false,
+        "source_message_id": null
+      },
+      "pricing_rationale_known": false,
+      "alternative_absence_known": false,
+      "candidate_lenses": [
+        "直接简洁邀请，交代活动名称、日期时刻、完整地点，不写字段标签",
+        "如果客户想看看设计，可参加这次活动；交代活动安排和完整地点，不假装客户已有兴趣",
+        "让客户可自由安排时间，交代活动名称、日期时刻、完整地点，邀请有兴趣时回复；不用公文腔"
+      ]
+    }
+  }
+}

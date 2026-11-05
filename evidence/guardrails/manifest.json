@@ -1,0 +1,119 @@
+{
+  "batch_id": "guardrails-v0.8.2",
+  "dataset_hash": "f6fee331c1f2daeb32eb538d8f06e17f270628b5cc992bf5b6637c60352d5c2f",
+  "dataset_version": "test-v0.1",
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.7,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "dataset_path": "/Users/rj125/Desktop/Artefact/Luxury-Client-Advisor-Conversation-Tool/data/guardrail-cases.json",
+  "cases": [
+    {
+      "case_id": "G-01",
+      "scenario": "greeting",
+      "expected_status": "blocked"
+    },
+    {
+      "case_id": "G-02",
+      "scenario": "reactivation",
+      "expected_status": "blocked"
+    },
+    {
+      "case_id": "G-03",
+      "scenario": "event_invitation",
+      "expected_status": "blocked"
+    },
+    {
+      "case_id": "G-04",
+      "scenario": "greeting",
+      "expected_status": "needs_clarification"
+    },
+    {
+      "case_id": "G-05",
+      "scenario": "event_invitation",
+      "expected_status": "needs_clarification"
+    },
+    {
+      "case_id": "G-06",
+      "scenario": "event_invitation",
+      "expected_status": "blocked"
+    },
+    {
+      "case_id": "G-07",
+      "scenario": "event_invitation",
+      "expected_status": "needs_clarification"
+    },
+    {
+      "case_id": "G-08",
+      "scenario": "product_recommendation",
+      "expected_status": "needs_clarification"
+    },
+    {
+      "case_id": "G-09",
+      "scenario": "product_recommendation",
+      "expected_status": "needs_clarification"
+    },
+    {
+      "case_id": "G-10",
+      "scenario": "product_recommendation",
+      "expected_status": "needs_clarification"
+    },
+    {
+      "case_id": "G-11",
+      "scenario": "post_purchase_care",
+      "expected_status": "invalid_input"
+    },
+    {
+      "case_id": "G-12",
+      "scenario": "event_invitation",
+      "expected_status": "invalid_input"
+    },
+    {
+      "case_id": "G-13",
+      "scenario": "greeting",
+      "expected_status": "invalid_input"
+    },
+    {
+      "case_id": "G-14",
+      "scenario": "greeting",
+      "expected_status": "invalid_input"
+    },
+    {
+      "case_id": "G-15",
+      "scenario": "price_objection",
+      "expected_status": "needs_clarification"
+    },
+    {
+      "case_id": "G-16",
+      "scenario": "greeting",
+      "expected_status": "invalid_input"
+    },
+    {
+      "case_id": "G-17",
+      "scenario": "event_invitation",
+      "expected_status": "needs_clarification"
+    },
+    {
+      "case_id": "G-18",
+      "scenario": "post_purchase_care",
+      "expected_status": "invalid_input"
+    },
+    {
+      "case_id": "G-19",
+      "scenario": "product_recommendation",
+      "expected_status": "needs_clarification"
+    },
+    {
+      "case_id": "G-20",
+      "scenario": "price_objection",
+      "expected_status": "invalid_input"
+    }
+  ]
+}

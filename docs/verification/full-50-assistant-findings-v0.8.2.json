@@ -1,0 +1,42 @@
+[
+  {
+    "defect_id": "L-13",
+    "case_id": "S3-06",
+    "candidate_id": 2,
+    "run_id": "6a2e65e5-14f8-4a30-a036-8b618bcb022a",
+    "excerpt": "收到后/以后，记得避免长时间日晒和水、油、香水的接触，保持干燥并放入随附防尘袋。",
+    "assistant_observation": "Copies the template-like phrase received-after/later into a response about an already reported water issue; scenario fit and naturalness remain poor.",
+    "source_to_review": "care_topic=reported_issue and client issue message",
+    "review_kind": "assistant qualitative observation, not human adjudication or completed scoring"
+  },
+  {
+    "defect_id": "L-16",
+    "case_id": "S6-06",
+    "candidate_id": 2,
+    "run_id": "a1b99979-1274-4cfb-a517-a9a8cd604545",
+    "excerpt": "循线肩包采用粒面牛皮制作，这是目前我们唯一可提供的材质。关于价格和折扣政策，我们再次说明不提供议价折扣。",
+    "assistant_observation": "The absolute claim that this is the only material that can be offered is not established as an offer/availability policy.",
+    "source_to_review": "catalogue CX-B01 and brand rules: no supply/alternative absence evidence",
+    "review_kind": "assistant qualitative observation, not human adjudication or completed scoring"
+  },
+  {
+    "defect_id": "L-05",
+    "case_id": "S4-05",
+    "candidate_id": 3,
+    "run_id": "69260bfe-6c58-467f-b458-25e0a79f4d88",
+    "excerpt": "方便的时候再聊，我这边随时待命。",
+    "assistant_observation": "Generic availability and repetitive contact intent still need semantic diversity review.",
+    "source_to_review": "reconnect purpose and all three candidates",
+    "review_kind": "assistant qualitative observation, not human adjudication or completed scoring"
+  },
+  {
+    "defect_id": "L-10",
+    "case_id": "S5-01",
+    "candidate_id": 2,
+    "run_id": "55885467-39a4-4de8-a00d-f55dc936012e",
+    "excerpt": "顾客甲，11月8日14:00想邀请您参加澄序皮具私享预览，地点是澄序虚构示范精品店·二层会客区。如果您想查看光面牛皮、旋锁开合以及可拆卸肩带的设计细节，这里为您准备了相关信息。",
+    "assistant_observation": "Claim that related information has been prepared and informational wording should be reviewed against the event record; model body remains more about design information than attendance.",
+    "source_to_review": "event source record and BR-08/BR-12",
+    "review_kind": "assistant qualitative observation, not human adjudication or completed scoring"
+  }
+]

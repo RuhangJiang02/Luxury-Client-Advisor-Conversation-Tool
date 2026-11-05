@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "key_configured": true,
+  "api_response_received": true,
+  "successful_model_outputs": 0,
+  "diagnosis": "credit_balance_exhausted",
+  "smoke_runs": [
+    {
+      "batch": "batch-20261104-213529-373747",
+      "run_id": "d056e882-11b1-4c59-bb85-c03aef805428",
+      "case_id": "S1-01",
+      "tool_version": "tool-v0.2",
+      "model": "gpt-4.1-mini",
+      "status": "generation_failed",
+      "attempts": 2,
+      "error_codes": [
+        "HTTP_429",
+        "HTTP_429"
+      ],
+      "candidate_count": 0
+    },
+    {
+      "batch": "batch-20261104-213644-edca87",
+      "run_id": "323caff2-f6a1-4fa5-a7d8-4961760a0209",
+      "case_id": "S1-01",
+      "tool_version": "tool-v0.2.1",
+      "model": "gpt-4.1-mini",
+      "status": "generation_failed",
+      "attempts": 1,
+      "error_codes": [
+        "QUOTA_CREDIT_BALANCE_EXHAUSTED"
+      ],
+      "candidate_count": 0
+    }
+  ],
+  "regression_tests": {
+    "count": 20,
+    "passed": 20,
+    "failures": 0
+  },
+  "notes": "Only safe error codes retained here. Raw credentials and provider error bodies are excluded. Initial run retried HTTP 429 twice; tool-v0.2.1 recognizes terminal credit/quota codes and stops after one attempt."
+}

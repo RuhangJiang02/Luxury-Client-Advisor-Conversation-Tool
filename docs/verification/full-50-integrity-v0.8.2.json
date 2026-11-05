@@ -1,0 +1,17 @@
+{
+  "cases": 50,
+  "messages": 150,
+  "exact_eight_columns": true,
+  "csv_matches_original_text": true,
+  "frozen_hashes_unchanged": true,
+  "single_runtime_identity": true,
+  "reconstructed_composition_counts": {
+    "greeting": 8,
+    "product_recommendation": 9,
+    "event_invitation": 8
+  },
+  "raw_model_bodies_and_composed_messages_match": true,
+  "all_source_map_hashes_verified": true,
+  "human_ratings_pending": 50,
+  "release_accepted": false
+}

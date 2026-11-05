@@ -1,0 +1,32 @@
+{
+  "version": "v0.9.5",
+  "generated_cases": 50,
+  "quality_target_met": false,
+  "human_acceptance_complete": false,
+  "findings": [
+    {
+      "case_id": "S6-04",
+      "candidate_ids": [
+        1,
+        2,
+        3
+      ],
+      "rule": "HF-06 suggested by AI",
+      "excerpt": "消息一： / 消息二： / 消息三：",
+      "issue": "Internal headings missed by narrow marker parser."
+    },
+    {
+      "case_id": "S6-05",
+      "candidate_ids": [
+        2,
+        3
+      ],
+      "issue": "Model changed respectful pronoun 您 to 你."
+    },
+    {
+      "case_id": "S2-09",
+      "candidate_id": 3,
+      "issue": "Minor typo 您通通勤; retained as a naturalness finding."
+    }
+  ]
+}

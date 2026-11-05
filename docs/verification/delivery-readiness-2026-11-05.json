@@ -1,0 +1,31 @@
+{
+  "verified_at": "2026-11-05T19:23:44.018007+08:00",
+  "runtime_version": "tool-v0.8.2 / prompt-v0.8.2",
+  "archive": "submission/CHENGXU-review-draft-v0.8.2-delivery-20261105.zip",
+  "sha256": "caf006bdd06b6a99c67c5fd87a0fb33df2c921cf0aab4144d5839df90a115c68",
+  "archive_bytes": 2002394,
+  "files": 540,
+  "zip_crc_and_all_manifest_hashes_passed": true,
+  "clean_temporary_extraction": "/var/folders/2p/h5wxq7js52j_brb78lklvrlm0000gp/T/chengxu-delivery-review-ew2n1iqk/CHENGXU-review-draft-v0.8.2-delivery-20261105",
+  "fresh_extraction_ui_checks_passed": 44,
+  "actual_model_calls": 0,
+  "case_evaluation_or_rerun": 0,
+  "human_scores_created": false,
+  "default_database_created_in_extraction": false,
+  "old_archive_hashes_unchanged": true,
+  "uses_existing_python_dependencies": true,
+  "clean_dependency_or_model_installation_performed": false,
+  "email_identity_complete": false,
+  "email_sent": false,
+  "inbox_or_delivery_receipt_verified": false,
+  "hosted_link_access": "not applicable to prepared attachment route; not tested",
+  "quality_acceptance_complete": false,
+  "work_log_snapshot_in_zip_through_step": "078",
+  "post_sealing_record_step": "079",
+  "unverified": [
+    "actual recipient attachment acceptance",
+    "external hosted access",
+    "browser visuals/native downloads",
+    "human message quality acceptance"
+  ]
+}

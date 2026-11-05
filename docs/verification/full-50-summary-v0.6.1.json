@@ -1,0 +1,148 @@
+{
+  "measurement_freeze": "evaluation-baseline-v0.6.1",
+  "initial_full_batch": {
+    "cases": 50,
+    "statuses": {
+      "generated": 48,
+      "generation_failed": 2
+    },
+    "retained_messages": 144,
+    "provider_attempts": 52,
+    "attempt_elapsed_seconds_sum": 307.353,
+    "attempt_elapsed_seconds_median": 4.269,
+    "attempt_elapsed_seconds_max": 81.9079,
+    "reported_prompt_tokens": 59593,
+    "reported_completion_tokens": 5650,
+    "per_scenario": {
+      "greeting": {
+        "generated": 8
+      },
+      "product_recommendation": {
+        "generated": 9
+      },
+      "post_purchase_care": {
+        "generated": 7,
+        "generation_failed": 1
+      },
+      "reactivation": {
+        "generated": 8
+      },
+      "event_invitation": {
+        "generated": 8
+      },
+      "price_objection": {
+        "generated": 8,
+        "generation_failed": 1
+      }
+    }
+  },
+  "recovery_requests": {
+    "cases": 2,
+    "statuses": {
+      "generated": 2
+    },
+    "retained_messages": 6,
+    "provider_attempts": 2,
+    "attempt_elapsed_seconds_sum": 5.679,
+    "attempt_elapsed_seconds_median": 2.84,
+    "attempt_elapsed_seconds_max": 3.2729,
+    "reported_prompt_tokens": 2860,
+    "reported_completion_tokens": 180,
+    "per_scenario": {
+      "post_purchase_care": {
+        "generated": 1
+      },
+      "price_objection": {
+        "generated": 1
+      }
+    }
+  },
+  "reconciled_output_view": {
+    "cases": 50,
+    "statuses": {
+      "generated": 50
+    },
+    "retained_messages": 150,
+    "provider_attempts": 50,
+    "attempt_elapsed_seconds_sum": 212.688,
+    "attempt_elapsed_seconds_median": 3.821,
+    "attempt_elapsed_seconds_max": 8.5221,
+    "reported_prompt_tokens": 55625,
+    "reported_completion_tokens": 3776,
+    "per_scenario": {
+      "greeting": {
+        "generated": 8
+      },
+      "product_recommendation": {
+        "generated": 9
+      },
+      "post_purchase_care": {
+        "generated": 8
+      },
+      "reactivation": {
+        "generated": 8
+      },
+      "event_invitation": {
+        "generated": 8
+      },
+      "price_objection": {
+        "generated": 9
+      }
+    }
+  },
+  "unique_measurement_provider_attempts": 54,
+  "reconciled_is_independent_full_run": false,
+  "quality_review": {
+    "rubric_version": "eval-v0.1",
+    "counts": {
+      "pending": 50
+    },
+    "total": 50,
+    "complete_50_case_human_review": false,
+    "mean_effective_score": null,
+    "per_scenario": {
+      "greeting": {
+        "total": 8,
+        "passed": 0,
+        "required_passes": 6
+      },
+      "product_recommendation": {
+        "total": 9,
+        "passed": 0,
+        "required_passes": 7
+      },
+      "post_purchase_care": {
+        "total": 8,
+        "passed": 0,
+        "required_passes": 6
+      },
+      "reactivation": {
+        "total": 8,
+        "passed": 0,
+        "required_passes": 6
+      },
+      "event_invitation": {
+        "total": 8,
+        "passed": 0,
+        "required_passes": 6
+      },
+      "price_objection": {
+        "total": 9,
+        "passed": 0,
+        "required_passes": 7
+      }
+    },
+    "quality_targets_met": false,
+    "release_accepted": false,
+    "release_note": "Quality targets alone do not establish release acceptance; guardrail results and a single frozen configuration must also be verified.",
+    "single_frozen_configuration": true
+  },
+  "guardrails": {
+    "cases": 20,
+    "matched": 20,
+    "model_attempts": 0,
+    "batch": "runs/guardrails-v0.6.1"
+  },
+  "deterministic_tests": 58,
+  "paid_api_calls_during_this_work": 0
+}

@@ -1,0 +1,63 @@
+{
+  "contract_version": "io-v0.1",
+  "request_id": "ui-demo-post_purchase_care",
+  "case_id": "UI-DEMO-POST_PURCHASE_CARE",
+  "scenario": "post_purchase_care",
+  "reference_time": "2026-11-04T20:30:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "interaction": {
+    "mode": "proactive",
+    "channel": "wechat",
+    "reply_to_message_id": null
+  },
+  "client": {
+    "client_id": "fictional-client-001",
+    "preferred_address": "林女士",
+    "relationship_stage": "established",
+    "preferences": [
+      "偏爱岩灰色"
+    ],
+    "budget": null,
+    "owned_product_ids": [
+      "CX-B01"
+    ],
+    "contact_preferences": {
+      "proactive_status": "allowed",
+      "restricted_scenarios": [],
+      "restrictions_note": null,
+      "source_message_ids": []
+    }
+  },
+  "conversation_history": [],
+  "product_ids": [
+    "CX-B01"
+  ],
+  "scenario_context": {
+    "purchase": {
+      "purchase_id": "fictional-purchase-001",
+      "product_id": "CX-B01",
+      "purchased_on": "2026-10-20",
+      "source_id": "purchase-001",
+      "assessment_used": false
+    },
+    "care_topic": "general",
+    "issue_message_id": null
+  },
+  "trusted_context": {
+    "brand_version": "brand-v0.1",
+    "catalogue_version": "brand-v0.1",
+    "source_refs": [
+      {
+        "source_id": "catalogue-001",
+        "kind": "catalogue",
+        "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+      },
+      {
+        "source_id": "purchase-001",
+        "kind": "purchase",
+        "reference": "fictional-fixture:purchase-001"
+      }
+    ],
+    "inventory": []
+  }
+}

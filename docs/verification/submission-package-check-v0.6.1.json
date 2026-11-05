@@ -1,0 +1,13 @@
+{
+  "package": "submission/review-package-v0.6.1",
+  "state": "draft, human scoring and quality repairs pending",
+  "files": 255,
+  "bytes_uncompressed": 3049621,
+  "secret_filename_check_passed": true,
+  "credential_pattern_check_passed": true,
+  "excluded_private_pdf_env_database_weights_and_server_logs": true,
+  "broken_relative_markdown_links": [],
+  "source_bytes_preserved": true,
+  "original_path_map": "evidence/ORIGINAL_PATHS.json",
+  "published_or_sent": false
+}

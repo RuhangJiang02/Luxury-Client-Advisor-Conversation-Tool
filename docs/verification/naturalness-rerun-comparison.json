@@ -1,0 +1,242 @@
+{
+  "review_kind": "assistant qualitative comparison; not human scores",
+  "baseline": "tool/prompt-v0.4.6",
+  "latest": "tool/prompt-v0.5.2",
+  "cases": [
+    {
+      "case_id": "S1-01",
+      "source_run_id": "f29638f6-2755-4b13-85f2-e9a869c7af1a",
+      "latest_run_id": "c5bfe7d3-034e-4796-ab65-826ad483f19b",
+      "status": "generated",
+      "assistant_verdict": "Mixed",
+      "assistant_observations": "Removed brand accompaniment and personality claims. Still poetic; switches 您/你, and candidate 2 does not explicitly say happy birthday.",
+      "before": [
+        "顾客甲，生日快乐！愿这一天充满温暖与喜悦，像您对生活温柔以待的态度一样，始终被善意与美好包围。",
+        "在这样一个特别的时刻，愿您感受到从容与自在，如同澄序陪伴您每一个生活的瞬间，以静谧的节奏，守护内心的光亮。",
+        "生日是新的开始，愿您在未来的日子里，继续以优雅而坚定的姿态，走过每一个值得珍视的瞬间。"
+      ],
+      "after": [
+        "顾客甲，生日快乐！愿新的一岁，日子温柔，心绪舒展。",
+        "今天是特别的日子，希望你有时间做喜欢的事，不急不躁地过每一天。",
+        "祝你生日快乐，心情轻松，生活充满欢笑。愿每一个瞬间都自在从容。"
+      ],
+      "attempt_errors": [
+        []
+      ]
+    },
+    {
+      "case_id": "S2-01",
+      "source_run_id": "5302877d-283b-40e4-86ad-cf7522d9bd09",
+      "latest_run_id": "5e7b24c8-f75e-43ee-b438-7b8621f80245",
+      "status": "generated",
+      "assistant_verdict": "Mixed",
+      "assistant_observations": "More use-oriented recommendation and one concrete question. Still subjective quality adjectives and a redundant broad use-case question.",
+      "before": [
+        "轻步斜挎包是周末出行的理想选择，其可斜挎设计与岩灰色款完美契合需求。",
+        "粒面牛皮与拉链开合的细节设计，体现了品牌对品质与实用性的双重考量。",
+        "岩灰色款是您偏好的颜色，这款斜挎包在设计上已充分考虑了您的偏好，是否需要进一步了解其他细节？"
+      ],
+      "after": [
+        "顾客甲，这款轻步斜挎包的岩灰色款正好符合您周末出行的需要，可斜挎设计非常方便，适合日常使用。",
+        "这款包的粒面牛皮材质非常有质感，拉链开合设计也方便您日常携带物品。",
+        "您平时周末出行主要用来放什么物品呢？比如日常通勤或短途旅行，这样我可以更精准地推荐。"
+      ],
+      "attempt_errors": [
+        []
+      ]
+    },
+    {
+      "case_id": "S3-01",
+      "source_run_id": "c9b8e081-fcb1-421e-af8b-07b643789e8b",
+      "latest_run_id": "2757f9cd-f81b-44a0-a454-9164dded3a27",
+      "status": "generated",
+      "assistant_verdict": "Mixed",
+      "assistant_observations": "No unsupported receipt statement or unsolicited assessment. Storage wording is stiff and the offered further detail is vague.",
+      "before": [
+        "顾客甲，关于这只循线肩包的使用情况，您是否想了解一些日常养护的细节？",
+        "这只包日常清洁时，建议用干净柔软的干布轻拭表面，避免使用湿布或化学清洁剂。",
+        "为保持皮具干燥和延长使用寿命，建议将包保持干燥后放入随附的防尘袋中存放。如需进一步协助，可预约一次免费目视评估。"
+      ],
+      "after": [
+        "顾客甲，关于这只循线肩包，您是否想了解使用或养护的细节？",
+        "这只包日常清洁可用干净柔软的干布轻拭，避免接触水、油和香水。",
+        "保持干燥并放入随附防尘袋是存放的建议，如果您需要，我可以提供更详细的存放方式。"
+      ],
+      "attempt_errors": [
+        []
+      ]
+    },
+    {
+      "case_id": "S4-01",
+      "source_run_id": "15e1266f-6794-4469-8810-601b8d37b472",
+      "latest_run_id": "bcd703a5-69a3-4fbc-a5fb-2bac44094619",
+      "status": "generated",
+      "assistant_verdict": "Mixed",
+      "assistant_observations": "Different greeting/preference/space purposes, but overly abrupt and the copied interest closing lacks a clear subject.",
+      "before": [
+        "顾客甲，您好。最近是否对皮具的某些偏好有新的想法？",
+        "您好，顾客甲。最近是否有特别喜欢的色系或款式想了解？",
+        "您好，顾客甲。如果您方便的话，我们随时为您准备相关咨询。"
+      ],
+      "after": [
+        "顾客甲，最近有空吗？",
+        "最近对岩灰色还有兴趣吗？",
+        "有兴趣回复我就好"
+      ],
+      "attempt_errors": [
+        []
+      ]
+    },
+    {
+      "case_id": "S5-01",
+      "source_run_id": "78755691-bb80-4ef9-8182-cfbe8eb07c6c",
+      "latest_run_id": "cc4cd6e5-cd76-40b4-8871-8da707cdfcf5",
+      "status": "generation_failed",
+      "assistant_verdict": "Regression",
+      "assistant_observations": "Rejected after two attempts: candidate 2 lacks independent event identity/logistics. No final messages exported.",
+      "before": [
+        "您好，诚邀您参加澄序皮具私享预览活动，时间定于2026年11月8日14:00，地点在澄序虚构示范精品店·二层会客区。如您有意向，请直接回复本消息确认出席。",
+        "如果您对设计感兴趣，诚邀您参加澄序皮具私享预览活动，时间定于2026年11月8日14:00，地点在澄序虚构示范精品店·二层会客区。活动期间将展示月弧手提包的设计细节，欢迎届时前来观览。",
+        "诚邀您参加澄序皮具私享预览活动，时间定于2026年11月8日14:00，地点在澄序虚构示范精品店·二层会客区。如您有兴趣，欢迎随时回复本消息确认出席。"
+      ],
+      "after": [],
+      "attempt_errors": [
+        [
+          "EVENT_LOGISTICS 候选2：每条是独立消息，须含活动名称澄序皮具私享预览和完整地点澄序虚构示范精品店·二层会客区。"
+        ],
+        [
+          "EVENT_LOGISTICS 候选2：每条是独立消息，须含活动名称澄序皮具私享预览和完整地点澄序虚构示范精品店·二层会客区。"
+        ]
+      ]
+    },
+    {
+      "case_id": "S6-01",
+      "source_run_id": "a10fb281-caa7-47c2-923a-4fc5f0a8856e",
+      "latest_run_id": "985f617d-a3a4-4c60-adb1-3a76c201939d",
+      "status": "generated",
+      "assistant_verdict": "Mixed",
+      "assistant_observations": "Policy/material/time angles are distinct. Internal phrases about discount requests and giving choice-space remain in customer copy.",
+      "before": [
+        "顾客甲，感谢您对循线肩包的关注。目前该款产品的目录价为18800元，我们不提供议价折扣。希望这个价格能符合您的预期。",
+        "循线肩包采用粒面牛皮制作，这是其独特的工艺特点。我们坚持不提供议价折扣，这是我们的基本政策。",
+        "我们理解您对价格的顾虑。如果您需要时间考虑，这是完全合理的。我们不提供议价折扣，希望您能慢慢决定。"
+      ],
+      "after": [
+        "顾客甲，关于循线肩包的折扣请求，我们目前不提供议价折扣。目录价为18800元，感谢您的理解。",
+        "顾客甲，这款循线肩包采用粒面牛皮制作，我们不提供议价折扣。希望您能了解这款产品的材质与政策。",
+        "顾客甲，关于折扣请求，我们不提供议价折扣。您可以慢慢考虑，不必急着决定。这是给您的选择空间。"
+      ],
+      "attempt_errors": [
+        []
+      ]
+    },
+    {
+      "case_id": "QF-C01",
+      "source_run_id": "a06a1a6a-6e13-400d-8d00-bb54dfc5cb4e",
+      "latest_run_id": "c51b948c-326d-4c98-9990-3c2058103a68",
+      "status": "generated",
+      "assistant_verdict": "Mixed",
+      "assistant_observations": "No explicit invented non-receipt assertion, but future receipt phrasing ignores confirmed receipt; unsupported maintaining softness claim and interest closing remain.",
+      "before": [
+        "林女士，这只循线肩包目前是否已经开始使用了？如果需要，我们也可以为您简单介绍一些日常保养的小贴士。",
+        "这只包如果需要清洁，建议用干净柔软的干布轻轻擦拭表面即可。避免接触水、油和香水，以保护皮质的质感。",
+        "为保持包的干燥和整洁，建议将它放入随附的防尘袋中保存。如果您需要进一步的帮助，我们也可以为您安排一次免费的目视评估。"
+      ],
+      "after": [
+        "林女士，这只循线肩包收到后，可以用干净柔软的干布轻拭表面，保持皮质柔软。有兴趣回复我就好。",
+        "林女士，日常清洁时，用干净柔软的干布轻拭包身即可，避免水、油、香水接触。",
+        "林女士，保持干燥并放入随附防尘袋是很好的存放方式。如果您需要，我可协助确认防尘袋的使用方法。"
+      ],
+      "attempt_errors": [
+        []
+      ]
+    },
+    {
+      "case_id": "QF-C02",
+      "source_run_id": "36649141-a2ae-4209-9fb4-369a51db6e75",
+      "latest_run_id": "9f32c012-70e7-487a-a12b-65d78c97b715",
+      "status": "generated",
+      "assistant_verdict": "Mixed",
+      "assistant_observations": "Acknowledges non-receipt and gives future cleaning advice. Third candidate still gives present storage advice; uneven address and generic help.",
+      "before": [
+        "林女士，这只循线肩包目前尚未收到，是否想了解一些使用或养护的注意事项？",
+        "建议使用干净柔软的干布轻拭包身，保持皮质清洁。",
+        "为保持包体干燥，建议放入随附的防尘袋中保存，如需进一步协助可随时联系。"
+      ],
+      "after": [
+        "林女士，这只循线肩包目前还未收到，收到后可参考养护建议。",
+        "收到后用干净柔软的干布轻拭包身，避免水油香水接触。",
+        "保持干燥并放入随附防尘袋，如有存放需求可随时告知。"
+      ],
+      "attempt_errors": [
+        []
+      ]
+    },
+    {
+      "case_id": "QF-P01",
+      "source_run_id": "92e644c2-ecaa-47f4-a09c-25b45a8130fc",
+      "latest_run_id": "b0bbe255-c676-4d3e-b850-e2a64221f70f",
+      "status": "generated",
+      "assistant_verdict": "Improved with residual issues",
+      "assistant_observations": "Directly acknowledges reported price and inability to verify terms. Repeats list price in all three and unnecessarily mentions authenticity.",
+      "before": [
+        "林女士，感谢您提出疑问。我们理解您对价格的顾虑，目前循线肩包的目录价为18800元，不提供议价折扣。如果您有其他问题，欢迎随时补充。",
+        "林女士，感谢您反馈。这款循线肩包采用粒面牛皮制作，目前不提供议价折扣。我们尊重您的选择，也期待能为您提供更合适的解决方案。",
+        "林女士，感谢您提出价格异议。我们理解您的考量，目前循线肩包的目录价为18800元，不提供议价折扣。请您慢慢考虑，不必急着决定。如有其他问题，欢迎随时联系。"
+      ],
+      "after": [
+        "林女士，您提到的渠道甲报价16000元，我们这边目录价是18800元。目前尚未核实对方报价条件，无法确认差异原因。",
+        "您提到的16000元价格，我们无法确认对方报价的具体条件，也不推测其真实性。目前我们这边的循线肩包目录价是18800元。",
+        "林女士，您可以慢慢比较不同渠道的价格，我们这边的循线肩包目录价是18800元，不提供议价折扣。您有其他问题可以随时回复我。"
+      ],
+      "attempt_errors": [
+        []
+      ]
+    },
+    {
+      "case_id": "QF-P02",
+      "source_run_id": "faa608eb-e347-47ea-b198-4687f1b675fc",
+      "latest_run_id": "e6cbda89-9306-4b3e-bf9e-e776d3b5eaf0",
+      "status": "generated",
+      "assistant_verdict": "Improved with residual issues",
+      "assistant_observations": "No material pitch or forced discount policy; acknowledges time request. Candidate 2 may imply advisor-initiated contact; use client-initiated closing instead.",
+      "before": [
+        "林女士，感谢您的理解。这款循线肩包的目录价为18800元，我们目前不提供议价折扣。希望这个价格能符合您的预期。",
+        "这款循线肩包采用粒面牛皮制成，我们坚持不提供议价折扣。如果您有其他顾虑，欢迎随时沟通。",
+        "感谢您的耐心。我们理解您对价格的顾虑，目前不提供议价折扣。您可以慢慢考虑，不必急着决定。"
+      ],
+      "after": [
+        "林女士，您说的我明白，价格方面您再考虑一下就好。",
+        "您不用急着决定，按自己的节奏来，我们等您方便时再联系。",
+        "您先考虑一下，方便时再联系我即可。"
+      ],
+      "attempt_errors": [
+        []
+      ]
+    },
+    {
+      "case_id": "QF-E01",
+      "source_run_id": "f5bc16d0-67b3-4b36-97af-f2d70684b873",
+      "latest_run_id": "f58767ba-f5f5-485b-9816-d868e017cbe9",
+      "status": "generation_failed",
+      "assistant_verdict": "Regression",
+      "assistant_observations": "Rejected after two attempts: candidate 3 omits event name/logistics. No final messages exported.",
+      "before": [
+        "2026年11月9日下午4点，澄序示例空间·会客室将举行「澄序手提包预览」活动。欢迎届时前来参观，详情请直接回复本消息。",
+        "如果您对设计感兴趣，「澄序手提包预览」将于2026年11月9日下午4点在澄序示例空间·会客室举行。届时将有详细展示，欢迎届时前来。",
+        "「澄序手提包预览」活动定于2026年11月9日下午4点在澄序示例空间·会客室举行。如您有兴趣，欢迎届时前来参观并直接回复本消息确认。"
+      ],
+      "after": [],
+      "attempt_errors": [
+        [
+          "EVENT_LOGISTICS 候选2：每条是独立消息，须含活动名称澄序手提包预览和完整地点澄序示例空间·会客室。",
+          "EVENT_TIME 候选2：明确写11月9日16:00，不要省略活动日期或开始时刻。",
+          "EVENT_LOGISTICS 候选3：每条是独立消息，须含活动名称澄序手提包预览和完整地点澄序示例空间·会客室。"
+        ],
+        [
+          "EVENT_LOGISTICS 候选3：每条是独立消息，须含活动名称澄序手提包预览和完整地点澄序示例空间·会客室。"
+        ]
+      ]
+    }
+  ]
+}

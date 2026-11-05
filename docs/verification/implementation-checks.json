@@ -1,0 +1,445 @@
+{
+  "scope": "Deterministic implementation and input/preflight verification only; no real LLM calls or quality scores.",
+  "tool_version": "tool-v0.2",
+  "tests_run": 19,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "model_calls": 0,
+  "datasets": {
+    "generation-cases": {
+      "sha256": "c18cf25dc9aac8c4a8d422824d402bc8f4faa63846e9951e5f44edfcc5fefa17",
+      "total": 50,
+      "passed": 50,
+      "cases": [
+        {
+          "case_id": "S1-01",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S1-02",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S1-03",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S1-04",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S1-05",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S1-06",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S1-07",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S1-08",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S2-01",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S2-02",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S2-03",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S2-04",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S2-05",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S2-06",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S2-07",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S2-08",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S2-09",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S3-01",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S3-02",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S3-03",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S3-04",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S3-05",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S3-06",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S3-07",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S3-08",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S4-01",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S4-02",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S4-03",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S4-04",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S4-05",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S4-06",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S4-07",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S4-08",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S5-01",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S5-02",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S5-03",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S5-04",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S5-05",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S5-06",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S5-07",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S5-08",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S6-01",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S6-02",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S6-03",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S6-04",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S6-05",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S6-06",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S6-07",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S6-08",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        },
+        {
+          "case_id": "S6-09",
+          "expected": "generated",
+          "actual": "generated",
+          "passed": true
+        }
+      ]
+    },
+    "guardrail-cases": {
+      "sha256": "f6fee331c1f2daeb32eb538d8f06e17f270628b5cc992bf5b6637c60352d5c2f",
+      "total": 20,
+      "passed": 20,
+      "cases": [
+        {
+          "case_id": "G-01",
+          "expected": "blocked",
+          "actual": "blocked",
+          "passed": true
+        },
+        {
+          "case_id": "G-02",
+          "expected": "blocked",
+          "actual": "blocked",
+          "passed": true
+        },
+        {
+          "case_id": "G-03",
+          "expected": "blocked",
+          "actual": "blocked",
+          "passed": true
+        },
+        {
+          "case_id": "G-04",
+          "expected": "needs_clarification",
+          "actual": "needs_clarification",
+          "passed": true
+        },
+        {
+          "case_id": "G-05",
+          "expected": "needs_clarification",
+          "actual": "needs_clarification",
+          "passed": true
+        },
+        {
+          "case_id": "G-06",
+          "expected": "blocked",
+          "actual": "blocked",
+          "passed": true
+        },
+        {
+          "case_id": "G-07",
+          "expected": "needs_clarification",
+          "actual": "needs_clarification",
+          "passed": true
+        },
+        {
+          "case_id": "G-08",
+          "expected": "needs_clarification",
+          "actual": "needs_clarification",
+          "passed": true
+        },
+        {
+          "case_id": "G-09",
+          "expected": "needs_clarification",
+          "actual": "needs_clarification",
+          "passed": true
+        },
+        {
+          "case_id": "G-10",
+          "expected": "needs_clarification",
+          "actual": "needs_clarification",
+          "passed": true
+        },
+        {
+          "case_id": "G-11",
+          "expected": "invalid_input",
+          "actual": "invalid_input",
+          "passed": true
+        },
+        {
+          "case_id": "G-12",
+          "expected": "invalid_input",
+          "actual": "invalid_input",
+          "passed": true
+        },
+        {
+          "case_id": "G-13",
+          "expected": "invalid_input",
+          "actual": "invalid_input",
+          "passed": true
+        },
+        {
+          "case_id": "G-14",
+          "expected": "invalid_input",
+          "actual": "invalid_input",
+          "passed": true
+        },
+        {
+          "case_id": "G-15",
+          "expected": "needs_clarification",
+          "actual": "needs_clarification",
+          "passed": true
+        },
+        {
+          "case_id": "G-16",
+          "expected": "invalid_input",
+          "actual": "invalid_input",
+          "passed": true
+        },
+        {
+          "case_id": "G-17",
+          "expected": "needs_clarification",
+          "actual": "needs_clarification",
+          "passed": true
+        },
+        {
+          "case_id": "G-18",
+          "expected": "invalid_input",
+          "actual": "invalid_input",
+          "passed": true
+        },
+        {
+          "case_id": "G-19",
+          "expected": "needs_clarification",
+          "actual": "needs_clarification",
+          "passed": true
+        },
+        {
+          "case_id": "G-20",
+          "expected": "invalid_input",
+          "actual": "invalid_input",
+          "passed": true
+        }
+      ]
+    }
+  }
+}

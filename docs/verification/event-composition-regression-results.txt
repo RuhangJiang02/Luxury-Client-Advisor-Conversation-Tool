@@ -1,0 +1,67 @@
+/Users/rj125/Desktop/Artefact/Luxury-Client-Advisor-Conversation-Tool/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+test_client_consideration_is_not_a_pricing_rationale (test_editorial_routing.EditorialRoutingTests) ... ok
+test_client_request_for_space_does_not_require_product_pitch (test_editorial_routing.EditorialRoutingTests) ... ok
+test_comparison_can_explain_unknown_conditions_without_material_pitch (test_editorial_routing.EditorialRoutingTests) ... ok
+test_discount_request_still_requires_policy_in_each_candidate (test_editorial_routing.EditorialRoutingTests) ... ok
+test_explicit_non_offer_of_sizes_is_not_an_offer (test_editorial_routing.EditorialRoutingTests) ... ok
+test_formal_language_is_a_review_flag_not_a_parser_rejection (test_editorial_routing.EditorialRoutingTests) ... ok
+test_unknown_or_confirmed_receipt_cannot_be_rewritten_as_non_receipt (test_editorial_routing.EditorialRoutingTests) ... ok
+test_complete_source_facts_and_distinct_bodies_are_retained (test_event_composition.EventCompositionTests) ... ok
+test_non_success_is_not_replaced_with_composed_output (test_event_composition.EventCompositionTests) ... ok
+test_service_preserves_raw_body_and_composition_without_fallback (test_event_composition.EventCompositionTests) ... ok
+test_wrong_model_date_and_cross_candidate_reference_are_rejected (test_event_composition.EventCompositionTests) ... ok
+test_acknowledging_feedback_does_not_claim_product_receipt (test_grounding.GroundingTests) ... ok
+test_advisor_question_does_not_confirm_receipt (test_grounding.GroundingTests) ... ok
+test_blanket_absence_is_rejected_but_missing_information_is_not (test_grounding.GroundingTests) ... ok
+test_client_color_preference_is_not_product_color_evidence (test_grounding.GroundingTests) ... ok
+test_comparison_cause_is_not_known_from_a_reported_price (test_grounding.GroundingTests) ... ok
+test_conditional_care_language_is_not_an_arrival_assertion (test_grounding.GroundingTests) ... ok
+test_discount_request_requires_an_explicit_policy_reply (test_grounding.GroundingTests) ... ok
+test_enum_and_planning_labels_are_not_client_copy (test_grounding.GroundingTests) ... ok
+test_event_omissions_and_wrong_minutes_are_rejected (test_grounding.GroundingTests) ... ok
+test_explicit_client_receipt_is_supported (test_grounding.GroundingTests) ... ok
+test_known_price_and_material_can_be_stated_without_causal_story (test_grounding.GroundingTests) ... ok
+test_near_copies_trigger_correction (test_grounding.GroundingTests) ... ok
+test_negation_and_conditional_do_not_confirm_receipt (test_grounding.GroundingTests) ... ok
+test_price_candidates_need_distinct_fact_and_autonomy_approaches (test_grounding.GroundingTests) ... ok
+test_purchase_date_is_not_receipt_evidence (test_grounding.GroundingTests) ... ok
+test_receipt_of_message_is_not_receipt_of_product (test_grounding.GroundingTests) ... ok
+test_service_retries_grounding_failure_and_keeps_raw_attempt (test_grounding.GroundingTests) ... ok
+test_shared_event_logistics_do_not_alone_establish_duplication (test_grounding.GroundingTests) ... ok
+test_source_backed_short_event_name_is_allowed (test_grounding.GroundingTests) ... ok
+test_unknown_receipt_does_not_justify_recent_usage_assumption (test_grounding.GroundingTests) ... ok
+test_unsupported_pricing_rationale_is_rejected (test_grounding.GroundingTests) ... ok
+test_local_config_excludes_openai_key (test_ollama.OllamaTests) ... ok
+test_loopback_session_disables_environment_proxy (test_ollama.OllamaTests) ... ok
+test_missing_model_is_terminal (test_ollama.OllamaTests) ... ok
+test_native_request_has_no_auth_and_ignores_thinking (test_ollama.OllamaTests) ... ok
+test_nonlocal_endpoint_and_cloud_tag_are_rejected (test_ollama.OllamaTests) ... ok
+test_auth_error_is_terminal_and_transient_error_is_bounded (test_service.ServiceTests) ... ok
+test_bad_output_is_retried_once_and_original_preserved (test_service.ServiceTests) ... ok
+test_calendar_anniversary_and_unknown_eligibility (test_service.ServiceTests) ... ok
+test_duplicate_and_internal_output_are_rejected (test_service.ServiceTests) ... ok
+test_evaluation_excludes_fake_outputs_and_keeps_unreviewed_live_pending (test_service.ServiceTests) ... ok
+test_exhausted_output_never_falls_back_to_templates (test_service.ServiceTests) ... ok
+test_fifty_generation_inputs_are_preflight_eligible (test_service.ServiceTests) ... ok
+test_generated_run_is_durable_and_idempotent (test_service.ServiceTests) ... ok
+test_http_adapter_uses_json_mode_and_sanitizes_auth_body (test_service.ServiceTests) ... ok
+test_missing_key_returns_explicit_failure_without_attempt (test_service.ServiceTests) ... ok
+test_model_clarification_remains_non_sendable (test_service.ServiceTests) ... ok
+test_pending_request_does_not_trigger_another_call (test_service.ServiceTests) ... ok
+test_quota_error_is_not_retried_and_body_is_not_exposed (test_service.ServiceTests) ... ok
+test_recorded_key_is_not_in_artifact (test_service.ServiceTests) ... ok
+test_request_id_cannot_be_reused_for_other_content (test_service.ServiceTests) ... ok
+test_saved_fake_batch_is_excluded_and_cannot_be_exported_as_real (test_service.ServiceTests) ... ok
+test_successful_http_adapter_preserves_only_needed_response_fields (test_service.ServiceTests) ... ok
+test_twenty_guardrails_do_not_call_provider (test_service.ServiceTests) ... ok
+test_unknown_fields_wrong_types_and_scenario_mismatch_are_invalid (test_service.ServiceTests) ... ok
+test_local_ui_mode_is_labelled_and_does_not_auto_generate (test_ui.UITests) ... 2026-11-04 23:21:07.576 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_preview_scenarios_and_explicit_live_submit (test_ui.UITests) ... 2026-11-04 23:21:07.968 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 58 tests in 1.811s
+
+OK

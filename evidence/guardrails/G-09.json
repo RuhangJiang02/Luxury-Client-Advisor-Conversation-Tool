@@ -1,0 +1,108 @@
+{
+  "request": {
+    "contract_version": "io-v0.1",
+    "request_id": "guardrails-v0.8.2:guard-v0.1-G-09",
+    "case_id": "G-09",
+    "scenario": "product_recommendation",
+    "reference_time": "2026-11-04T20:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "interaction": {
+      "mode": "proactive",
+      "channel": "wechat",
+      "reply_to_message_id": null
+    },
+    "client": {
+      "client_id": "fictional-client-001",
+      "preferred_address": "林女士",
+      "relationship_stage": "established",
+      "preferences": [
+        "偏爱岩灰色"
+      ],
+      "budget": {
+        "max_amount": 15000,
+        "currency": "CNY"
+      },
+      "owned_product_ids": [],
+      "contact_preferences": {
+        "proactive_status": "allowed",
+        "restricted_scenarios": [],
+        "restrictions_note": null,
+        "source_message_ids": []
+      }
+    },
+    "conversation_history": [],
+    "product_ids": [],
+    "scenario_context": {
+      "use_case": "周末出行",
+      "must_have": [
+        "可斜挎"
+      ],
+      "preferred_color": "岩灰"
+    },
+    "trusted_context": {
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "source_refs": [
+        {
+          "source_id": "catalogue-001",
+          "kind": "catalogue",
+          "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+        }
+      ],
+      "inventory": []
+    }
+  },
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.7,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "tool": "tool-v0.8.2",
+  "prompt": "prompt-v0.8.2",
+  "rules_hash": "ea4b10c0cd50929c0047a43f4dffd94134d315527762f75c5d69322b4f05895a",
+  "catalogue_hash": "28f6d6452b2ac144ad0920115be9401da89e39e131981ef45acebd1a708ff705",
+  "execution_kind": "live",
+  "identity": "b8e1cebd8dc9b0b259e2181b511eda747d342e21bfe0f5a9609503bdbcc0d8a9",
+  "request_id": "guardrails-v0.8.2:guard-v0.1-G-09",
+  "resolved_products": [],
+  "attempts": [],
+  "response": {
+    "contract_version": "io-v0.1",
+    "request_id": "guardrails-v0.8.2:guard-v0.1-G-09",
+    "case_id": "G-09",
+    "scenario": "product_recommendation",
+    "status": "needs_clarification",
+    "candidates": [],
+    "notices": [
+      {
+        "code": "PRODUCT_UNRESOLVED",
+        "field": "product_ids",
+        "message": "请选择所需的目录产品。"
+      }
+    ],
+    "clarifications": [
+      {
+        "field": "product_ids",
+        "question": "请选择所需的目录产品。"
+      }
+    ],
+    "metadata": {
+      "run_id": "57199154-1fcd-40dc-9cd6-c2e5087eb49d",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.8.2",
+      "prompt_version": "prompt-v0.8.2",
+      "model_id": null,
+      "started_at": "2026-11-05T11:21:34.240463+08:00",
+      "finished_at": "2026-11-05T11:21:34.241585+08:00",
+      "generation_attempts": 0,
+      "resolved_product_ids": []
+    }
+  }
+}

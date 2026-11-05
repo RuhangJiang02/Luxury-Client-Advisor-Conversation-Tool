@@ -1,0 +1,722 @@
+{
+  "type": "object",
+  "properties": {
+    "contract_version": {
+      "enum": [
+        "io-v0.1"
+      ]
+    },
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "case_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "scenario": {
+      "enum": [
+        "greeting",
+        "product_recommendation",
+        "post_purchase_care",
+        "reactivation",
+        "event_invitation",
+        "price_objection"
+      ]
+    },
+    "reference_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "timezone": {
+      "enum": [
+        "Asia/Shanghai"
+      ]
+    },
+    "interaction": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            "proactive",
+            "reply"
+          ]
+        },
+        "channel": {
+          "enum": [
+            "wechat"
+          ]
+        },
+        "reply_to_message_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "mode",
+        "channel",
+        "reply_to_message_id"
+      ],
+      "additionalProperties": false
+    },
+    "client": {
+      "type": "object",
+      "properties": {
+        "client_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "preferred_address": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "relationship_stage": {
+          "enum": [
+            "new",
+            "established",
+            "unknown"
+          ]
+        },
+        "preferences": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "budget": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "max_amount": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "currency": {
+                  "enum": [
+                    "CNY"
+                  ]
+                }
+              },
+              "required": [
+                "max_amount",
+                "currency"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "owned_product_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "contact_preferences": {
+          "type": "object",
+          "properties": {
+            "proactive_status": {
+              "enum": [
+                "allowed",
+                "opted_out",
+                "unknown"
+              ]
+            },
+            "restricted_scenarios": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "greeting",
+                  "product_recommendation",
+                  "post_purchase_care",
+                  "reactivation",
+                  "event_invitation",
+                  "price_objection"
+                ]
+              },
+              "uniqueItems": true
+            },
+            "restrictions_note": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            },
+            "source_message_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "proactive_status",
+            "restricted_scenarios",
+            "source_message_ids"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "client_id",
+        "relationship_stage",
+        "preferences",
+        "owned_product_ids",
+        "contact_preferences"
+      ],
+      "additionalProperties": false
+    },
+    "conversation_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "message_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "enum": [
+              "client",
+              "advisor"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sent_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "message_id",
+          "role",
+          "text",
+          "sent_at"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "product_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "scenario_context": {
+      "type": "object"
+    },
+    "trusted_context": {
+      "type": "object",
+      "properties": {
+        "brand_version": {
+          "enum": [
+            "brand-v0.1"
+          ]
+        },
+        "catalogue_version": {
+          "enum": [
+            "brand-v0.1"
+          ]
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "catalogue",
+                  "purchase",
+                  "event",
+                  "inventory",
+                  "contact_record"
+                ]
+              },
+              "reference": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source_id",
+              "kind",
+              "reference"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "inventory": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "product_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "color": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "enum": [
+                  "available",
+                  "unavailable",
+                  "unknown"
+                ]
+              },
+              "confirmed_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "valid_until": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "product_id",
+              "color",
+              "status",
+              "confirmed_at",
+              "valid_until",
+              "source_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "brand_version",
+        "catalogue_version",
+        "source_refs",
+        "inventory"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "contract_version",
+    "request_id",
+    "scenario",
+    "reference_time",
+    "timezone",
+    "interaction",
+    "client",
+    "conversation_history",
+    "product_ids",
+    "scenario_context",
+    "trusted_context"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "scenario": {
+            "const": "greeting"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "scenario_context": {
+            "type": "object",
+            "properties": {
+              "occasion_type": {
+                "enum": [
+                  "birthday",
+                  "festival"
+                ]
+              },
+              "occasion_name": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "minLength": 1
+              },
+              "occasion_date": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              }
+            },
+            "required": [
+              "occasion_type",
+              "occasion_name",
+              "occasion_date"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "scenario": {
+            "const": "product_recommendation"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "scenario_context": {
+            "type": "object",
+            "properties": {
+              "use_case": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "minLength": 1
+              },
+              "must_have": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "preferred_color": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "minLength": 1
+              }
+            },
+            "required": [
+              "use_case",
+              "must_have"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "scenario": {
+            "const": "post_purchase_care"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "scenario_context": {
+            "type": "object",
+            "properties": {
+              "purchase": {
+                "type": "object",
+                "properties": {
+                  "purchase_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "product_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "purchased_on": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "format": "date"
+                  },
+                  "source_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "assessment_used": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "purchase_id",
+                  "product_id",
+                  "purchased_on",
+                  "source_id",
+                  "assessment_used"
+                ],
+                "additionalProperties": false
+              },
+              "care_topic": {
+                "enum": [
+                  "general",
+                  "usage_check",
+                  "reported_issue"
+                ]
+              },
+              "issue_message_id": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "minLength": 1
+              }
+            },
+            "required": [
+              "purchase",
+              "care_topic",
+              "issue_message_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "scenario": {
+            "const": "reactivation"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "scenario_context": {
+            "type": "object",
+            "properties": {
+              "last_contact_on": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              },
+              "last_purchase_on": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              },
+              "reconnect_purpose": {
+                "enum": [
+                  "relationship_check_in",
+                  "preference_update"
+                ]
+              }
+            },
+            "required": [
+              "last_contact_on",
+              "last_purchase_on",
+              "reconnect_purpose"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "scenario": {
+            "const": "event_invitation"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "scenario_context": {
+            "type": "object",
+            "properties": {
+              "event_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "minLength": 1
+              },
+              "format": {
+                "enum": [
+                  "boutique_event",
+                  "private_preview",
+                  null
+                ]
+              },
+              "starts_at": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "ends_at": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "venue": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "minLength": 1
+              },
+              "eligibility": {
+                "enum": [
+                  "eligible",
+                  "ineligible",
+                  "unknown"
+                ]
+              },
+              "rsvp_method": {
+                "enum": [
+                  "reply_to_advisor",
+                  null
+                ]
+              },
+              "rsvp_deadline": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "event_id",
+              "title",
+              "format",
+              "starts_at",
+              "ends_at",
+              "venue",
+              "eligibility",
+              "rsvp_method",
+              "source_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "scenario": {
+            "const": "price_objection"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "scenario_context": {
+            "type": "object",
+            "properties": {
+              "objection_type": {
+                "enum": [
+                  "too_expensive",
+                  "comparison",
+                  "discount_request"
+                ]
+              },
+              "objection_message_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "comparison": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "reported_seller": {
+                        "type": [
+                          "string",
+                          "null"
+                        ],
+                        "minLength": 1
+                      },
+                      "reported_amount": {
+                        "type": [
+                          "number",
+                          "null"
+                        ],
+                        "exclusiveMinimum": 0
+                      },
+                      "currency": {
+                        "enum": [
+                          "CNY",
+                          null
+                        ]
+                      }
+                    },
+                    "required": [
+                      "reported_seller",
+                      "reported_amount",
+                      "currency"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "objection_type",
+              "objection_message_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "revision_date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "scope": "methodology/architecture consolidation only; existing-case work deferred by user",
+  "runtime_version": "tool-v0.8.2 / prompt-v0.8.2",
+  "architecture_revision": "arch-v0.3",
+  "document_sha256": {
+    "docs/methodology.md": "7b94fcad98fc7e7205afc2853103a8178a09585e89d854ab2c3c638907e5afa6",
+    "docs/architecture.md": "7700d8a9171b5d37596b588044094136f6a4f1fd84ec640a9a5c764e40adc37f",
+    "docs/technical-direction.md": "ad4ee28e323f7f3cf4e181aa73a2f67c0ea95b2ba993f594c479f086af0fbc71",
+    "README.md": "df2c45e6042b8d04c6d1ffc865e603bb1ec7967ce760b19611743336d56b3ece",
+    "submission/INDEX.md": "237fae8cf0d8955d89447608c6003ba596cf3382ae478f0e653d6e56b6a634ba"
+  },
+  "broken_relative_links": [],
+  "markdown_fences_balanced": true,
+  "runtime_and_input_freeze_unchanged": true,
+  "existing_archive_matches_prior_sha256": true,
+  "new_model_calls": 0,
+  "tests_rerun": false,
+  "case_scoring_performed": false,
+  "existing_archive_refreshed": false,
+  "next_work": "UI demonstration/runbook, then package reconciliation"
+}

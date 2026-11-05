@@ -1,0 +1,38 @@
+flowchart TD
+    UI[Streamlit submitted request] --> Reserve[Shared GenerationService: reserve identity]
+    CLI[Explicit batch request] --> Reserve
+    Reserve --> Validate[Contract and reference validation]
+    Reserve -->|Completed identical request| Cache[Return saved result without a call]
+    Reserve -->|Conflict or pending| Early[Explicit non-success result]
+    Validate --> Preflight[Contact, facts, product and care eligibility]
+    Validate -->|Invalid| Result[Contract response]
+    Preflight -->|Block or clarify| Result
+    Data[Versioned catalogue and brand rules] --> Preflight
+    Preflight --> References[Build three program-authored reference texts]
+    References --> Prompt[Scenario-specific local editing prompt]
+    Prompt --> Local[Ollama / Qwen3 4B: actual local inference]
+    Local --> Parse[Parse JSON and reject internal labels]
+    Parse --> Frames[Conditional greeting / product / event source frame]
+    Frames --> Copy[All local successes: audited client-copy framing]
+    Copy --> Check[Grounding, policy, scope and diversity checks]
+    Check -->|Accepted| Result
+    Parse -->|Rejected| Repair[Bounded repair if budget remains]
+    Frames -->|Rejected| Repair
+    Check -->|Rejected| Repair
+    Repair -->|Budget remains| Prompt
+    Repair -->|Exhausted| Result
+    Local -->|Terminal or exhausted provider error| Result
+    Data --> Frames
+    Preflight --> Copy
+    Result --> Persist[SQLite: request, attempts and final response]
+    Early --> Persist
+    Persist --> Return[UI / CLI response; no message sending]
+    Persist --> Artifacts[Batch manifest and per-case JSON]
+    Artifacts --> Export[Exact eight-column CSV plus provenance]
+    Artifacts --> Audit[Offline source and composition verification]
+    Artifacts --> AI[Separate AI source-review scores]
+    Artifacts --> Human[Separate human-rating template: pending]
+    Export --> Package[Private review package: docs, source and evidence]
+    Audit --> Package
+    AI --> Package
+    Human --> Package

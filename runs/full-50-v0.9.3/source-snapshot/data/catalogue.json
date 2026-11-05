@@ -1,0 +1,148 @@
+{
+  "version": "brand-v0.1",
+  "products": {
+    "CX-B01": {
+      "product_id": "CX-B01",
+      "name": "循线肩包",
+      "english_name": "Xunxian Shoulder Bag",
+      "price": 18800,
+      "currency": "CNY",
+      "material": "Grained cowhide exterior; textile lining",
+      "dimensions_cm": [
+        26.0,
+        17.0,
+        8.0
+      ],
+      "colors": [
+        "墨黑",
+        "岩灰"
+      ],
+      "design_facts": "Zip closure; one internal slip pocket; adjustable shoulder strap, 42–58 cm; no detachable crossbody strap.",
+      "detail": "粒面牛皮、拉链开合，尺寸为 26 × 17 × 8 厘米",
+      "carrying_methods": [
+        "shoulder"
+      ],
+      "category": "bag",
+      "dust_bag_included": true
+    },
+    "CX-B02": {
+      "product_id": "CX-B02",
+      "name": "远行托特",
+      "english_name": "Yuanxing Tote",
+      "price": 24800,
+      "currency": "CNY",
+      "material": "Grained cowhide exterior; textile lining",
+      "dimensions_cm": [
+        36.0,
+        28.0,
+        13.0
+      ],
+      "colors": [
+        "墨黑",
+        "栗棕"
+      ],
+      "design_facts": "Open top with magnetic tab; one internal zip pocket; fixed handles with 24 cm drop. No laptop protection or laptop-fit guarantee is established.",
+      "detail": "粒面牛皮、磁吸搭扣，尺寸为 36 × 28 × 13 厘米",
+      "carrying_methods": [
+        "shoulder",
+        "handheld"
+      ],
+      "category": "bag",
+      "dust_bag_included": true
+    },
+    "CX-B03": {
+      "product_id": "CX-B03",
+      "name": "月弧手提包",
+      "english_name": "Yuehu Top-handle Bag",
+      "price": 22800,
+      "currency": "CNY",
+      "material": "Smooth cowhide exterior; textile lining",
+      "dimensions_cm": [
+        24.0,
+        19.0,
+        10.0
+      ],
+      "colors": [
+        "墨黑",
+        "砂白"
+      ],
+      "design_facts": "Flap with turn-lock closure; top handle; detachable adjustable strap, 90–110 cm; one internal slip pocket.",
+      "detail": "光面牛皮、旋锁开合，配可拆卸肩带",
+      "carrying_methods": [
+        "shoulder",
+        "crossbody",
+        "handheld"
+      ],
+      "category": "bag",
+      "dust_bag_included": true
+    },
+    "CX-B04": {
+      "product_id": "CX-B04",
+      "name": "轻步斜挎包",
+      "english_name": "Qingbu Crossbody",
+      "price": 12800,
+      "currency": "CNY",
+      "material": "Grained cowhide exterior; textile lining",
+      "dimensions_cm": [
+        20.0,
+        14.0,
+        6.0
+      ],
+      "colors": [
+        "岩灰",
+        "栗棕"
+      ],
+      "design_facts": "Zip closure; adjustable crossbody strap, 100–120 cm; one internal slip pocket.",
+      "detail": "粒面牛皮、拉链开合，配可调节斜挎肩带",
+      "carrying_methods": [
+        "crossbody"
+      ],
+      "category": "bag",
+      "dust_bag_included": true
+    },
+    "CX-S01": {
+      "product_id": "CX-S01",
+      "name": "折影卡夹",
+      "english_name": "Zheying Card Holder",
+      "price": 2800,
+      "currency": "CNY",
+      "material": "Grained cowhide exterior",
+      "dimensions_cm": [
+        10.0,
+        7.0,
+        0.5
+      ],
+      "colors": [
+        "墨黑",
+        "栗棕"
+      ],
+      "design_facts": "Four card slots and one central compartment; no zip or strap.",
+      "detail": "粒面牛皮，设有四个卡位和一个中央夹层",
+      "carrying_methods": [],
+      "category": "card_holder",
+      "dust_bag_included": true
+    },
+    "CX-S02": {
+      "product_id": "CX-S02",
+      "name": "随页长夹",
+      "english_name": "Suiye Long Wallet",
+      "price": 5800,
+      "currency": "CNY",
+      "material": "Smooth cowhide exterior; textile lining",
+      "dimensions_cm": [
+        19.0,
+        10.0,
+        2.0
+      ],
+      "colors": [
+        "墨黑",
+        "砂白"
+      ],
+      "design_facts": "Zip-around closure; eight card slots, two note compartments, and one zipped coin compartment; no strap.",
+      "detail": "光面牛皮、环绕式拉链，设有八个卡位",
+      "carrying_methods": [],
+      "category": "wallet",
+      "dust_bag_included": true
+    }
+  }
+}

@@ -1,0 +1,932 @@
+{
+  "results": [
+    {
+      "case_id": "S1-01",
+      "run_id": "e5fee184-e6a7-4349-95b4-54eb2becff09",
+      "scenario": "greeting",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.1",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.3",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.375
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.6207
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.3871
+        }
+      ]
+    },
+    {
+      "case_id": "S2-01",
+      "run_id": "d5c23129-ef84-4194-a8e5-e6dd7d5a52f2",
+      "scenario": "product_recommendation",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.1667
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.0952
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.1231
+        }
+      ]
+    },
+    {
+      "case_id": "S3-01",
+      "run_id": "5e341798-c217-41d9-9305-1b04d96a09ce",
+      "scenario": "post_purchase_care",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.1",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.1739
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.1754
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.0635
+        }
+      ]
+    },
+    {
+      "case_id": "S4-01",
+      "run_id": "99579701-150c-44ed-b969-4073f1258954",
+      "scenario": "reactivation",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.1",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.3",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": []
+    },
+    {
+      "case_id": "S5-01",
+      "run_id": "73f0c569-a669-4800-aa47-9959fa49fcdf",
+      "scenario": "event_invitation",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.4118
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.3939
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.3256
+        }
+      ]
+    },
+    {
+      "case_id": "S6-01",
+      "run_id": "2874d4ec-a29f-40e9-a020-ff4c56061c45",
+      "scenario": "price_objection",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "NATURALNESS_REVIEW",
+          "field": "candidates.1",
+          "message": "可能包含正式套话、推理泄漏或无依据评价，请审阅；不自动判定失败。"
+        },
+        {
+          "code": "CLAIM_REVIEW",
+          "field": "candidates.1",
+          "message": "包含需核实语境与依据的表述，不代表已确认违规。"
+        },
+        {
+          "code": "CLAIM_REVIEW",
+          "field": "candidates.2",
+          "message": "包含需核实语境与依据的表述，不代表已确认违规。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.3",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "CLAIM_REVIEW",
+          "field": "candidates.3",
+          "message": "包含需核实语境与依据的表述，不代表已确认违规。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.24
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.4194
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.2609
+        }
+      ]
+    },
+    {
+      "case_id": "QF-C01",
+      "run_id": "61fa860b-ccc7-4965-9e93-17c8c41d6a3e",
+      "scenario": "post_purchase_care",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.1",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.1176
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.1154
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.1071
+        }
+      ]
+    },
+    {
+      "case_id": "QF-C02",
+      "run_id": "ab25c20f-6156-419e-b1a1-3f8309f4e319",
+      "scenario": "post_purchase_care",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.1",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.3",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.0
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.0952
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.1905
+        }
+      ]
+    },
+    {
+      "case_id": "QF-P01",
+      "run_id": "6cc112f9-0895-4bb3-8eb1-5b312ec55d67",
+      "scenario": "price_objection",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.7191
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.2889
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.3855
+        }
+      ]
+    },
+    {
+      "case_id": "QF-P02",
+      "run_id": "19f16445-1472-4c69-ba88-6e2063bed903",
+      "scenario": "price_objection",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.1",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.3",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.1481
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.0714
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.069
+        }
+      ]
+    },
+    {
+      "case_id": "QF-E01",
+      "run_id": "31983e49-d43b-4eeb-a60e-471fc91ddb70",
+      "scenario": "event_invitation",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.58
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.2921
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.3093
+        }
+      ]
+    },
+    {
+      "case_id": "S1-02",
+      "run_id": "ea8ff7ae-7189-4f40-86bb-198139f1b7d6",
+      "scenario": "greeting",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.1",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.3",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": []
+    },
+    {
+      "case_id": "S1-03",
+      "run_id": "d497200e-9d03-4963-8f39-d304aa8ab9e1",
+      "scenario": "greeting",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.1",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.3",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.5
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.75
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.5
+        }
+      ]
+    },
+    {
+      "case_id": "S1-08",
+      "run_id": "7b53e75f-cdd4-4167-b5ce-4df833d9f772",
+      "scenario": "greeting",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.1",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        },
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.3",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.3871
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.4615
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.3448
+        }
+      ]
+    },
+    {
+      "case_id": "S2-02",
+      "run_id": "75cf448c-82e1-4c6f-97f4-ea43cda90831",
+      "scenario": "product_recommendation",
+      "status": "fail",
+      "raw_score": null,
+      "effective_score": 0,
+      "hard_failures": [],
+      "flags": [],
+      "reason": "generation_failed"
+    },
+    {
+      "case_id": "S2-05",
+      "run_id": "35891a4d-55ba-45c9-ad6b-f27f2bc39d5c",
+      "scenario": "product_recommendation",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.2105
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.254
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.0968
+        }
+      ]
+    },
+    {
+      "case_id": "S6-06",
+      "run_id": "a1d771d3-5204-4f80-8371-094a05ea3f60",
+      "scenario": "price_objection",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "CLAIM_REVIEW",
+          "field": "candidates.1",
+          "message": "包含需核实语境与依据的表述，不代表已确认违规。"
+        },
+        {
+          "code": "CLAIM_REVIEW",
+          "field": "candidates.2",
+          "message": "包含需核实语境与依据的表述，不代表已确认违规。"
+        },
+        {
+          "code": "CLAIM_REVIEW",
+          "field": "candidates.3",
+          "message": "包含需核实语境与依据的表述，不代表已确认违规。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.3043
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.2273
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.2766
+        }
+      ]
+    },
+    {
+      "case_id": "S2-03",
+      "run_id": "e6d5da96-1eb1-4a6c-b617-3d7816615815",
+      "scenario": "product_recommendation",
+      "status": "fail",
+      "raw_score": null,
+      "effective_score": 0,
+      "hard_failures": [],
+      "flags": [],
+      "reason": "generation_failed"
+    },
+    {
+      "case_id": "S2-04",
+      "run_id": "4234eada-3321-4bd9-90c1-6ccf83210255",
+      "scenario": "product_recommendation",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.1724
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.1818
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.1034
+        }
+      ]
+    },
+    {
+      "case_id": "S2-06",
+      "run_id": "4118df43-b848-485f-a220-24fd6c4c8ce5",
+      "scenario": "product_recommendation",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.1429
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.2029
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.0282
+        }
+      ]
+    },
+    {
+      "case_id": "S2-07",
+      "run_id": "3067a0d9-80b5-4302-a020-0ff5e8dc2859",
+      "scenario": "product_recommendation",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.1818
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.2286
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.2623
+        }
+      ]
+    },
+    {
+      "case_id": "S2-08",
+      "run_id": "2fd2faa8-422c-4da4-93a0-e6024c89c9d5",
+      "scenario": "product_recommendation",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.1562
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.0882
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.1212
+        }
+      ]
+    },
+    {
+      "case_id": "S2-09",
+      "run_id": "fffb3247-1eaa-4ee9-93a7-56c549c06de0",
+      "scenario": "product_recommendation",
+      "status": "pending",
+      "raw_score": null,
+      "effective_score": null,
+      "hard_failures": [],
+      "flags": [
+        {
+          "code": "SOFT_LENGTH",
+          "field": "candidates.2",
+          "message": "长度偏离软目标，请结合语境审阅。"
+        }
+      ],
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.1818
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.1875
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.1455
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "rubric_version": "eval-v0.1",
+    "counts": {
+      "pending": 21,
+      "fail": 2
+    },
+    "total": 23,
+    "complete_50_case_human_review": false,
+    "mean_effective_score": null,
+    "per_scenario": {
+      "greeting": {
+        "total": 4,
+        "passed": 0,
+        "required_passes": 3
+      },
+      "product_recommendation": {
+        "total": 9,
+        "passed": 0,
+        "required_passes": 7
+      },
+      "post_purchase_care": {
+        "total": 3,
+        "passed": 0,
+        "required_passes": 3
+      },
+      "reactivation": {
+        "total": 1,
+        "passed": 0,
+        "required_passes": 1
+      },
+      "event_invitation": {
+        "total": 2,
+        "passed": 0,
+        "required_passes": 2
+      },
+      "price_objection": {
+        "total": 4,
+        "passed": 0,
+        "required_passes": 3
+      }
+    },
+    "quality_targets_met": false,
+    "release_accepted": false,
+    "release_note": "Quality targets alone do not establish release acceptance; guardrail results and a single frozen configuration must also be verified.",
+    "single_frozen_configuration": true
+  },
+  "evaluation_implementation": {
+    "tool_version": "tool-v0.8.1",
+    "prompt_version": "prompt-v0.8.1",
+    "source_hashes": {
+      "scripts/evaluate_cases.py": "317e4325dbae5aa4c6e9214d24ec408ff0268a9f9af7d1eee907eabcb0c6a9ff",
+      "client_advisor/evaluation.py": "9f0c83f65833aca16cc01ebf5b627cf78d5892d87f30d503a0584e6748c3853f",
+      "client_advisor/grounding.py": "262342a16c90454f5f24906f124865ae50ac6c06b2ba663338b6e0f7e6ac2447",
+      "client_advisor/source_checks.py": "cd0025aa18332a81b27bfd76b073c935e6502b0aff991ee8b815a86ad214ace0",
+      "client_advisor/output_checks.py": "845e06995c1ddc8d96597cd6942a997878b913077dc91cbcbb4eb8a5533e488b"
+    }
+  }
+}

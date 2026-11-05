@@ -1,0 +1,79 @@
+{
+  "demo_version": "ui-demo-v0.1",
+  "reference_clock": "2026-11-04T20:30:00+08:00",
+  "purpose": "Separate fictional walkthrough inputs; not the fixed 50-case quality population. No model outputs included.",
+  "examples": [
+    {
+      "file": "greeting.json",
+      "scenario": "greeting",
+      "expected_service_status": "generated",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "product_recommendation.json",
+      "scenario": "product_recommendation",
+      "expected_service_status": "generated",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "post_purchase_care.json",
+      "scenario": "post_purchase_care",
+      "expected_service_status": "generated",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "reactivation.json",
+      "scenario": "reactivation",
+      "expected_service_status": "generated",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "event_invitation.json",
+      "scenario": "event_invitation",
+      "expected_service_status": "generated",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "price_objection.json",
+      "scenario": "price_objection",
+      "expected_service_status": "generated",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "festival.json",
+      "scenario": "greeting",
+      "expected_service_status": "generated",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "blocked-contact.json",
+      "scenario": "greeting",
+      "expected_service_status": "blocked",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "unknown-permission.json",
+      "scenario": "greeting",
+      "expected_service_status": "needs_clarification",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "missing-venue.json",
+      "scenario": "event_invitation",
+      "expected_service_status": "needs_clarification",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "over-budget.json",
+      "scenario": "product_recommendation",
+      "expected_service_status": "needs_clarification",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    },
+    {
+      "file": "invalid-unknown-field.json",
+      "scenario": "greeting",
+      "expected_service_status": "invalid_input",
+      "note": "Expected path, not a guarantee of actual model quality or success."
+    }
+  ]
+}

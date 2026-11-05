@@ -1,0 +1,17 @@
+{
+  "fixed_case_count": 50,
+  "exact_eight_column_csv": true,
+  "retained_candidate_count": 150,
+  "csv_matches_raw_candidates": true,
+  "all_source_hashes_match": true,
+  "frozen_source_hashes_unchanged": true,
+  "single_runtime_configuration": true,
+  "event_cases_with_composition_provenance": 8,
+  "human_rating_records": 50,
+  "completed_human_ratings": 0,
+  "guardrails_matched": 20,
+  "guardrail_model_attempts": 0,
+  "initial_successes": 48,
+  "recovery_successes": 2,
+  "release_accepted": false
+}

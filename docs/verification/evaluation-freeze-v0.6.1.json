@@ -1,0 +1,63 @@
+{
+  "freeze_id": "evaluation-baseline-v0.6.1",
+  "kind": "measurement freeze, not release acceptance",
+  "recorded_at": "2026-11-04T23:23:23.232073+08:00",
+  "tool": "tool-v0.6.1",
+  "prompt": "prompt-v0.6.1",
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.7,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "ollama_model_digest_observed": "8a643ce28e8120bdf7c557d5da895218d0a8f3ca1c6484eb021033ab72a846b1",
+  "original_gguf_sha256_previously_verified": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+  "file_hashes": {
+    "app.py": "1453d54f9bc9fae97e308b5c5f540b3a82f76713237fc73b5dcd8523c0c7f37a",
+    "client_advisor/__init__.py": "c7377441f57026eca9be93a4ce7fe6bdea4b11865f6bf4c48d47e0af01702710",
+    "client_advisor/config.py": "4c1cbcb36adc06652dacf73857f5fd07321b60f97f82b16717fd52005b1d07cb",
+    "client_advisor/context.py": "7a4384891d7ba6cb393dbebf8b03f5a8309641373cd5d7b6132bed338d1db6da",
+    "client_advisor/contracts.py": "883cff4b42230a0fd3890868221e09191709510b9185fda141f751e693638507",
+    "client_advisor/evaluation.py": "9f0c83f65833aca16cc01ebf5b627cf78d5892d87f30d503a0584e6748c3853f",
+    "client_advisor/event_composition.py": "7eb1806d6c5c5af167c7f2c420ca00f7d30d33395a732c31c42e6473e51aec54",
+    "client_advisor/grounding.py": "68137fda55d7b5fad05c5e003634e6c52000683f510457b8fbb5d15ea6f55fc9",
+    "client_advisor/llm.py": "413b7ed0b3123fc0df2d4ff88b2c24703b438399db3fd84f6f57ecea370872a2",
+    "client_advisor/output_checks.py": "845e06995c1ddc8d96597cd6942a997878b913077dc91cbcbb4eb8a5533e488b",
+    "client_advisor/prompts.py": "c1dc15a29f242c65e6d586e3147d9ed3f7038c0be9e6f06ac708862d2df063a5",
+    "client_advisor/rules.py": "1e0498f18e929493edd15a40f28634373032eac5a9291126f572708bc58dd8c2",
+    "client_advisor/run_store.py": "b40ab8cd44558995cab0a7907f938295e129b3b8170639aec7e80ca413a4ee47",
+    "client_advisor/service.py": "d191eff6fceafd99d71654ceac459652c6e23e7ece287f250b721e7b1cc5f535",
+    "data/catalogue.json": "a5279fd5a93754781679aaae02f65ab3a36a181501d156b1713ee44687d5708e",
+    "data/generation-cases.json": "c18cf25dc9aac8c4a8d422824d402bc8f4faa63846e9951e5f44edfcc5fefa17",
+    "data/guardrail-cases.json": "f6fee331c1f2daeb32eb538d8f06e17f270628b5cc992bf5b6637c60352d5c2f",
+    "data/request.schema.json": "8a2ab064bdf9bdb55ce7b7a5c44267bf76f28fd1fc4bd3abef2699797171fb47",
+    "docs/acceptance-criteria.md": "0194b018043aa16e2f3c25f7bf324e262bd014c5e3c65c2ce42902c92b72c075",
+    "docs/brand-and-rules.md": "ea4b10c0cd50929c0047a43f4dffd94134d315527762f75c5d69322b4f05895a",
+    "models/Modelfile": "0cafa2b189b88c7479b5bee3d2ebeecc2731bb051215b60ba099fad8692fcc62",
+    "requirements.txt": "5d004782e8aec416a3ae6cbb5780b303af1b799685d4cc09c75db86b5f67036e",
+    "scripts/build_cases.py": "51a7aafc41938c1bd069f4ff31f5cf23fb4151a60b4a711130296174cfb71e7b",
+    "scripts/configure_openai_key.py": "5d93d302b0f197a1d2695d66007a384b6e96498e8ef794c82b2c6e35493ba77f",
+    "scripts/evaluate_cases.py": "5522e0719cb2eeab18c70fbcb1759d896538d837d19cbad3c671467f0e5a1d5b",
+    "scripts/export_submission.py": "cfb40af91c074d34076b5ede7d9faae9a0c0349a920da47f370021190c40bf34",
+    "scripts/generate_cases.py": "b6b3455aa8179cf5a6538192b2cc364029c643e97396335e5f7b684dce8602f6"
+  },
+  "code_and_input_fingerprint": "9b0600588ca1dec06e759ea024d97253f72e3d9290d0317a952c5d629329bf7b",
+  "pre_freeze_evidence": [
+    "runs/pre-freeze-regression-v0.6.1",
+    "runs/pre-freeze-holdout-v0.6.1",
+    "runs/guardrails-v0.6.1"
+  ],
+  "planned_full_batch": "runs/full-50-v0.6.1",
+  "known_limitations": [
+    "birthday messages may use festival wording",
+    "unsupported material impressions",
+    "assumed client interest in event bodies",
+    "semantic repetition and formal/internal phrasing",
+    "human quality review not completed"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "archive": "submission/CHENGXU-review-draft-v0.8.2-docs-20261105.zip",
+  "sha256": "8b02bcb333d7050760c63234157f5fd200d211cc0bd68c1a5077970193a600b4",
+  "archive_bytes": 1984682,
+  "files": 533,
+  "zip_crc_and_manifest_hashes_passed": true,
+  "original_archive_unchanged": true,
+  "original_measured_files_unchanged": true,
+  "fixed_case_reruns_or_evaluation": 0,
+  "actual_model_calls": 0,
+  "workspace_and_portable_ui_checks_each": 44,
+  "artifact_status": "draft, quality acceptance pending",
+  "work_log_snapshot_in_zip_through_step": "074",
+  "finalization_step_in_source_work_log": "075",
+  "snapshot_note": "Archive sealing/SHA verification is recorded after creation, outside the immutable ZIP snapshot."
+}

@@ -1,0 +1,37 @@
+{
+  "checks_passed": [
+    "reject_human_attribution",
+    "reject_missing_case",
+    "reject_boolean_score",
+    "reject_wrong_hash",
+    "exact_boundary_4_and_no_human_acceptance"
+  ],
+  "source_hashes_verified": 50,
+  "candidate_rows": 150,
+  "human_template_sha256": "5737d9d9d1ef232439af8eb0ebd6671a6434b7856c62d9015e04270c4a76dc24",
+  "human_completed_cases": 0,
+  "existing_archives": [
+    {
+      "path": "submission/CHENGXU-review-draft-v0.6.1.zip",
+      "sha256": "93911ab0647f9d735a71669cccf93f0630d46883c859a05991dd74c84f48ba9e",
+      "sidecar_matches": true
+    },
+    {
+      "path": "submission/CHENGXU-review-draft-v0.8.2-delivery-20261105.zip",
+      "sha256": "caf006bdd06b6a99c67c5fd87a0fb33df2c921cf0aab4144d5839df90a115c68",
+      "sidecar_matches": true
+    },
+    {
+      "path": "submission/CHENGXU-review-draft-v0.8.2-docs-20261105.zip",
+      "sha256": "8b02bcb333d7050760c63234157f5fd200d211cc0bd68c1a5077970193a600b4",
+      "sidecar_matches": true
+    },
+    {
+      "path": "submission/CHENGXU-review-draft-v0.8.2.zip",
+      "sha256": "8e99904edc2c3f9ca01cceae7da536498eae8401cf6dd98ebf0f5a53dcaf76e7",
+      "sidecar_matches": true
+    }
+  ],
+  "runtime_or_prompt_modified": false,
+  "model_calls": 0
+}

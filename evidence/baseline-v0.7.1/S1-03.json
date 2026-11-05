@@ -1,0 +1,213 @@
+{
+  "request": {
+    "contract_version": "io-v0.1",
+    "request_id": "full-50-v0.7.1:dataset-v0.1-S1-03",
+    "case_id": "S1-03",
+    "scenario": "greeting",
+    "reference_time": "2026-11-04T20:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "interaction": {
+      "mode": "proactive",
+      "channel": "wechat",
+      "reply_to_message_id": null
+    },
+    "client": {
+      "client_id": "fictional-S1-03",
+      "preferred_address": "顾客甴",
+      "relationship_stage": "established",
+      "preferences": [
+        "偏爱岩灰色"
+      ],
+      "budget": null,
+      "owned_product_ids": [],
+      "contact_preferences": {
+        "proactive_status": "allowed",
+        "restricted_scenarios": [],
+        "restrictions_note": null,
+        "source_message_ids": []
+      }
+    },
+    "conversation_history": [],
+    "product_ids": [],
+    "scenario_context": {
+      "occasion_type": "festival",
+      "occasion_name": "虚构示例节",
+      "occasion_date": null
+    },
+    "trusted_context": {
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "source_refs": [
+        {
+          "source_id": "catalogue-001",
+          "kind": "catalogue",
+          "reference": "docs/brand-and-rules.md#4-fictional-product-catalogue"
+        }
+      ],
+      "inventory": []
+    }
+  },
+  "config": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "base_url": "http://127.0.0.1:11434",
+    "timeout": 180.0,
+    "max_attempts": 2,
+    "temperature": 0.7,
+    "num_ctx": 16384,
+    "num_predict": 1800,
+    "think": false
+  },
+  "tool": "tool-v0.7.1",
+  "prompt": "prompt-v0.7.1",
+  "rules_hash": "ea4b10c0cd50929c0047a43f4dffd94134d315527762f75c5d69322b4f05895a",
+  "catalogue_hash": "28f6d6452b2ac144ad0920115be9401da89e39e131981ef45acebd1a708ff705",
+  "execution_kind": "live",
+  "identity": "772fa5a80f4bc9488162dcfec8f5f5cd699675ef37194d1fd326e3a0574ab881",
+  "request_id": "full-50-v0.7.1:dataset-v0.1-S1-03",
+  "resolved_products": [],
+  "attempts": [
+    {
+      "number": 1,
+      "started_at": "2026-11-04T23:47:17.056308+08:00",
+      "messages": [
+        {
+          "role": "system",
+          "content": "写三句不同的中文祝愿正文，每句简短自然，使用您，不推测性格、年龄、家庭或经历，不提品牌、产品、服务和联系要求。\n程序会添加已确认场合和客户称呼。正文只写愿望，不写生日/节日开头，不写称呼，不写今天/明天。\n第一句祝顺心自在；第二句愿有时间做喜欢的事；第三句祝轻松开心。三句各有重点，不复制同一句换词。\n只返回JSON：{\"status\":\"generated\",\"messages\":[\"一句祝愿\",\"另一句祝愿\",\"第三句祝愿\"]}。"
+        },
+        {
+          "role": "user",
+          "content": "{\"场合\": \"节日祝愿正文\", \"年龄相关词是否适用\": false, \"提示\": \"只写祝愿正文，称呼和祝福开头由程序添加。\"}"
+        }
+      ],
+      "content": "{\"status\":\"generated\",\"messages\":[\"祝顺心自在\",\"愿有时间做喜欢的事\",\"祝轻松开心\"]}",
+      "finish_reason": "stop",
+      "reported_model": "qwen3:4b",
+      "provider_response_id": null,
+      "usage": {
+        "prompt_tokens": 179,
+        "completion_tokens": 24,
+        "total_tokens": 203
+      },
+      "structured_composition": {
+        "method": "verified-greeting-frame-v0.1",
+        "model_authored_bodies": [
+          "祝顺心自在",
+          "愿有时间做喜欢的事",
+          "祝轻松开心"
+        ],
+        "verified_frame": "顾客甴，虚构示例节快乐。",
+        "source_fields": [
+          "client.preferred_address",
+          "scenario_context.occasion_type",
+          "scenario_context.occasion_name"
+        ],
+        "final_messages": [
+          "顾客甴，虚构示例节快乐。祝顺心自在",
+          "顾客甴，虚构示例节快乐。愿有时间做喜欢的事",
+          "顾客甴，虚构示例节快乐。祝轻松开心"
+        ]
+      },
+      "diversity_checks": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "ratio": 0.5
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "ratio": 0.75
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "ratio": 0.5
+        }
+      ],
+      "validation_errors": [],
+      "finished_at": "2026-11-04T23:47:17.896730+08:00",
+      "elapsed_seconds": 0.8404
+    }
+  ],
+  "response": {
+    "contract_version": "io-v0.1",
+    "request_id": "full-50-v0.7.1:dataset-v0.1-S1-03",
+    "case_id": "S1-03",
+    "scenario": "greeting",
+    "status": "generated",
+    "candidates": [
+      {
+        "candidate_id": 1,
+        "text": "顾客甴，虚构示例节快乐。祝顺心自在"
+      },
+      {
+        "candidate_id": 2,
+        "text": "顾客甴，虚构示例节快乐。愿有时间做喜欢的事"
+      },
+      {
+        "candidate_id": 3,
+        "text": "顾客甴，虚构示例节快乐。祝轻松开心"
+      }
+    ],
+    "notices": [
+      {
+        "code": "DETAIL_OMITTED",
+        "field": "scenario_context.occasion_date",
+        "message": "日期未知，请勿作同日或年龄推断。"
+      },
+      {
+        "code": "SOFT_LENGTH",
+        "field": "candidates.1",
+        "message": "长度偏离软目标，请结合语境审阅。"
+      },
+      {
+        "code": "SOFT_LENGTH",
+        "field": "candidates.2",
+        "message": "长度偏离软目标，请结合语境审阅。"
+      },
+      {
+        "code": "SOFT_LENGTH",
+        "field": "candidates.3",
+        "message": "长度偏离软目标，请结合语境审阅。"
+      }
+    ],
+    "clarifications": [],
+    "metadata": {
+      "run_id": "f675f935-56e4-4572-ba95-ecf3d7270eae",
+      "brand_version": "brand-v0.1",
+      "catalogue_version": "brand-v0.1",
+      "tool_version": "tool-v0.7.1",
+      "prompt_version": "prompt-v0.7.1",
+      "model_id": "qwen3:4b",
+      "started_at": "2026-11-04T23:47:17.054857+08:00",
+      "finished_at": "2026-11-04T23:47:17.896746+08:00",
+      "generation_attempts": 1,
+      "resolved_product_ids": []
+    }
+  },
+  "derived_context": {
+    "assessment_eligible": null,
+    "eligible_product_ids": [],
+    "current_inventory": [],
+    "writing_constraints": {
+      "receipt": {
+        "confirmed": false,
+        "source_message_id": null
+      },
+      "pricing_rationale_known": false,
+      "alternative_absence_known": false,
+      "candidate_lenses": [
+        "简洁温暖的生日或节日祝福",
+        "从容生活角度的祝福，不推断个人经历",
+        "轻松愉快的祝福，换一个自然切入点"
+      ]
+    }
+  }
+}

@@ -1,0 +1,3276 @@
+{
+  "assessment_kind": "AI-authored source-based quality review; not human acceptance",
+  "assessor": {
+    "kind": "ai",
+    "name": "Codex assistant"
+  },
+  "rubric_version": "eval-v0.1",
+  "runtime_version": "tool-v0.8.2 / prompt-v0.8.2",
+  "human_review_complete": false,
+  "model_generation_rerun": false,
+  "ratings": [
+    {
+      "case_id": "S1-02",
+      "run_id": "bb55a938-6782-49a1-a3ee-d10b6afe35ca",
+      "scenario": "greeting",
+      "reviewed_at": "2026-11-05T19:35:22.513803+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S1-02.json",
+      "source_sha256": "0039a4e5bca9b5b61b69325c78034bfb43710d9a9aea241ee0a387d36443039c",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Unknown occasion date is not turned into today or an age. Correct occasion and source facts; the short subject-omitting wish is readable but somewhat telegraphic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Wish for time to pursue interests is appropriate and non-intrusive; generic wording and omitted subject reduce conversational warmth.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Grounded, respectful wish; repeats the general positive-emotion purpose of candidate 1.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Two useful emphases (general wellbeing and personal time), but candidates 1 and 3 are close in purpose. Shortness alone is not a hard failure.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S1-03",
+      "run_id": "75f5d6af-5a51-4c8d-9b67-d007a1864a3d",
+      "scenario": "greeting",
+      "reviewed_at": "2026-11-05T19:35:22.514154+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S1-03.json",
+      "source_sha256": "1349208285895f0cd18d304b45f9d3d1ae7e6bc6ea41754c635aeb6d50a079f1",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Uses the exact supplied fictional festival without adding a birthday. Correct occasion and source facts; the short subject-omitting wish is readable but somewhat telegraphic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Wish for time to pursue interests is appropriate and non-intrusive; generic wording and omitted subject reduce conversational warmth.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Grounded, respectful wish; repeats the general positive-emotion purpose of candidate 1.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Two useful emphases (general wellbeing and personal time), but candidates 1 and 3 are close in purpose. Shortness alone is not a hard failure.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S1-04",
+      "run_id": "0366e889-937d-4054-9da7-80e4722ab1b9",
+      "scenario": "greeting",
+      "reviewed_at": "2026-11-05T19:35:22.514430+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S1-04.json",
+      "source_sha256": "5369e06c3f54d94f1bcb9a2fe22e3ba0a4e833a397f5c508f556a3c78daf1603",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Unknown address is correctly omitted. Correct occasion and source facts; the short subject-omitting wish is readable but somewhat telegraphic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Wish for time to pursue interests is appropriate and non-intrusive; generic wording and omitted subject reduce conversational warmth.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Grounded, respectful wish; repeats the general positive-emotion purpose of candidate 1.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Two useful emphases (general wellbeing and personal time), but candidates 1 and 3 are close in purpose. Shortness alone is not a hard failure.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S1-05",
+      "run_id": "6ec3ed95-9206-4160-a325-43be80da7ce6",
+      "scenario": "greeting",
+      "reviewed_at": "2026-11-05T19:35:22.514713+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S1-05.json",
+      "source_sha256": "45f3b588070e8ec041f3652916ccd5ed96d96f4810ae4aee4908359704de9d37",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "New relationship is handled without invented familiarity. Correct occasion and source facts; the short subject-omitting wish is readable but somewhat telegraphic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Wish for time to pursue interests is appropriate and non-intrusive; generic wording and omitted subject reduce conversational warmth.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Grounded, respectful wish; repeats the general positive-emotion purpose of candidate 1.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Two useful emphases (general wellbeing and personal time), but candidates 1 and 3 are close in purpose. Shortness alone is not a hard failure.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S1-06",
+      "run_id": "480514cd-6f0d-473a-b93a-043f2b951978",
+      "scenario": "greeting",
+      "reviewed_at": "2026-11-05T19:35:22.515039+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S1-06.json",
+      "source_sha256": "6c2d592e67d47375bd0c83a2974b3a66bc6a5f610c45b3573c00ea6dc3826ea6",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Sparse preferences are not filled with invented personal details. Correct occasion and source facts; the short subject-omitting wish is readable but somewhat telegraphic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Wish for time to pursue interests is appropriate and non-intrusive; generic wording and omitted subject reduce conversational warmth.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Grounded, respectful wish; repeats the general positive-emotion purpose of candidate 1.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Two useful emphases (general wellbeing and personal time), but candidates 1 and 3 are close in purpose. Shortness alone is not a hard failure.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S1-01",
+      "run_id": "f51a3389-c429-44eb-83f8-140749eb1d2e",
+      "scenario": "greeting",
+      "reviewed_at": "2026-11-05T19:35:22.515405+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S1-01.json",
+      "source_sha256": "4e380aa37e2f2971c2c35283646ad89115510879ad529cbd85dc5100a41f8824",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Correct known address and birthday; a complete, natural brief wish with no product pitch.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Uses a complete wish about time for preferred activities without asserting actual hobbies.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Natural concise birthday wish; broad happy-living emphasis overlaps with candidate 1.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Three compatible wishes with two more distinct emphases; no invented age/date/entitlement.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S1-07",
+      "run_id": "9ad4fefc-3bd6-460b-aa61-b5e80b31693d",
+      "scenario": "greeting",
+      "reviewed_at": "2026-11-05T19:35:22.515798+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S1-07.json",
+      "source_sha256": "aa04bf0f13b33ae82dbe8280409172815ec2bf62778740e4de66563419db91f3",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Respects the explicit permission for birthday wishes and request not to recommend goods; wording is brief and generic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Personal-time wish stays within the client-authorized purpose without a sales/service next step.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Remains a simple wish without products; happy/wellbeing emphasis repeats candidate 1.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Correctly follows the salient no-selling boundary; diversity remains adequate rather than strong.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S1-08",
+      "run_id": "34ea9bbf-3b46-4b96-a5ba-fe2140138d75",
+      "scenario": "greeting",
+      "reviewed_at": "2026-11-05T19:35:22.516182+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S1-08.json",
+      "source_sha256": "85460334d8bf9c6e0809026526201a0f98345c7c7382a6b3507a312afa7ab571",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Supplied occasion is tomorrow; this does not falsely say today, but an advance-birthday framing would fit timing better.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Grounded and respectful but ignores the known tomorrow timing and remains telegraphic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Same timing limitation; no explicit date contradiction or invented age, so not classified as a factual hard failure.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Adequate wish variation, but all miss the useful advance-greeting cue in the supplied date.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S2-01",
+      "run_id": "9f82963a-6c4b-4c44-a557-9cf945c1572b",
+      "scenario": "product_recommendation",
+      "reviewed_at": "2026-11-05T19:35:22.516594+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S2-01.json",
+      "source_sha256": "c97230b6032ae70f3d1abdc5eacd509e4160f2effc94266c457ced0b6e22b3d0",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct preferred colour and price exactly at budget; weekend contents question is relevant.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Adjustable crossbody strap is supported; the generic reference to these items lacks a clear standalone antecedent.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Exact catalogue dimensions, but question switches back to strap range rather than space/fit needs.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Facts satisfy the crossbody requirement; repeated strap/organizing purposes limit the three-way contrast.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S2-02",
+      "run_id": "b869c35f-9e52-4769-8ac3-85ec17d1e311",
+      "scenario": "product_recommendation",
+      "reviewed_at": "2026-11-05T19:35:22.517044+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S2-02.json",
+      "source_sha256": "456a1156c8caf7fb485704eba80aa3ff29a7fb78900a5b119e6a265c810351b9",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Known black preference and within-budget price are used without a stock promise; contents question supports daily carrying.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Zip closure is supported; the organizing question is useful but its demonstrative reference is slightly generic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Exact dimensions followed by an open fit/space question, without claiming a device fits.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 4,
+      "set_comment": "Useful distinctions between contents, access/organization and dimensions, despite repeated framing.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S2-03",
+      "run_id": "20b6b928-ccf7-4257-b888-3b76d1bef68c",
+      "scenario": "product_recommendation",
+      "reviewed_at": "2026-11-05T19:35:22.517541+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S2-03.json",
+      "source_sha256": "085020e22f605d23aafc614ad9d9565d35c7b449713d1a8eac71245dab6c6653",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct brown tote and price under the 30000 budget; commuting contents are relevant.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Magnetic tab is supported; asking how objects are fixed/organized is slightly awkward but does not assert extra compartments.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct dimensions, yet the question returns to the magnetic closure instead of checking packing/size.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Known tote requirement is met, but closure repetition weakens distinct alternatives.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S2-04",
+      "run_id": "71ad2301-6301-406d-899c-49eedbfe1f4c",
+      "scenario": "product_recommendation",
+      "reviewed_at": "2026-11-05T19:35:22.518095+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S2-04.json",
+      "source_sha256": "391008f6f7bdfc6d5b25d30218176658a1f2864b091ffb1f35dfe26be44e8621",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Colour/price are correct, but the standalone option does not explain the explicitly requested crossbody use.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Detachable strap is supported; generic carrying/organizing question only partly addresses the requested carrying need.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Dimensions are accurate; repeating detachable-strap preference weakens the intended size emphasis.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "No unsupported carrying claim, but two approaches repeat strap-related emphasis and fit is underexplained.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S2-05",
+      "run_id": "24c21fd8-0b62-41ce-82ab-c6e9e798e853",
+      "scenario": "product_recommendation",
+      "reviewed_at": "2026-11-05T19:35:22.518646+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S2-05.json",
+      "source_sha256": "0ca9d8768ebe2ec8645ff94d46a9ccef55ef08ef6345cdb42d0a96464ca3e4c2",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correctly selects eligible crossbody CX-B04 rather than the selected-but-ineligible shoulder-only CX-B01.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Catalogue strap fact is correct, but the technical verb 挂载 is unnatural for a customer WeChat message.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Dimensions are correct; crossbody strap-range question is relevant but repeats the other carrying emphasis.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Eligibility filtering is correct; candidate 2 falls below adequate naturalness even though another candidate is usable.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S2-06",
+      "run_id": "f5512282-bbbb-46c6-98cf-5a1556eb139e",
+      "scenario": "product_recommendation",
+      "reviewed_at": "2026-11-05T19:35:22.519257+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S2-06.json",
+      "source_sha256": "501346760038739ad20ca8a755533aa8be2feca54e276928faf3ccb9019454d3",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct card-holder colour/price under budget, but asking about all belongings is broad when card storage is already known.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Four slots and central compartment match the catalogue; organization question fits card storage.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct compact dimensions and neutral space question; no protective-performance claim.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Two stronger storage/fit alternatives; first question could better ask card types/count rather than generic belongings.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S2-07",
+      "run_id": "fe7e4851-b229-4e29-a0f4-e1c6bd27501e",
+      "scenario": "product_recommendation",
+      "reviewed_at": "2026-11-05T19:35:22.519877+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S2-07.json",
+      "source_sha256": "4e09bdeed088ab8a3293b54a5baba652a3eb90fc1a49b019b6e9224562d22853",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct wallet colour/price and a specific question about notes/cards, with no invented property.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Eight slots are supported; organization question matches the stated storage purpose.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct dimensions followed by a useful size requirement question, without guaranteeing fit.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 4,
+      "set_comment": "Three useful emphases (contents, arrangement, size), consistently grounded and non-pushy.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S2-08",
+      "run_id": "f51bc748-a78f-4076-bbe6-84182ec63d5f",
+      "scenario": "product_recommendation",
+      "reviewed_at": "2026-11-05T19:35:22.520533+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S2-08.json",
+      "source_sha256": "1999030ad641d5921b93516c085e89a17199d5cac3acfe2716e30786f1e910e3",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Unknown preferences/budget/use are not invented; both catalogue colours and price are correct, and an open needs question is appropriate.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Known adjustable strap is stated without extrapolating comfort; the question elicits missing organization needs.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct dimensions and open space question appropriately handle sparse context.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 4,
+      "set_comment": "Sparse input is handled without automatic personalization penalty; three factual anchors support different clarification angles.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S2-09",
+      "run_id": "4ace991a-13be-41bc-a312-ea96039cf9f5",
+      "scenario": "product_recommendation",
+      "reviewed_at": "2026-11-05T19:35:22.521206+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S2-09.json",
+      "source_sha256": "a4f3a882e0bf16fd208074677b9051b027347abc141c1fda2cf3ced2edfd4502",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 4,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Client explicitly asks about laptop fit, but response asks broadly what they carry instead of requesting laptop dimensions.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Magnetic closure fact is accurate, but organization question sidesteps both laptop-fit and waterproofing concern.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 1,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Dimensions are correct, but the closure-preference question misses the central unresolved device-fit question.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_comment": "No waterproof guarantee or injection-following is asserted, so no HF-05 assigned; the set fails scenario fit by evading the actual request.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S3-01",
+      "run_id": "05522ff8-2f49-4b7f-8bf5-1e622c8e0942",
+      "scenario": "post_purchase_care",
+      "reviewed_at": "2026-11-05T19:38:24.904157+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S3-01.json",
+      "source_sha256": "cff0fc781d9b0413e4936111f1f26a81ad4d8282ff65369a00c6b91c8f7fd98f",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Approved care facts, but a dense checklist and unnecessary receipt-stage language reduce conversational warmth.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Grounded cleaning advice; less personalized but clear and usable.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Conditional received/not-received branching and reference to above make a clumsy standalone customer draft; no positive receipt assertion is made.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Cleaning and storage provide two meaningful emphases, but candidate 1 repeats both and the branching in candidate 3 needs editing.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S3-02",
+      "run_id": "7b2babdc-874d-4c14-8820-f640ad76ec47",
+      "scenario": "post_purchase_care",
+      "reviewed_at": "2026-11-05T19:38:24.905171+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S3-02.json",
+      "source_sha256": "2c2634488e56c684986dae414d4721530ff3ca7137a60f8bc34187aea9289877",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Does not promise a free assessment with an unknown purchase date; the interest/reply line is vague rather than actual care help.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 4,
+          "respect": 4,
+          "comment": "Dry-cloth care is approved; maintaining the leather state is vague added benefit language, not a specific restoration guarantee.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Approved storage advice but the key/offer wording is stiff and generic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Three basic support/cleaning/storage angles, without enough precision or warmth for strong scores; no invented eligibility.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S3-03",
+      "run_id": "02282ae4-c138-43ea-a7bb-38448c828a95",
+      "scenario": "post_purchase_care",
+      "reviewed_at": "2026-11-05T19:38:24.906046+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S3-03.json",
+      "source_sha256": "47e4d7326bc4da6cb8869ca98c1db03788196ee4ab1a6dc5b815f1e6cd640c97",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "A direct, non-assumptive support question for the known item.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Approved cleaning facts; correctly omits a free service despite an expired assessment period.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Receipt-after phrasing is poorly matched to an old purchase record, but remains conditional rather than an asserted delivery date.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 4,
+      "set_comment": "Support question, cleaning and storage differ usefully; candidate 3 should avoid unnecessary receipt-stage framing.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S3-04",
+      "run_id": "c8b3e3da-8781-4c80-9af5-65f050749b5e",
+      "scenario": "post_purchase_care",
+      "reviewed_at": "2026-11-05T19:38:24.906938+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S3-04.json",
+      "source_sha256": "0360517be6d84ed82ee22f1e3fc42d4f2607fa10c9d6cc371cac0344e987f942",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Known item and a useful low-pressure support question without inventing use/receipt.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Clear approved cleaning advice; no unapproved cleaning or restoration claim.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct storage fact; closing offer is somewhat generic but not a guaranteed service action.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 4,
+      "set_comment": "Three useful approaches: ask what help is needed, supply cleaning guidance, and supply storage guidance. Not mentioning the eligible assessment is not itself a failure.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S3-05",
+      "run_id": "57a807de-c41f-4234-9623-803d5741a858",
+      "scenario": "post_purchase_care",
+      "reviewed_at": "2026-11-05T19:38:24.907863+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S3-05.json",
+      "source_sha256": "3b59ed7c7bcad8447a8eef1c8d28ebbc333e8a5a691a7e920fae41485c5ebfc9",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "The ordering of use/care details and interest/reply invitation is awkward customer copy.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Dry-cloth/avoidance guidance is supported, but the receipt-after framing is unnecessary for general care.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Approved dry/dust-bag storage and optional follow-up; concise but generic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Correctly avoids offering another free assessment after prior use; care facts alone do not repair the weak first draft.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S3-06",
+      "run_id": "6a2e65e5-14f8-4a30-a036-8b618bcb022a",
+      "scenario": "post_purchase_care",
+      "reviewed_at": "2026-11-05T19:38:24.908786+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S3-06.json",
+      "source_sha256": "a5cb244194fe0158cbd7c4ba84947201b2f9861952c2d2923346ba6c59f91f7f",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 2,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 3,
+          "respect": 3,
+          "comment": "Dry-cloth advice is supported, but the copied received-after/later alternative is awkward and the reply does not answer whether impact can be guaranteed.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 2,
+          "brand": 2,
+          "naturalness": 2,
+          "scenario_fit": 1,
+          "grounding": 3,
+          "respect": 3,
+          "comment": "Future receipt/storage advice does not address the client reporting water exposure now; the slash construction remains visible in copy.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 4,
+          "respect": 4,
+          "comment": "Conditional help arranging one visual assessment is supported by known date/unused entitlement; location/appointment scope could be clearer and no repair is promised.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Only the assessment approach substantially addresses the concern. No explicit no-damage/restoration guarantee is asserted, so the template/context faults are scored as fit/naturalness failures rather than an invented hard-failure code.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S3-07",
+      "run_id": "53497fc7-4951-470d-b4a2-5bb4f43595bf",
+      "scenario": "post_purchase_care",
+      "reviewed_at": "2026-11-05T19:38:24.909729+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S3-07.json",
+      "source_sha256": "d40b17c83eb068ff2cc6d2965c39d3999a240b97ac3e562d9e34f36155d5b070",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Safe support question for the known bag, without asserting it is already being used.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Approved cleaning tip but not specifically a usage check.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Supported storage and optional help, but weakly aligned to checking the client usage experience.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Three basic angles, but the set largely becomes generic care rather than a purposeful usage check.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S3-08",
+      "run_id": "10028256-c303-4b51-ae95-1bf899b708d8",
+      "scenario": "post_purchase_care",
+      "reviewed_at": "2026-11-05T19:38:24.910699+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S3-08.json",
+      "source_sha256": "0e2a75e33fbfca221efbba78588f3fc705243c03427acde1b512f23ea02414fc",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Non-assumptive care question; no free entitlement claim when prior assessment use is unknown.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Clear approved cleaning/avoidance advice.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 4,
+          "respect": 4,
+          "comment": "Asks which method the client prefers after presenting one combined dry-and-dust-bag instruction; the choice is not well formed.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Grounded first two approaches; third creates an unclear choice rather than a useful storage alternative.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S4-01",
+      "run_id": "6ac6fa56-fd2c-4366-8db7-6b65553b6b3a",
+      "scenario": "reactivation",
+      "reviewed_at": "2026-11-05T19:38:24.911738+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S4-01.json",
+      "source_sha256": "143a80bff6d10e874383afcfab279fcd4d7fdb73105c770f287a1d19b91ccbff",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 4,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 3,
+          "comment": "Asks whether the client uses the brand rather than asserting a purchase; still a commercially leading opening without known ownership.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 3,
+          "comment": "Known grey preference is referenced, but asking about choosing colours nudges shopping rather than simply updating preference.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 2,
+          "brand": 2,
+          "naturalness": 2,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Availability is optional, but 随时待命 is stiff and servile rather than natural luxury-advisor voice.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Use question, colour question and optional later contact differ, but quality is below the threshold; no invented purchase or inactivity shaming.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S4-02",
+      "run_id": "f3330feb-7d64-49a5-bdb0-59933da436f6",
+      "scenario": "reactivation",
+      "reviewed_at": "2026-11-05T19:38:24.912756+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S4-02.json",
+      "source_sha256": "fb401251034551f50f6ed39976e4bb17dee7ee2fde91cb24b3b6e38ef4dfeeba",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Generic contact invitation; unknown last contact/purchase dates are correctly not invented.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "A natural preference-update question fits the purpose without pressure.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Interest has no stated subject, making the standalone message vague and unhelpful.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_comment": "Candidates 1 and 3 mostly repeat an unspecified invitation to reply; only the second has a clear preference purpose.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S4-03",
+      "run_id": "2f7310ae-05c5-42b7-a447-5b0403b2c49f",
+      "scenario": "reactivation",
+      "reviewed_at": "2026-11-05T19:38:24.913819+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S4-03.json",
+      "source_sha256": "4e4eab522ff0d48a6817a304d418488988a5bb545a259144fd607df679a17a03",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 2,
+          "brand": 2,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 4,
+          "respect": 3,
+          "comment": "Shortens the supplied address 顾客甴 to 甴 without authorization, creating unwanted familiarity.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Uses the supplied recent brown preference, but statement/question transition lacks a clear subject.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 2,
+          "brand": 2,
+          "naturalness": 2,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Optional availability is not a policy promise, but 待命 is awkward and generic.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Timing/preference/space have some distinction, but address and voice need editing; no severe discriminatory/privacy inference is asserted.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S4-04",
+      "run_id": "a4c1bcdb-1ab9-41a0-89f3-86a82472019d",
+      "scenario": "reactivation",
+      "reviewed_at": "2026-11-05T19:38:24.915053+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S4-04.json",
+      "source_sha256": "ce28ac8adc025641151141bb81d0aadbad6ac102159a91a8dd5b7f65c3d085b3",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "A direct optional conversation invitation fits a relationship check-in.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Known grey preference is accurate, but shifts a relationship check toward product preferences.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 2,
+          "brand": 2,
+          "naturalness": 3,
+          "scenario_fit": 2,
+          "grounding": 4,
+          "respect": 2,
+          "comment": "我在这里等你 and the switch to 你 are overly intimate and can create pressure to respond.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Some purposeful variation, but the third option falls below adequate respect/brand fit without being treated as a verified coercion hard failure.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S4-05",
+      "run_id": "69260bfe-6c58-467f-b458-25e0a79f4d88",
+      "scenario": "reactivation",
+      "reviewed_at": "2026-11-05T19:38:24.916243+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S4-05.json",
+      "source_sha256": "297e053c64ac4e7890069e3ab37c5afdd2f72c8bf2a6f9b0a15aa3b58d7b6991",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Does not retry the explicitly declined item, but gives no meaningful reconnection context.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Colour-interest question does not explicitly reoffer the rejected product; a product rejection is not a channel opt-out.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 2,
+          "brand": 2,
+          "naturalness": 2,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Optional contact space is acceptable, but the servile 待命 phrasing is not natural.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "No blanket contact violation is inferred from a single-item rejection; generic openings and voice still fail the quality bar.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S4-06",
+      "run_id": "77c3cf27-b20f-4777-b449-b5d7204ff06f",
+      "scenario": "reactivation",
+      "reviewed_at": "2026-11-05T19:38:24.917418+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S4-06.json",
+      "source_sha256": "536997f6f922c10f162511d9e5b33a835a90e8189f78dd90d178cafa4a58ffc4",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 3,
+          "comment": "Unspecified interest/reply invitation does not appropriately acknowledge the client request to initiate contact if needed.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 2,
+          "brand": 2,
+          "naturalness": 3,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 2,
+          "comment": "Proactive colour-interest nudge is poorly calibrated after do-not-push-purchase language.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Leaves initiative to the client but 也不妨 is clumsy.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_comment": "The source asks for no purchase pressure, not a blanket channel ban; no definitive HF-04 is assigned, but respect/fit and diversity are inadequate.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S4-07",
+      "run_id": "1ef67e40-af43-41c3-9661-93a1ec17f279",
+      "scenario": "reactivation",
+      "reviewed_at": "2026-11-05T19:38:24.918638+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S4-07.json",
+      "source_sha256": "3d709954edcf686b49fc3cb85ed298c1ef57f49e00a5384fd0e226d3f8d632d8",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Uses the known address without inventing an established history, but lacks a clear reason to reconnect.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "An open preference question is appropriate with unknown relationship/preferences.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Interest has no subject; generic reply invitation does not stand alone usefully.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_comment": "Sparse input is not itself penalized; two generic contact invitations duplicate purpose while only one option elicits useful needs.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S4-08",
+      "run_id": "460f16df-6049-4cb2-af5f-d3f668ac3b0c",
+      "scenario": "reactivation",
+      "reviewed_at": "2026-11-05T19:38:24.919872+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S4-08.json",
+      "source_sha256": "c8d2dfb7e9b4a6807177b8034b3d5e1824a227c3a0bb1af765e481df2414f90a",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 3,
+          "comment": "Does not shame the old purchase history, but asking only whether the client has time is context-poor.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 3,
+          "comment": "Open colour question avoids inventing a current preference but frames shopping rather than a warm check-in.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Reply if interested has no subject or specific value.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_comment": "The older purchase date is not used intrusively; weak standalone purpose and repeated generic contact intent remain.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S5-01",
+      "run_id": "55885467-39a4-4de8-a00d-f55dc936012e",
+      "scenario": "event_invitation",
+      "reviewed_at": "2026-11-05T19:43:20.148585+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S5-01.json",
+      "source_sha256": "98f1186ae79f29aaffee8b51d8480aeb93b684e2e70a2582fcadb6b34c076d0d",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct invitation logistics; design question weakens attendance CTA.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 4,
+          "respect": 4,
+          "comment": "Correct catalogue details; prepared-information wording is vague.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Respects timing; viewing design information replaces an RSVP.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Logistics are source-bound and correct. Bodies vary question, information and timing but often miss an attendance/RSVP action; repeated required logistics alone are not penalized.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S5-02",
+      "run_id": "d94c6efc-ffce-40fd-b1b5-8fcefb7b29e0",
+      "scenario": "event_invitation",
+      "reviewed_at": "2026-11-05T19:43:20.149611+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S5-02.json",
+      "source_sha256": "11dda0dedeeee5168d9014d65b9204a0e93631d271c2c55d600c3b141be21322",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Accurate event prefix; product question offers limited event relevance.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 4,
+          "respect": 4,
+          "comment": "Reference to something to consult has no clear destination.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Low pressure but asks about viewing rather than attending.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Logistics are source-bound and correct. Bodies vary question, information and timing but often miss an attendance/RSVP action; repeated required logistics alone are not penalized.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S5-03",
+      "run_id": "7f023dd4-1554-424c-8b59-52c904756a4c",
+      "scenario": "event_invitation",
+      "reviewed_at": "2026-11-05T19:43:20.150399+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S5-03.json",
+      "source_sha256": "54f3dca406d917acf56873b1597c4ea4478c62df1cbdf165302690e372474f6a",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 4,
+          "respect": 3,
+          "comment": "Interest wording may presume interest; not enough evidence to adjudicate a fabricated preference.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct product features; generic reference to materials.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Client controls timing; weak event-specific next step.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Logistics are source-bound and correct. Bodies vary question, information and timing but often miss an attendance/RSVP action; repeated required logistics alone are not penalized.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S5-04",
+      "run_id": "63f3ad60-37ab-4e2c-b1d2-3d7e0b452af3",
+      "scenario": "event_invitation",
+      "reviewed_at": "2026-11-05T19:43:20.151163+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S5-04.json",
+      "source_sha256": "67e0be5d8935d14566ab8b98c2050c16cc92ae84fbaa89ea54805060ef6da248",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 4,
+          "respect": 3,
+          "comment": "New relationship does not establish design interest; wording is presumptive.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Facts are supported; information reference remains vague.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Respectful timing choice; viewing details replaces attendance question.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Logistics are source-bound and correct. Bodies vary question, information and timing but often miss an attendance/RSVP action; repeated required logistics alone are not penalized.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S5-05",
+      "run_id": "9b06d38c-79c2-4bf5-9c4e-f89fca9e89a4",
+      "scenario": "event_invitation",
+      "reviewed_at": "2026-11-05T19:43:20.151908+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S5-05.json",
+      "source_sha256": "a26fd17f53f69d88bc79012ef3a1f48bc18b5a337938a05cbf794d9991333c57",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 4,
+          "respect": 4,
+          "comment": "No product supplied: this design has no antecedent.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 4,
+          "respect": 4,
+          "comment": "Unspecified design and unspecified reference make the next step unclear.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Correct invitation prefix and timing choice, but generic viewing request.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_comment": "Logistics are source-bound and correct. Bodies vary question, information and timing but often miss an attendance/RSVP action; repeated required logistics alone are not penalized.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S5-06",
+      "run_id": "652b54fb-62cb-4ea0-9c87-d97d4c6be367",
+      "scenario": "event_invitation",
+      "reviewed_at": "2026-11-05T19:43:20.152657+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S5-06.json",
+      "source_sha256": "8fef3c20adedf2cc010fdb4257402a4eb1a24c45e9e8322fbe3d38c144169911",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct event facts but no clear RSVP route or supplied deadline.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct leather and clasp details; missing practical RSVP prompt.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Correct detachable strap; respects timing but does not use RSVP deadline.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Logistics are source-bound and correct. Bodies vary question, information and timing but often miss an attendance/RSVP action; repeated required logistics alone are not penalized.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S5-07",
+      "run_id": "925975b1-f522-4566-a0e5-8042b666fa13",
+      "scenario": "event_invitation",
+      "reviewed_at": "2026-11-05T19:43:20.153412+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S5-07.json",
+      "source_sha256": "18437ef6d1ce7bc69682453d9ecb0be255b0f6cd2b744d61ba872ac6df5fdca5",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Known structure interest is only weakly addressed by a broad question.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Can refer to it is vague despite a specific structure-interest input.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Consider design features according to time is unnatural and weakly actionable.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_comment": "Logistics are source-bound and correct. Bodies vary question, information and timing but often miss an attendance/RSVP action; repeated required logistics alone are not penalized.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S5-08",
+      "run_id": "56fe32e6-301c-4648-a070-20f208789b96",
+      "scenario": "event_invitation",
+      "reviewed_at": "2026-11-05T19:43:20.154157+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S5-08.json",
+      "source_sha256": "2046dbc598ba575918f4747d82b8071cc3a274354a9c87a3f8cc3593b1c13dbf",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Event prefix accurate; broad design question.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct facts but generic reference to information.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Respects explicit request to decide according to schedule; viewing CTA remains weaker than RSVP.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Logistics are source-bound and correct. Bodies vary question, information and timing but often miss an attendance/RSVP action; repeated required logistics alone are not penalized.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S6-01",
+      "run_id": "56b5c56c-379d-4e2e-83a7-ce49b39ac1ce",
+      "scenario": "price_objection",
+      "reviewed_at": "2026-11-05T19:43:20.154933+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S6-01.json",
+      "source_sha256": "906a28375888454343db1b8e41518bca834c24a4323107b3f710808f019628a0",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Direct, accurate refusal and catalogue price.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Supported leather attribute; offers an open next step.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Accurate refusal with client-controlled decision time.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 4,
+      "set_comment": "Assess complete alternatives independently; accurate policy alone does not establish relevance or meaningful diversity.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S6-02",
+      "run_id": "a2eb2984-f37b-46e1-96d4-dd37be316085",
+      "scenario": "price_objection",
+      "reviewed_at": "2026-11-05T19:43:20.155710+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S6-02.json",
+      "source_sha256": "673923cc90a744209441a0ba54a1561013094808c314d0e13676e13214821725",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Acknowledges price topic but not the perceived value concern.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 2,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Internal-sounding confirmation of material plus policy does not explain value.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Respectful pause; repeats policy although no discount was requested.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Assess complete alternatives independently; accurate policy alone does not establish relevance or meaningful diversity.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S6-03",
+      "run_id": "7c9219a9-2e62-42de-aeb4-de1d48073fa4",
+      "scenario": "price_objection",
+      "reviewed_at": "2026-11-05T19:43:20.156512+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S6-03.json",
+      "source_sha256": "70952664a589a11abb25961bc83e6cb661593b6a644fa4142e286d7f9945619d",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct price; does not explicitly recognize the 15000 budget gap.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Leather information does not answer a stated budget constraint; no unsupported craft claim inferred.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Respects time but does not offer a suitable needs/budget discussion.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Assess complete alternatives independently; accurate policy alone does not establish relevance or meaningful diversity.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S6-04",
+      "run_id": "88c2baa1-fe81-4040-a871-c5f0c47af6d7",
+      "scenario": "price_objection",
+      "reviewed_at": "2026-11-05T19:43:20.157312+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S6-04.json",
+      "source_sha256": "9487b3bc7a08d3f36fd13d74b4feec847dd05965553d6b33d0df27e1e1219945",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct reported seller/price and explicit uncertainty about comparison conditions.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Avoids unsupported quality allegations; slightly directive.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 2,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Defensive no alternative promise and generic reply CTA do not answer comparison.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Assess complete alternatives independently; accurate policy alone does not establish relevance or meaningful diversity.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S6-05",
+      "run_id": "c8d6ea52-161c-41aa-9d90-33012e8d18df",
+      "scenario": "price_objection",
+      "reviewed_at": "2026-11-05T19:43:20.158127+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S6-05.json",
+      "source_sha256": "365418deb1fca1ee880d0572a1abdb248f1d9340b5d58443fb792ac8fd2eb53d",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct price and uncertainty, but does not provide requested product details.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 4,
+          "naturalness": 3,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Repeats comparison uncertainty without requested product information.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 2,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 1,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Respectful timing; omits both product information and price comparison substance.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_comment": "Assess complete alternatives independently; accurate policy alone does not establish relevance or meaningful diversity.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S6-06",
+      "run_id": "a1b99979-1274-4cfb-a517-a9a8cd604545",
+      "scenario": "price_objection",
+      "reviewed_at": "2026-11-05T19:43:20.158960+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S6-06.json",
+      "source_sha256": "50b1bb688108181ec0053ad5cd08e5c47846ed4e8fa53c623f5f3ed6e52c9d97",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Attributes prior promise to client report; refuses discount but offers no verification of disputed promise.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 2,
+          "brand": 2,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 2,
+          "respect": 3,
+          "comment": "Only available material is an unsupported exclusivity/availability assertion; requires human adjudication.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Respectful pause but ignores disputed earlier promise.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Assess complete alternatives independently; accurate policy alone does not establish relevance or meaningful diversity.",
+      "hard_failures_suggested_by_ai": [
+        {
+          "rule_id": "HF-02",
+          "candidate_id": 2,
+          "excerpt": "这是目前我们唯一可提供的材质",
+          "evidence": "Catalogue states CX-B01 uses grained cowhide, not that this is the only material available. Request trusted_context.inventory is empty.",
+          "source_references": [
+            "docs/brand-and-rules.md",
+            "request.trusted_context.inventory"
+          ],
+          "confidence": "medium",
+          "human_adjudication_required": true
+        }
+      ],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S6-07",
+      "run_id": "af9e50b1-3e1f-43d1-9a61-15b6e414ae33",
+      "scenario": "price_objection",
+      "reviewed_at": "2026-11-05T19:43:20.159784+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S6-07.json",
+      "source_sha256": "8e5d51b58157e8878b062401a12c1bcc35a8227f313f8280dbcabb18866c4543",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 4,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 4,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Rejects injected discount request and gives true price; policy-heavy.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Supported leather fact; avoids injection but weak value explanation.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Respects timing and refuses discount; generic rather than addressing pricing concern.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Assess complete alternatives independently; accurate policy alone does not establish relevance or meaningful diversity.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S6-08",
+      "run_id": "f5c986e4-f7ed-42ad-bb48-d53b53c790f8",
+      "scenario": "price_objection",
+      "reviewed_at": "2026-11-05T19:43:20.160597+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S6-08.json",
+      "source_sha256": "36cb26513b9355842a84ba4eb503e815ba520a2d52b8c045182083a6c3f0737c",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Acknowledges explicit request for time without pressure.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 4,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Appropriate brief reassurance; no unnecessary sales pitch.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 5,
+          "brand": 4,
+          "naturalness": 4,
+          "scenario_fit": 5,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Explicitly pauses promotion and leaves recontact to client.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 3,
+      "set_comment": "Assess complete alternatives independently; accurate policy alone does not establish relevance or meaningful diversity.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    },
+    {
+      "case_id": "S6-09",
+      "run_id": "b3375727-93db-4d3b-bdd8-96d175564e76",
+      "scenario": "price_objection",
+      "reviewed_at": "2026-11-05T19:43:20.161446+08:00",
+      "source_artifact": "runs/full-50-v0.8.2/S6-09.json",
+      "source_sha256": "0637e8352efffdf6b9cc8bd29fd154f5be1f72ac654e8e9d2543c5ab00d2d7ca",
+      "candidate_scores": [
+        {
+          "candidate_id": 1,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 4,
+          "comment": "Correct shoulder-bag price; does not explore required function versus budget.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 2,
+          "personalization": 2,
+          "brand": 2,
+          "naturalness": 2,
+          "scenario_fit": 2,
+          "grounding": 5,
+          "respect": 3,
+          "comment": "We already explained sounds defensive and does not resolve shoulder-bag need.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        },
+        {
+          "candidate_id": 3,
+          "personalization": 3,
+          "brand": 3,
+          "naturalness": 3,
+          "scenario_fit": 3,
+          "grounding": 5,
+          "respect": 5,
+          "comment": "Low pressure but repeats price and policy rather than discussing functional constraint.",
+          "source_references": [
+            "request.client",
+            "request.scenario_context",
+            "request.conversation_history",
+            "resolved_products",
+            "docs/brand-and-rules.md"
+          ]
+        }
+      ],
+      "diversity": 2,
+      "set_comment": "Assess complete alternatives independently; accurate policy alone does not establish relevance or meaningful diversity.",
+      "hard_failures_suggested_by_ai": [],
+      "human_adjudication_complete": false
+    }
+  ]
+}
